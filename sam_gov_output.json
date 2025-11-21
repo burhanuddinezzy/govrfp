@@ -1,0 +1,136 @@
+{
+    "totalRecords": 248,
+    "limit": 2,
+    "offset": 0,
+    "opportunitiesData": [
+        {
+            "noticeId": "fcc987f95a95446abb2ddf3a60dc20f2",
+            "title": "Conference and accommodation  Services in Buenos Aires Argentina",
+            "solicitationNumber": "19AR2026Q0006",
+            "fullParentPathName": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY BUENOS AIRES",
+            "fullParentPathCode": "019.1900.19AR20",
+            "postedDate": "2025-11-21",
+            "type": "Solicitation",
+            "baseType": "Presolicitation",
+            "archiveType": "auto15",
+            "archiveDate": "2026-12-13",
+            "typeOfSetAsideDescription": null,
+            "typeOfSetAside": null,
+            "responseDeadLine": "2026-11-28T00:00:00-03:00",
+            "naicsCode": "721110",
+            "naicsCodes": [
+                "721110"
+            ],
+            "classificationCode": "V231",
+            "active": "Yes",
+            "award": null,
+            "pointOfContact": [
+                {
+                    "fax": "",
+                    "type": "primary",
+                    "email": "BNS-Procurement@state.gov",
+                    "phone": "541157774291",
+                    "title": null,
+                    "fullName": "Timothy P. Dougherty"
+                },
+                {
+                    "fax": "",
+                    "type": "secondary",
+                    "email": "BNS-Procurement@state.gov",
+                    "phone": "",
+                    "title": null,
+                    "fullName": "Marisol Pacheco"
+                }
+            ],
+            "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fcc987f95a95446abb2ddf3a60dc20f2",
+            "organizationType": "OFFICE",
+            "officeAddress": {
+                "zipcode": "20520",
+                "city": "WASHINGTON",
+                "countryCode": "USA",
+                "state": "DC"
+            },
+            "placeOfPerformance": {
+                "city": {
+                    "code": "Buenos Aires",
+                    "name": "Buenos Aires"
+                },
+                "state": {
+                    "code": "AR-C",
+                    "name": "Buenos Aires, Ciudad Aut\u00f3noma de"
+                },
+                "country": {
+                    "code": "ARG",
+                    "name": "ARGENTINA"
+                }
+            },
+            "additionalInfoLink": null,
+            "uiLink": "https://sam.gov/workspace/contract/opp/fcc987f95a95446abb2ddf3a60dc20f2/view",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=fcc987f95a95446abb2ddf3a60dc20f2&limit=1"
+                }
+            ],
+            "resourceLinks": [
+                "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5c4dddef112c4a779494deac294137ed/download"
+            ]
+        },
+        {
+            "noticeId": "fb3ab06dbbf24e9a9eb2c6131a0ec29b",
+            "title": "SIGNAL DISTRIBUTION",
+            "solicitationNumber": "N0010426QYA2T",
+            "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+            "fullParentPathCode": "017.1700.NAVSUP.NAVSUP WSS.NAVSUP WSS MECH.N00104",
+            "postedDate": "2025-11-21",
+            "type": "Solicitation",
+            "baseType": "Solicitation",
+            "archiveType": "auto15",
+            "archiveDate": "2026-01-06",
+            "typeOfSetAsideDescription": null,
+            "typeOfSetAside": "",
+            "responseDeadLine": "2025-12-22T16:30:00-04:00",
+            "naicsCode": "334290",
+            "naicsCodes": [
+                "334290"
+            ],
+            "classificationCode": "7G20",
+            "active": "Yes",
+            "award": null,
+            "pointOfContact": [
+                {
+                    "fax": null,
+                    "type": "primary",
+                    "email": "TYREESE.C.SMITH.CIV@US.NAVY.MIL",
+                    "phone": null,
+                    "title": null,
+                    "fullName": "Telephone: 7176055937"
+                }
+            ],
+            "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fb3ab06dbbf24e9a9eb2c6131a0ec29b",
+            "organizationType": "OFFICE",
+            "officeAddress": {
+                "zipcode": "17050-0788",
+                "city": "MECHANICSBURG",
+                "countryCode": "USA",
+                "state": "PA"
+            },
+            "placeOfPerformance": null,
+            "additionalInfoLink": null,
+            "uiLink": "https://sam.gov/workspace/contract/opp/fb3ab06dbbf24e9a9eb2c6131a0ec29b/view",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=fb3ab06dbbf24e9a9eb2c6131a0ec29b&limit=1"
+                }
+            ],
+            "resourceLinks": null
+        }
+    ],
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://api.sam.gov/prod/opportunities/v2/search?postedFrom=11%2F20%2F2025&postedTo=11%2F21%2F2025&ptype=o&limit=2&offset=0"
+        }
+    ]
+}
