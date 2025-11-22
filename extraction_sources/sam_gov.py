@@ -1,3 +1,9 @@
+# I need to apply retry logic as the api hangs often
+# My datalake doesnt need to be infinitely big. Once a solicitation goes inactive, we can remove it. **No need to remove, leave for historical data, you dont need to store the content of the downloads, just need to store the download links, and then just the metadata of the solicitation
+# ** update for above 2025.11.21, no need, keep everything. 
+# Don't download documents, that should be client side.
+# Need to vectorize the metadata of sols so users can do an AI search with normal search phrases
+# Figure out how you can search through the attached docs of a sol for keywords and summarization.
 import requests
 from datetime import datetime, timedelta
 import json
@@ -6,7 +12,6 @@ with open ("config.json", "r") as r:
     config = json.load(r)
     api_key = config["sam_gov"]["api_key"]
 
-# I need to apply retry logic as the api hangs often
 today = datetime.today().date()
 yesterday = today - timedelta(days=1)
 posted_from = yesterday.strftime("%m/%d/%Y")
