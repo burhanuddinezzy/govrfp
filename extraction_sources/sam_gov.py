@@ -13,7 +13,7 @@ with open ("config.json", "r") as r:
     api_key = config["sam_gov"]["api_key"]
 
 today = datetime.today().date()
-yesterday = today - timedelta(days=1)
+yesterday = today - timedelta(days=7)
 posted_from = yesterday.strftime("%m/%d/%Y")
 posted_to = today.strftime("%m/%d/%Y")
 
@@ -25,7 +25,7 @@ params = {
     "postedFrom": posted_from,
     "postedTo": posted_to,
     "ptype": "o",          # solicitation-type
-    "limit": 2,
+    "limit": 1000,
     "offset": 0
 }
 
