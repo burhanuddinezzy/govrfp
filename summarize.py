@@ -7,6 +7,21 @@ from transformers import pipeline
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import chain
 
+# CONFIG
+min_len = 200 # for split passage
+max_len = 500 # for split passage
+edge_percentile = 95 # to control minimum similarity required to connect nodes in graph
+tiny_cluster_size = 1
+
+# selects passages whose similarity to the cluster centroid is above the percentile value;
+# np.percentile interpolates between values, so this may not correspond exactly to a strict top-X% by count
+centrality_percentile = 95
+
+# MMR isolation threshold: the minimum fraction of other passages that must be semantically dissimilar
+# for a passage to be selected. Higher values make selection stricter, keeping only passages that are
+# more isolated within the cluster.
+mmr_isolation_threshold = 0.8
+
 def normalize_text(text):
     text = text.lower()
     text = text.replace("\r", "")
@@ -15,7 +30,7 @@ def normalize_text(text):
     text = re.sub(r"[ \t]+", " ", text)
     return text.strip()
 
-def split_passages(text, min_len=200, max_len=500):
+def split_passages(text, min_len=min_len, max_len=max_len):
     passages = re.split(r"\n\s*\n+", text)
     print(f"Initial split: {len(passages)} passages")
 
@@ -53,10 +68,10 @@ def split_passages(text, min_len=200, max_len=500):
         else:
             merged.append(buffer.strip())
 
-    print(f"Final split: {len(merged)} passages")
+    print(f"Final split: {len(merged)} passages\n")
     return merged
 
-def build_similarity_graph_from_embeddings(embeddings, edge_percentile=75): # The process of graph construction from embeddings
+def build_similarity_graph_from_embeddings(embeddings, edge_percentile=edge_percentile): # The process of graph construction from embeddings
     n = len(embeddings)
     G = nx.Graph()
     G.add_nodes_from(range(n))
@@ -83,9 +98,17 @@ def cluster_graph(G): # The process of clustering the nodes (the embeddings) bas
     clusters = {}
     for node, cid in partition.items():
         clusters.setdefault(cid, []).append(node)
-    return list(clusters.values())
+    
+    clusters_list = list(clusters.values())
 
-def mmr_distant_passages(cluster_embeds, similarity_threshold):
+    # --- Print cluster sizes ---
+    print("Number of clusters:", len(clusters_list))
+    for i, c in enumerate(clusters_list, start=1):
+        print(f"Cluster {i} size: {len(c)}")
+
+    return clusters_list
+
+def mmr_distant_passages(cluster_embeds, mmr_isolation_threshold=mmr_isolation_threshold):
     n = cluster_embeds.shape[0]
     if n == 0:
         return []
@@ -96,16 +119,19 @@ def mmr_distant_passages(cluster_embeds, similarity_threshold):
 
     selected = []
     for i in range(n):
-        # If this passage has no similarity >= threshold with any other, it's distant
-        if not np.any(sim_matrix[i] >= similarity_threshold):
+        # Fraction of other passages with similarity below threshold
+        frac_below = np.mean(sim_matrix[i] < 0.2)  # 0.2 can still be a hard cutoff
+        if frac_below >= mmr_isolation_threshold:
             selected.append(i)
 
     return selected
 
-def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, tiny_cluster_size=1, centrality_percentile=90, mmr_similarity_threshold=0.1):
+def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, tiny_cluster_size=tiny_cluster_size, centrality_percentile=centrality_percentile):
     centrality_summary = []
     mmr_summary = []
     tiny_cluster = 0
+    total_central_passages = 0
+    total_mmr_passages = 0
 
     for cluster in clusters:
         if len(cluster) == 0:
@@ -120,6 +146,8 @@ def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, t
         thresh = np.percentile(sims, centrality_percentile)
         central_idxs = [i for i, s in enumerate(sims) if s >= thresh]
 
+        total_central_passages += len(central_idxs)
+
         # --- Tiny clusters → keep all passages ---
         if len(cluster_passages) <= tiny_cluster_size:
             tiny_cluster +1
@@ -128,7 +156,8 @@ def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, t
             continue
 
         # --- Independent MMR on cluster ---
-        mmr_idxs = mmr_distant_passages(cluster_embeds, similarity_threshold=mmr_similarity_threshold)
+        mmr_idxs = mmr_distant_passages(cluster_embeds)
+        total_mmr_passages += len(mmr_idxs)
 
         # --- Combine outputs, remove duplicates ---
         #combined_idxs = list(dict.fromkeys(central_idxs + mmr_idxs))
@@ -142,27 +171,24 @@ def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, t
             mmr_summary.append(cluster_passages[idx])
 
     print(f"there were {tiny_cluster} tiny clusters found")
-    print(f"There are {len(central_idxs)} passages retrieved via centrality and {len(mmr_idxs)} passages retrieved via MMR")
+    print(f"\nThere are {total_central_passages} passages retrieved via centrality and {total_mmr_passages} passages retrieved via MMR")
     return centrality_summary, mmr_summary
 
-def summarize_rfp(text, edge_percentile, tiny_cluster_size, min_passage_len):
-    
+def summarize_rfp(text):
     if not text:
         return "No Text Input"
 
     text = normalize_text(text)
 
-    passages = split_passages(text, min_len=min_passage_len)
+    passages = split_passages(text)
     if not passages:
         return "No Passages found"
-    else:
-        print(f"There are {len(passages)} passages")
 
     model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
     embeddings = model.encode(passages, convert_to_numpy=True, show_progress_bar=False)
 
-    G = build_similarity_graph_from_embeddings(embeddings, edge_percentile=edge_percentile)
+    G = build_similarity_graph_from_embeddings(embeddings)
 
     if G.number_of_edges() > 0: # Meaning no nodes (passages) were semantically similar, so no connections between nodes (edges) were formed
         clusters = cluster_graph(G)
@@ -172,12 +198,11 @@ def summarize_rfp(text, edge_percentile, tiny_cluster_size, min_passage_len):
     if not clusters:
         return "No clusters found"
 
-    centrality_summary, mmr_summary = summarize_clusters_semantic_centrality_mmr(
-        passages,
-        embeddings,
-        clusters,
-        tiny_cluster_size=tiny_cluster_size
-    )
+    centrality_summary, mmr_summary = summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters)
+
+    # Reorder centrality_summary and mmr_summary based on original text order
+    centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
+    mmr_summary = [passages[i] for i in sorted([passages.index(p) for p in mmr_summary])]
 
     # --- Flatten in case any cluster returns lists ---
     flat_centrality = list(chain.from_iterable(centrality_summary)) if any(isinstance(i, list) for i in centrality_summary) else centrality_summary
@@ -187,35 +212,63 @@ def summarize_rfp(text, edge_percentile, tiny_cluster_size, min_passage_len):
     centrality_text = "\n\n".join(flat_centrality)
     mmr_text = "\n\n".join(flat_mmr)
 
+    centrality_text = normalize_text(centrality_text)
+    mmr_text = normalize_text(mmr_text)
+
     return centrality_text, mmr_text
 
-def read_triple_quoted():
-    print('Paste text between triple quotes. Start with """ and end with """')
-    lines = []
-
-    # Wait for opening delimiter
-    while True:
-        line = input().rstrip("\n")
-        if line.strip() == '"""':
-            break
-
-    # Capture everything until closing delimiter
-    while True:
-        line = input()
-        if line.strip() == '"""':
-            break
-        lines.append(line)
-
-    return "\n".join(lines)
-
 if __name__ == "__main__":
-    text = read_triple_quoted()
-    centrality_summary, mmr_summary = summarize_rfp(text, edge_percentile=75, tiny_cluster_size=1, min_passage_len=200)
+    import sys
+    from datetime import datetime
 
-    with open("centrality_summary.txt", "w", encoding="utf-8") as f:
+    sample_input = "sample_text.txt"
+
+    # --- Read input text ---
+    with open(sample_input, "r", encoding="utf-8") as r:
+        text = r.read()
+
+    # --- Redirect stdout to log ---
+    log_file = "log.txt"
+    log_f = open(log_file, "a", encoding="utf-8")
+
+    class Logger:
+        def __init__(self, f):
+            self.f = f
+        def write(self, msg):
+            self.f.write(msg)
+            self.f.flush()
+        def flush(self):
+            self.f.flush()
+
+    sys.stdout = Logger(log_f)
+
+    # --- Log header ---
+    print("\n\n=== NEW RUN ===")
+    print("Timestamp:", datetime.now())
+    print("\nParameters:")
+    print(f"min_len = {min_len} | max_len = {max_len} | tiny_cluster_size = {tiny_cluster_size}")
+
+    print(f"\nedge_percentile = {edge_percentile}")
+    print(f"centrality_percentile = {centrality_percentile}")
+    print(f"mmr_similarity_threshold = {mmr_isolation_threshold}\n")
+
+    # --- Run summarization ---
+    centrality_summary, mmr_summary = summarize_rfp(text)
+
+    print(f"\nCentrality summary length: {len(centrality_summary)}")
+    print(f"MMR summary length: {len(mmr_summary)}")
+
+    with open ("centrality_summary.txt", "w") as f:
         f.write(centrality_summary)
-
-    with open("mmr_summary.txt", "w", encoding="utf-8") as f:
+    
+    with open ("mmr_summary.txt", "w") as f:
         f.write(mmr_summary)
+
+    # --- Restore stdout ---
+    sys.stdout = sys.__stdout__
+    log_f.close()
+
+    print("Run completed. All output appended to log.txt")
+
         
 
