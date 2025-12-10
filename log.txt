@@ -233,3 +233,2087 @@ There are 53 passages retrieved via centrality and 15 passages retrieved via MMR
 
 Centrality summary length: 12307
 MMR summary length: 6484
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 12:13:45.496319
+
+Parameters:
+min_len = 200 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 95
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 24
+Cluster 1 size: 75
+Cluster 2 size: 183
+Cluster 3 size: 174
+Cluster 4 size: 1
+Cluster 5 size: 77
+Cluster 6 size: 1
+Cluster 7 size: 76
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+Cluster 13 size: 2
+Cluster 14 size: 44
+Cluster 15 size: 2
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 1
+Cluster 20 size: 2
+Cluster 21 size: 1
+Cluster 22 size: 3
+Cluster 23 size: 9
+Cluster 24 size: 1
+there were 0 tiny clusters found
+
+There are 53 passages retrieved via centrality and 15 passages retrieved via MMR
+
+Centrality summary length: 12307
+MMR summary length: 6484
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 12:19:33.502107
+
+Parameters:
+min_len = 200 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 85
+centrality_percentile = 95
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 9
+Cluster 1 size: 197
+Cluster 2 size: 189
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 88
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+there were 0 tiny clusters found
+
+There are 39 passages retrieved via centrality and 10 passages retrieved via MMR
+
+Centrality summary length: 9113
+MMR summary length: 2781
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 12:21:39.422944
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 90
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 9
+Cluster 1 size: 95
+Cluster 2 size: 93
+Cluster 3 size: 42
+Cluster 4 size: 38
+Cluster 5 size: 53
+Cluster 6 size: 31
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 1
+there were 0 tiny clusters found
+
+There are 42 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 18659
+MMR summary length: 2738
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 12:25:20.681211
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 90
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 5
+Cluster 1 size: 102
+Cluster 2 size: 104
+Cluster 3 size: 43
+Cluster 4 size: 70
+Cluster 5 size: 36
+there were 0 tiny clusters found
+
+There are 38 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 16707
+MMR summary length: 1374
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 12:27:25.946980
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 90
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 9
+Cluster 1 size: 98
+Cluster 2 size: 100
+Cluster 3 size: 42
+Cluster 4 size: 40
+Cluster 5 size: 47
+Cluster 6 size: 1
+Cluster 7 size: 1
+Cluster 8 size: 25
+Cluster 9 size: 1
+there were 0 tiny clusters found
+
+There are 40 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 17819
+MMR summary length: 2738
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 12:29:01.413733
+
+Parameters:
+min_len = 200 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 85
+centrality_percentile = 95
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 9
+Cluster 1 size: 199
+Cluster 2 size: 189
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 88
+Cluster 6 size: 42
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+there were 0 tiny clusters found
+
+There are 39 passages retrieved via centrality and 10 passages retrieved via MMR
+
+Centrality summary length: 9113
+MMR summary length: 2781
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 13:38:42.513763
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 95
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 9
+Cluster 1 size: 94
+Cluster 2 size: 97
+Cluster 3 size: 42
+Cluster 4 size: 39
+Cluster 5 size: 55
+Cluster 6 size: 1
+Cluster 7 size: 1
+Cluster 8 size: 25
+Cluster 9 size: 1
+there were 0 tiny clusters found
+
+There are 23 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 10436
+MMR summary length: 2738
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 13:39:43.828435
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 85
+centrality_percentile = 95
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 6
+Cluster 1 size: 94
+Cluster 2 size: 97
+Cluster 3 size: 42
+Cluster 4 size: 38
+Cluster 5 size: 48
+Cluster 6 size: 36
+there were 0 tiny clusters found
+
+There are 20 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 9054
+MMR summary length: 1374
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 13:40:43.712096
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 85
+centrality_percentile = 90
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 5
+Cluster 1 size: 102
+Cluster 2 size: 96
+Cluster 3 size: 42
+Cluster 4 size: 37
+Cluster 5 size: 78
+there were 0 tiny clusters found
+
+There are 38 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 16859
+MMR summary length: 1374
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 14:11:26.267632
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 85
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 6
+Cluster 1 size: 97
+Cluster 2 size: 102
+Cluster 3 size: 42
+Cluster 4 size: 39
+Cluster 5 size: 50
+Cluster 6 size: 25
+there were 0 tiny clusters found
+
+There are 92 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 40924 (16 basketballs)
+MMR summary length: 1374
+
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 15:52:39.722077
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 5
+Cluster 1 size: 102
+Cluster 2 size: 103
+Cluster 3 size: 43
+Cluster 4 size: 70
+Cluster 5 size: 37
+there were 0 tiny clusters found
+
+There are 91 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 40596
+MMR summary length: 1374
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 15:53:59.705185
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 75
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 5
+Cluster 1 size: 109
+Cluster 2 size: 100
+Cluster 3 size: 43
+Cluster 4 size: 66
+Cluster 5 size: 37
+there were 0 tiny clusters found
+
+There are 91 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 40667
+MMR summary length: 1374
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 15:55:23.336156
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 19
+Cluster 1 size: 21
+Cluster 2 size: 63
+Cluster 3 size: 91
+Cluster 4 size: 42
+Cluster 5 size: 1
+Cluster 6 size: 61
+Cluster 7 size: 38
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+Cluster 13 size: 27
+Cluster 14 size: 1
+Cluster 15 size: 1
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 1
+there were 0 tiny clusters found
+
+There are 101 passages retrieved via centrality and 5 passages retrieved via MMR
+
+Centrality summary length: 44893
+MMR summary length: 7453
+
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 15:57:02.394928
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 99
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 15:57:44.239149
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 9
+Cluster 1 size: 95
+Cluster 2 size: 93
+Cluster 3 size: 42
+Cluster 4 size: 38
+Cluster 5 size: 53
+Cluster 6 size: 31
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 1
+there were 0 tiny clusters found
+
+There are 94 passages retrieved via centrality and 3 passages retrieved via MMR
+
+Centrality summary length: 41816
+MMR summary length: 2738
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 15:58:09.022755
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 19
+Cluster 1 size: 21
+Cluster 2 size: 71
+Cluster 3 size: 88
+Cluster 4 size: 42
+Cluster 5 size: 1
+Cluster 6 size: 56
+Cluster 7 size: 38
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+Cluster 13 size: 27
+Cluster 14 size: 1
+Cluster 15 size: 1
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 1
+there were 0 tiny clusters found
+
+There are 100 passages retrieved via centrality and 5 passages retrieved via MMR
+
+Centrality summary length: 44379 (19 basketballs)
+MMR summary length: 7453
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 16:01:27.634841
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 85
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 19
+Cluster 1 size: 21
+Cluster 2 size: 71
+Cluster 3 size: 99
+Cluster 4 size: 42
+Cluster 5 size: 1
+Cluster 6 size: 46
+Cluster 7 size: 37
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+Cluster 13 size: 27
+Cluster 14 size: 1
+Cluster 15 size: 1
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 1
+there were 0 tiny clusters found
+
+There are 66 passages retrieved via centrality and 5 passages retrieved via MMR
+
+Centrality summary length: 29278 (12 basketballs)
+MMR summary length: 7453
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 16:12:28.567368
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 70
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 19
+Cluster 1 size: 21
+Cluster 2 size: 60
+Cluster 3 size: 85
+Cluster 4 size: 42
+Cluster 5 size: 1
+Cluster 6 size: 59
+Cluster 7 size: 38
+Cluster 8 size: 38
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+Cluster 13 size: 1
+Cluster 14 size: 1
+Cluster 15 size: 1
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 1
+there were 0 tiny clusters found
+
+There are 118 passages retrieved via centrality and 5 passages retrieved via MMR
+
+Centrality summary length: 52466
+MMR summary length: 7453
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 16:13:31.093216
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 70
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 24
+Cluster 1 size: 75
+Cluster 2 size: 179
+Cluster 3 size: 163
+Cluster 4 size: 1
+Cluster 5 size: 76
+Cluster 6 size: 1
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 73
+Cluster 11 size: 1
+Cluster 12 size: 63
+Cluster 13 size: 1
+Cluster 14 size: 2
+Cluster 15 size: 2
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 1
+Cluster 20 size: 2
+Cluster 21 size: 1
+Cluster 22 size: 3
+Cluster 23 size: 9
+Cluster 24 size: 1
+there were 0 tiny clusters found
+
+There are 211 passages retrieved via centrality and 15 passages retrieved via MMR
+
+Centrality summary length: 50071
+MMR summary length: 6484
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 16:14:31.386072
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 209
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 169 passages retrieved via centrality and 8 passages retrieved via MMR
+
+Centrality summary length: 39980
+MMR summary length: 2344
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 16:17:17.941533
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 75
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 207
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 81
+Cluster 6 size: 43
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 169 passages retrieved via centrality and 8 passages retrieved via MMR
+
+Centrality summary length: 40062
+MMR summary length: 2344
+
+
+=== NEW RUN ===
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 204
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 71
+Cluster 5 size: 81
+Cluster 6 size: 43
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 137 passages retrieved via centrality and 7 passages retrieved via MMR
+
+Centrality summary length: 32436
+MMR summary length: 2136
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 18:52:01.550372
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 11
+Cluster 1 size: 204
+Cluster 2 size: 183
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 4
+Cluster 6 size: 81
+Cluster 7 size: 43
+Cluster 8 size: 3
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 3
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 19:19:13.578912
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 209
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 19:33:18.636942
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 209
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 9 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 2164
+MMR summary length: 0
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 19:48:37.736261
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 209
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 46 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 10767
+MMR summary length: 0
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 19:58:14.218934
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 196
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 69
+Cluster 5 size: 92
+Cluster 6 size: 42
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 119 passages retrieved via centrality and 5 passages retrieved via MMR
+
+Centrality summary length: 28142
+MMR summary length: 1190
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 20:13:19.173433
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 9
+Cluster 1 size: 214
+Cluster 2 size: 185
+Cluster 3 size: 69
+Cluster 4 size: 67
+Cluster 5 size: 77
+Cluster 6 size: 43
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 3
+there were 0 tiny clusters found
+
+There are 119 passages retrieved via centrality and 0 passages retrieved via MMR
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 20:14:34.738878
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 8
+Cluster 1 size: 257
+Cluster 2 size: 208
+Cluster 3 size: 76
+Cluster 4 size: 73
+Cluster 5 size: 41
+Cluster 6 size: 1
+Cluster 7 size: 1
+Cluster 8 size: 3
+there were 0 tiny clusters found
+
+There are 118 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 28212
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 22:47:21.458952
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+mmr_similarity_threshold = 0.8
+
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 197
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 92
+Cluster 6 size: 42
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 119 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 28103
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 22:53:58.977478
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 207
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 81
+Cluster 6 size: 43
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 119 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 28099
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 22:59:23.340426
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 207
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 81
+Cluster 6 size: 43
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 23:05:45.499890
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 9
+Cluster 1 size: 201
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 64
+Cluster 5 size: 96
+Cluster 6 size: 41
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 3
+there were 2 tiny clusters found
+
+There are 137 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 32413
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 23:08:34.048000
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 9
+Cluster 1 size: 220
+Cluster 2 size: 183
+Cluster 3 size: 69
+Cluster 4 size: 65
+Cluster 5 size: 75
+Cluster 6 size: 43
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 3
+there were 0 tiny clusters found
+
+There are 132 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 31251
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 23:10:34.711055
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 70
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 5
+Cluster 1 size: 181
+Cluster 2 size: 200
+Cluster 3 size: 72
+Cluster 4 size: 71
+Cluster 5 size: 136
+there were 0 tiny clusters found
+
+There are 28 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 6562
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-08 23:31:13.970497
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 70
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 5
+Cluster 1 size: 179
+Cluster 2 size: 194
+Cluster 3 size: 74
+Cluster 4 size: 72
+Cluster 5 size: 141
+there were 0 tiny clusters found
+
+There are 15 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 3722
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 09:34:16.706774
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 70
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 5
+Cluster 1 size: 181
+Cluster 2 size: 198
+Cluster 3 size: 74
+Cluster 4 size: 74
+Cluster 5 size: 133
+there were 0 tiny clusters found
+
+There are 82 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 19341
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 11:25:16.805870
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 70
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 5
+Cluster 1 size: 181
+Cluster 2 size: 194
+Cluster 3 size: 72
+Cluster 4 size: 72
+Cluster 5 size: 141
+there were 0 tiny clusters found
+
+There are 91 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 21543
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 11:32:11.449840
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 70
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 5
+Cluster 1 size: 179
+Cluster 2 size: 196
+Cluster 3 size: 74
+Cluster 4 size: 72
+Cluster 5 size: 139
+there were 0 tiny clusters found
+
+There are 66 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 15893
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 11:33:00.290445
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 70
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 4
+Cluster 1 size: 184
+Cluster 2 size: 193
+Cluster 3 size: 144
+Cluster 4 size: 139
+there were 0 tiny clusters found
+
+There are 29 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 6984
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 11:38:47.796164
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 6
+Cluster 1 size: 173
+Cluster 2 size: 190
+Cluster 3 size: 72
+Cluster 4 size: 70
+Cluster 5 size: 117
+Cluster 6 size: 38
+there were 0 tiny clusters found
+
+There are 74 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 17700
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:27:11.348966
+
+Parameters:
+min_len = 100 | max_len = 200 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 4
+Cluster 1 size: 349
+Cluster 2 size: 303
+Cluster 3 size: 274
+Cluster 4 size: 211
+there were 0 tiny clusters found
+
+There are 82 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 11852
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:27:27.107387
+
+Parameters:
+min_len = 100 | max_len = 200 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 4
+Cluster 1 size: 355
+Cluster 2 size: 296
+Cluster 3 size: 268
+Cluster 4 size: 218
+there were 0 tiny clusters found
+
+There are 81 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 11687
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:28:06.991626
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 6
+Cluster 1 size: 186
+Cluster 2 size: 190
+Cluster 3 size: 72
+Cluster 4 size: 71
+Cluster 5 size: 103
+Cluster 6 size: 38
+there were 0 tiny clusters found
+
+There are 78 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 18582
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:28:32.431626
+
+Parameters:
+min_len = 400 | max_len = 600 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 355 passages
+
+Number of clusters: 5
+Cluster 1 size: 101
+Cluster 2 size: 106
+Cluster 3 size: 43
+Cluster 4 size: 68
+Cluster 5 size: 37
+there were 0 tiny clusters found
+
+There are 44 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 19931
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:33:45.838292
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 6
+Cluster 1 size: 175
+Cluster 2 size: 188
+Cluster 3 size: 72
+Cluster 4 size: 71
+Cluster 5 size: 114
+Cluster 6 size: 40
+there were 0 tiny clusters found
+
+There are 75 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 17950
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:39:16.529159
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 204
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 71
+Cluster 5 size: 81
+Cluster 6 size: 43
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 70 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 16793
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:41:13.317435
+
+Parameters:
+min_len = 100 | max_len = 200 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 11
+Cluster 1 size: 325
+Cluster 2 size: 127
+Cluster 3 size: 300
+Cluster 4 size: 163
+Cluster 5 size: 158
+Cluster 6 size: 57
+Cluster 7 size: 2
+Cluster 8 size: 2
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 1 tiny clusters found
+
+There are 125 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 18633
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 12:42:38.289558
+
+Parameters:
+min_len = 100 | max_len = 200 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 11
+Cluster 1 size: 355
+Cluster 2 size: 295
+Cluster 3 size: 249
+Cluster 4 size: 154
+Cluster 5 size: 55
+Cluster 6 size: 22
+Cluster 7 size: 2
+Cluster 8 size: 2
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 180 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 25593
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 18:30:16.809337
+
+Parameters:
+min_len = 100 | max_len = 200 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 11
+Cluster 1 size: 340
+Cluster 2 size: 16
+Cluster 3 size: 299
+Cluster 4 size: 245
+Cluster 5 size: 208
+Cluster 6 size: 22
+Cluster 7 size: 2
+Cluster 8 size: 2
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 121 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 17679
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 18:31:09.890439
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 8
+Cluster 1 size: 282
+Cluster 2 size: 187
+Cluster 3 size: 75
+Cluster 4 size: 66
+Cluster 5 size: 45
+Cluster 6 size: 1
+Cluster 7 size: 1
+Cluster 8 size: 3
+there were 0 tiny clusters found
+
+There are 29 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 7024
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 23:47:53.383131
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 260
+Cluster 2 size: 189
+Cluster 3 size: 76
+Cluster 4 size: 80
+Cluster 5 size: 2
+Cluster 6 size: 45
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 32 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 7901
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 23:48:08.132379
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 213
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 64
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 57 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 13663
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 23:52:50.249330
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 207
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 80
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 56 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 13388
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 23:53:03.719335
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 206
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 71
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 56 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 13341
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 23:54:52.254269
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 208
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 69
+Cluster 5 size: 78
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 56 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 13352
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-09 23:55:57.404540
+
+Parameters:
+min_len = 300 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 463 passages
+
+Number of clusters: 11
+Cluster 1 size: 131
+Cluster 2 size: 131
+Cluster 3 size: 53
+Cluster 4 size: 1
+Cluster 5 size: 46
+Cluster 6 size: 49
+Cluster 7 size: 13
+Cluster 8 size: 1
+Cluster 9 size: 36
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 65 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 21766
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:03:28.420844
+
+Parameters:
+min_len = 300 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 463 passages
+
+Number of clusters: 11
+Cluster 1 size: 137
+Cluster 2 size: 129
+Cluster 3 size: 53
+Cluster 4 size: 1
+Cluster 5 size: 48
+Cluster 6 size: 47
+Cluster 7 size: 9
+Cluster 8 size: 1
+Cluster 9 size: 36
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 65 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 21841
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:05:00.329518
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 206
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 69
+Cluster 5 size: 81
+Cluster 6 size: 43
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 56 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 13388
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:05:45.827699
+
+Parameters:
+min_len = 100 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 11
+Cluster 1 size: 364
+Cluster 2 size: 126
+Cluster 3 size: 297
+Cluster 4 size: 146
+Cluster 5 size: 142
+Cluster 6 size: 55
+Cluster 7 size: 2
+Cluster 8 size: 2
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 129 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 19254
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:06:13.556167
+
+Parameters:
+min_len = 100 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 11
+Cluster 1 size: 347
+Cluster 2 size: 289
+Cluster 3 size: 234
+Cluster 4 size: 164
+Cluster 5 size: 73
+Cluster 6 size: 23
+Cluster 7 size: 2
+Cluster 8 size: 2
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 175 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 25116
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:07:00.961975
+
+Parameters:
+min_len = 100 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 11
+Cluster 1 size: 357
+Cluster 2 size: 295
+Cluster 3 size: 246
+Cluster 4 size: 153
+Cluster 5 size: 57
+Cluster 6 size: 22
+Cluster 7 size: 2
+Cluster 8 size: 2
+Cluster 9 size: 1
+Cluster 10 size: 1
+Cluster 11 size: 1
+there were 0 tiny clusters found
+
+There are 194 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 27716
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:08:45.996034
+
+Parameters:
+min_len = 300 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 463 passages
+
+Number of clusters: 21
+Cluster 1 size: 108
+Cluster 2 size: 64
+Cluster 3 size: 50
+Cluster 4 size: 71
+Cluster 5 size: 1
+Cluster 6 size: 1
+Cluster 7 size: 49
+Cluster 8 size: 57
+Cluster 9 size: 10
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 2
+Cluster 13 size: 1
+Cluster 14 size: 1
+Cluster 15 size: 37
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 4
+Cluster 20 size: 1
+Cluster 21 size: 1
+there were 1 tiny clusters found
+
+There are 83 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 27865
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:08:58.344844
+
+Parameters:
+min_len = 300 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 95
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 463 passages
+
+Number of clusters: 21
+Cluster 1 size: 104
+Cluster 2 size: 66
+Cluster 3 size: 50
+Cluster 4 size: 71
+Cluster 5 size: 1
+Cluster 6 size: 1
+Cluster 7 size: 51
+Cluster 8 size: 57
+Cluster 9 size: 10
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 2
+Cluster 13 size: 1
+Cluster 14 size: 1
+Cluster 15 size: 37
+Cluster 16 size: 1
+Cluster 17 size: 1
+Cluster 18 size: 1
+Cluster 19 size: 4
+Cluster 20 size: 1
+Cluster 21 size: 1
+there were 1 tiny clusters found
+
+There are 84 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 28209
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:11:12.465526
+
+Parameters:
+min_len = 200 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 9
+Cluster 1 size: 276
+Cluster 2 size: 185
+Cluster 3 size: 75
+Cluster 4 size: 71
+Cluster 5 size: 45
+Cluster 6 size: 3
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 3
+there were 0 tiny clusters found
+
+There are 15 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 3708
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:12:09.894980
+
+Parameters:
+min_len = 200 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 10
+Cluster 1 size: 207
+Cluster 2 size: 184
+Cluster 3 size: 69
+Cluster 4 size: 68
+Cluster 5 size: 80
+Cluster 6 size: 44
+Cluster 7 size: 3
+Cluster 8 size: 1
+Cluster 9 size: 1
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 56 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 13388
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:14:18.078897
+
+Parameters:
+min_len = 100 | max_len = 500 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 60
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 12
+Cluster 1 size: 361
+Cluster 2 size: 16
+Cluster 3 size: 296
+Cluster 4 size: 231
+Cluster 5 size: 146
+Cluster 6 size: 58
+Cluster 7 size: 22
+Cluster 8 size: 2
+Cluster 9 size: 2
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+there were 0 tiny clusters found
+
+There are 245 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 35031
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:19:32.811298
+
+Parameters:
+min_len = 100 | max_len = 200 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 60
+Initial split: 2257 passages
+Final split: 1137 passages
+
+Number of clusters: 12
+Cluster 1 size: 334
+Cluster 2 size: 16
+Cluster 3 size: 292
+Cluster 4 size: 240
+Cluster 5 size: 156
+Cluster 6 size: 70
+Cluster 7 size: 22
+Cluster 8 size: 2
+Cluster 9 size: 2
+Cluster 10 size: 1
+Cluster 11 size: 1
+Cluster 12 size: 1
+there were 0 tiny clusters found
+
+There are 237 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 34039
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 00:22:13.014721
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 660 passages
+
+Number of clusters: 6
+Cluster 1 size: 187
+Cluster 2 size: 190
+Cluster 3 size: 72
+Cluster 4 size: 68
+Cluster 5 size: 105
+Cluster 6 size: 38
+there were 0 tiny clusters found
+
+There are 78 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 18601
+Writing to txt file

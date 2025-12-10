@@ -1,26 +1,16 @@
 import re
-import numpy as np
-import networkx as nx
-import community as community_louvain
 from sentence_transformers import SentenceTransformer
-from transformers import pipeline
-from sklearn.metrics.pairwise import cosine_similarity
 from itertools import chain
+import sys
+from datetime import datetime
+import numpy as np
 
 # CONFIG
 min_len = 200 # for split passage
-max_len = 500 # for split passage
-edge_percentile = 95 # to control minimum similarity required to connect nodes in graph
-tiny_cluster_size = 1
-
-# selects passages whose similarity to the cluster centroid is above the percentile value;
-# np.percentile interpolates between values, so this may not correspond exactly to a strict top-X% by count
-centrality_percentile = 95
-
-# MMR isolation threshold: the minimum fraction of other passages that must be semantically dissimilar
-# for a passage to be selected. Higher values make selection stricter, keeping only passages that are
-# more isolated within the cluster.
-mmr_isolation_threshold = 0.8
+max_len = 300 # for split passage
+aspect_vectors_path = "aspect_method/aspect_vectors.npz"
+percentile = 90.0
+top_k=None
 
 def normalize_text(text):
     text = text.lower()
@@ -72,43 +62,61 @@ def split_passages(text, min_len=min_len, max_len=max_len):
     return merged
 
 def summarize_rfp(text):
-    if not text:
-        return "No Text Input"
-
+    if not text: return "No Text Input"
     text = normalize_text(text)
-
     passages = split_passages(text)
-    if not passages:
-        return "No Passages found"
-
+    if not passages: return "No Passages found"
     model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-
     embeddings = model.encode(passages, convert_to_numpy=True, show_progress_bar=False)
-    # Reorder centrality_summary and mmr_summary based on original text order
-    centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
 
+    # Load aspect vectors
+    data = np.load(aspect_vectors_path, allow_pickle=True)
+    names = data["names"]
+    vectors = data["vectors"]
+    aspect_vectors = {name: vectors[i] for i, name in enumerate(names)}
+
+    selected_indices = set()
+
+    # Compare each aspect vector to all passage embeddings
+    for aspect_name, aspect_vec in aspect_vectors.items():
+        # Compute similarity (dot product, vectors assumed normalized)
+        scores = np.dot(embeddings, aspect_vec)
+        if len(scores) == 0:
+            continue
+
+        # Compute threshold based on percentile
+        threshold = np.percentile(scores, percentile)
+        candidate_indices = np.where(scores >= threshold)[0]
+
+        # If top_k is set, take only the top_k highest-scoring passages
+        if top_k is not None and len(candidate_indices) > top_k:
+            # Sort candidate_indices by descending score and take top_k
+            sorted_idx = candidate_indices[np.argsort(scores[candidate_indices])[::-1][:top_k]]
+            selected_indices.update(sorted_idx)
+        else:
+            selected_indices.update(candidate_indices)
+
+
+    if not selected_indices:
+        return "No relevant passages found"
+
+    # Build summary passages (keep original order)
+    summary = [passages[i] for i in sorted(selected_indices)]
     # --- Flatten in case any cluster returns lists ---
-    flat_centrality = list(chain.from_iterable(centrality_summary)) if any(isinstance(i, list) for i in centrality_summary) else centrality_summary
-
+    summary = list(chain.from_iterable(summary)) if any(isinstance(i, list) for i in summary) else summary
     # --- Convert to plain text ---
-    centrality_text = "\n\n".join(flat_centrality)
+    summary = "\n\n".join(summary)
+    summary = normalize_text(summary)
 
-    centrality_text = normalize_text(centrality_text)
-
-    return centrality_text
+    return summary
 
 if __name__ == "__main__":
-    import sys
-    from datetime import datetime
+    sample_input = "aspect_method/sample_text.txt"
 
-    sample_input = "sample_text.txt"
-
-    # --- Read input text ---
     with open(sample_input, "r", encoding="utf-8") as r:
         text = r.read()
 
-    # --- Redirect stdout to log ---
-    log_file = "aspect_log.txt"
+    log_file = "aspect_method/aspect_log.txt"
     log_f = open(log_file, "a", encoding="utf-8")
 
     class Logger:
@@ -122,29 +130,21 @@ if __name__ == "__main__":
 
     sys.stdout = Logger(log_f)
 
-    # --- Log header ---
     print("\n\n=== NEW RUN ===")
     print("Timestamp:", datetime.now())
-    print("\nParameters:")
-    print(f"min_len = {min_len} | max_len = {max_len} | tiny_cluster_size = {tiny_cluster_size}")
+    print(f"\nParameters: min_len = {min_len} | max_len = {max_len}")
 
-    print(f"\nedge_percentile = {edge_percentile}")
-    print(f"centrality_percentile = {centrality_percentile}")
-    print(f"mmr_similarity_threshold = {mmr_isolation_threshold}\n")
+    summary = summarize_rfp(text)
 
-    # --- Run summarization ---
-    centrality_summary = summarize_rfp(text)
+    print(f"\nsummary length: {len(summary)}")
 
-    print(f"\nCentrality summary length: {len(centrality_summary)}")
-
-    with open ("centrality_summary.txt", "w") as f:
-        f.write(centrality_summary)
+    with open ("aspect_method/summary.txt", "w") as f:
+        f.write(summary)
     
-    # --- Restore stdout ---
     sys.stdout = sys.__stdout__
     log_f.close()
 
-    print("Run completed. All output appended to log.txt")
+    print("Run completed. All output appended to aspect_log.txt")
 
         
 

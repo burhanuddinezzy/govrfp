@@ -1,21 +1,28 @@
+import sys
 import re
 import numpy as np
 import networkx as nx
 import community as community_louvain
 from sentence_transformers import SentenceTransformer
-from transformers import pipeline
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import chain
+from datetime import datetime
+
+aspect_vectors_path = "aspect_method/aspect_vectors.npz"
+TITLE_TEXT = { "title": "EUR/Athens - Construction of half Basketball Court for US Embassy, Athens"}
 
 # CONFIG
 min_len = 200 # for split passage
-max_len = 500 # for split passage
-edge_percentile = 95 # to control minimum similarity required to connect nodes in graph
+max_len = 400 # for split passage
+edge_percentile = 80 # to control minimum similarity required to connect nodes in graph
+aspect_percentile = 80
 tiny_cluster_size = 1
+title_weight=0.5
+aspect_weight=0.5
 
 # selects passages whose similarity to the cluster centroid is above the percentile value;
 # np.percentile interpolates between values, so this may not correspond exactly to a strict top-X% by count
-centrality_percentile = 95
+centrality_percentile = 70
 
 # MMR isolation threshold: the minimum fraction of other passages that must be semantically dissimilar
 # for a passage to be selected. Higher values make selection stricter, keeping only passages that are
@@ -108,24 +115,6 @@ def cluster_graph(G): # The process of clustering the nodes (the embeddings) bas
 
     return clusters_list
 
-def mmr_distant_passages(cluster_embeds, mmr_isolation_threshold=mmr_isolation_threshold):
-    n = cluster_embeds.shape[0]
-    if n == 0:
-        return []
-
-    # Compute full pairwise similarity matrix
-    sim_matrix = cosine_similarity(cluster_embeds)
-    np.fill_diagonal(sim_matrix, 0.0)  # ignore self-similarity
-
-    selected = []
-    for i in range(n):
-        # Fraction of other passages with similarity below threshold
-        frac_below = np.mean(sim_matrix[i] < 0.2)  # 0.2 can still be a hard cutoff
-        if frac_below >= mmr_isolation_threshold:
-            selected.append(i)
-
-    return selected
-
 def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, tiny_cluster_size=tiny_cluster_size, centrality_percentile=centrality_percentile):
     centrality_summary = []
     mmr_summary = []
@@ -150,31 +139,67 @@ def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, t
 
         # --- Tiny clusters → keep all passages ---
         if len(cluster_passages) <= tiny_cluster_size:
-            tiny_cluster +1
+            tiny_cluster += 1
             centrality_summary.extend(cluster_passages)
             mmr_summary.extend(cluster_passages)
             continue
 
-        # --- Independent MMR on cluster ---
-        mmr_idxs = mmr_distant_passages(cluster_embeds)
-        total_mmr_passages += len(mmr_idxs)
-
-        # --- Combine outputs, remove duplicates ---
-        #combined_idxs = list(dict.fromkeys(central_idxs + mmr_idxs))
-        #for idx in combined_idxs:
-        #    summary.append(cluster_passages[idx])
-
         for idx in central_idxs:
             centrality_summary.append(cluster_passages[idx])
         
-        for idx in mmr_idxs:
-            mmr_summary.append(cluster_passages[idx])
-
     print(f"there were {tiny_cluster} tiny clusters found")
     print(f"\nThere are {total_central_passages} passages retrieved via centrality and {total_mmr_passages} passages retrieved via MMR")
-    return centrality_summary, mmr_summary
+    return centrality_summary#, mmr_summary
 
-def summarize_rfp(text):
+def select_clusters_based_on_aspect(
+    embeddings,
+    clusters_list,
+    aspect_vectors,   # dict: {aspect_name: centroid_vector}
+    title_vector,     # shape: (dim,)
+    aspect_percentile,
+    title_weight,
+    aspect_weight
+):
+    cluster_scores = []
+
+    # Stack centroid vectors (one per aspect)
+    aspect_centroids = np.vstack(list(aspect_vectors.values()))  # (num_aspects, dim)
+
+    for cluster in clusters_list:
+        if len(cluster) == 0:
+            continue
+
+        # Cluster centroid
+        cluster_embeds = embeddings[cluster]             # (n, dim)
+        cluster_centroid = np.mean(cluster_embeds, axis=0, keepdims=True)  # (1, dim)
+
+        # Similarity to title centroid
+        sim_to_title = cosine_similarity(
+            cluster_centroid,
+            title_vector.reshape(1, -1)
+        ).item()
+
+        # Similarity to each aspect centroid (take best match)
+        sims_to_aspects = cosine_similarity(cluster_centroid, aspect_centroids).flatten()
+        sim_to_aspect = sims_to_aspects.max()
+
+        # Weighted score
+        final_score = (title_weight * sim_to_title) + (aspect_weight * sim_to_aspect)
+
+        cluster_scores.append((cluster, final_score))
+
+    # Percentile threshold (NOT fixed percentage – this is correct percentile logic)
+    scores_array = np.array([s for _, s in cluster_scores])
+    threshold = np.percentile(scores_array, aspect_percentile)
+
+    selected_clusters = [cluster for cluster, score in cluster_scores if score >= threshold]
+
+    if not selected_clusters:
+        return "No relevant clusters found"
+
+    return selected_clusters
+
+def summarize_rfp(text, model):
     if not text:
         return "No Text Input"
 
@@ -183,8 +208,6 @@ def summarize_rfp(text):
     passages = split_passages(text)
     if not passages:
         return "No Passages found"
-
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
     embeddings = model.encode(passages, convert_to_numpy=True, show_progress_bar=False)
 
@@ -197,40 +220,35 @@ def summarize_rfp(text):
 
     if not clusters:
         return "No clusters found"
+    
+    relevant_clusters = select_clusters_based_on_aspect(embeddings,clusters,aspect_vectors,title_vector,aspect_percentile,title_weight,aspect_weight)
 
-    centrality_summary, mmr_summary = summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters)
+    centrality_summary = summarize_clusters_semantic_centrality_mmr(passages, embeddings, relevant_clusters)
 
-    # Reorder centrality_summary and mmr_summary based on original text order
     centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
-    mmr_summary = [passages[i] for i in sorted([passages.index(p) for p in mmr_summary])]
-
-    # --- Flatten in case any cluster returns lists ---
     flat_centrality = list(chain.from_iterable(centrality_summary)) if any(isinstance(i, list) for i in centrality_summary) else centrality_summary
-    flat_mmr = list(chain.from_iterable(mmr_summary)) if any(isinstance(i, list) for i in mmr_summary) else mmr_summary
+    centrality_text = "\n".join(flat_centrality)
 
-    # --- Convert to plain text ---
-    centrality_text = "\n\n".join(flat_centrality)
-    mmr_text = "\n\n".join(flat_mmr)
-
-    centrality_text = normalize_text(centrality_text)
-    mmr_text = normalize_text(mmr_text)
-
-    return centrality_text, mmr_text
+    return centrality_text#, mmr_text
 
 if __name__ == "__main__":
-    import sys
-    from datetime import datetime
+    data = np.load(aspect_vectors_path, allow_pickle=True)
+    names = data["names"]
+    vectors = data["vectors"]
+    aspect_vectors = {name: vectors[i] for i, name in enumerate(names)}
+
+    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+    title_text = list(TITLE_TEXT.values())
+    title_vector = model.encode(title_text, normalize_embeddings=True)
 
     sample_input = "sample_text.txt"
 
-    # --- Read input text ---
     with open(sample_input, "r", encoding="utf-8") as r:
         text = r.read()
 
-    # --- Redirect stdout to log ---
     log_file = "log.txt"
     log_f = open(log_file, "a", encoding="utf-8")
-
     class Logger:
         def __init__(self, f):
             self.f = f
@@ -239,32 +257,22 @@ if __name__ == "__main__":
             self.f.flush()
         def flush(self):
             self.f.flush()
-
     sys.stdout = Logger(log_f)
-
-    # --- Log header ---
     print("\n\n=== NEW RUN ===")
     print("Timestamp:", datetime.now())
     print("\nParameters:")
     print(f"min_len = {min_len} | max_len = {max_len} | tiny_cluster_size = {tiny_cluster_size}")
-
     print(f"\nedge_percentile = {edge_percentile}")
     print(f"centrality_percentile = {centrality_percentile}")
-    print(f"mmr_similarity_threshold = {mmr_isolation_threshold}\n")
 
-    # --- Run summarization ---
-    centrality_summary, mmr_summary = summarize_rfp(text)
+    centrality_summary = summarize_rfp(text, model)
 
     print(f"\nCentrality summary length: {len(centrality_summary)}")
-    print(f"MMR summary length: {len(mmr_summary)}")
 
+    print("Writing to txt file")
     with open ("centrality_summary.txt", "w") as f:
         f.write(centrality_summary)
     
-    with open ("mmr_summary.txt", "w") as f:
-        f.write(mmr_summary)
-
-    # --- Restore stdout ---
     sys.stdout = sys.__stdout__
     log_f.close()
 
