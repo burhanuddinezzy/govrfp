@@ -101,13 +101,19 @@ def save_aspect_vectors():
         # Normalize centroid
         centroid = centroid / np.linalg.norm(centroid)
 
+        if aspect_name == "pricing":
+            np.save("aspect_method/pricing_vector.npy", centroid)
+
         names.append(aspect_name)
         centroids.append(centroid)
 
+    names = np.array(names)                     # (n_aspects,)
+    vectors = np.stack(centroids, axis=0)       # (n_aspects, dim)
+
     np.savez(
         "aspect_method/aspect_vectors.npz",
-        names=np.array(names),
-        vectors=np.vstack(centroids)
+        names=names,
+        vectors=vectors
     )
 
 if __name__ == "__main__":

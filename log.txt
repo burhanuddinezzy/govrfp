@@ -2317,3 +2317,302 @@ There are 78 passages retrieved via centrality and 0 passages retrieved via MMR
 
 Centrality summary length: 18601
 Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 18:59:09.841303
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2256 passages
+Final split: 658 passages
+
+Number of clusters: 6
+Cluster 1 size: 189
+Cluster 2 size: 186
+Cluster 3 size: 73
+Cluster 4 size: 67
+Cluster 5 size: 97
+Cluster 6 size: 46
+there were 0 tiny clusters found
+
+There are 79 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 20856
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:03:23.634128
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 6
+Cluster 1 size: 188
+Cluster 2 size: 187
+Cluster 3 size: 73
+Cluster 4 size: 67
+Cluster 5 size: 96
+Cluster 6 size: 46
+there were 0 tiny clusters found
+
+There are 79 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 23276
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:04:28.697029
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 70
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 5
+Cluster 1 size: 183
+Cluster 2 size: 201
+Cluster 3 size: 70
+Cluster 4 size: 70
+Cluster 5 size: 133
+there were 0 tiny clusters found
+
+There are 21 passages retrieved via centrality and 0 passages retrieved via MMR
+
+Centrality summary length: 7329
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:40:06.265227
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 6
+Cluster 1 size: 189
+Cluster 2 size: 186
+Cluster 3 size: 73
+Cluster 4 size: 66
+Cluster 5 size: 97
+Cluster 6 size: 46
+there were 0 tiny clusters found
+
+There are 53 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 2 passages retrieved via centrality in pricing summary
+There is 2 chars retreived from pricing passages
+
+Centrality summary length: 13451
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:41:44.863612
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 6
+Cluster 1 size: 189
+Cluster 2 size: 183
+Cluster 3 size: 73
+Cluster 4 size: 68
+Cluster 5 size: 97
+Cluster 6 size: 47
+there were 0 tiny clusters found
+
+There are 53 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 4 passages retrieved via centrality in pricing summary
+There is 4 chars retreived from pricing passages
+
+Centrality summary length: 13977
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:42:41.699691
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 6
+Cluster 1 size: 186
+Cluster 2 size: 182
+Cluster 3 size: 74
+Cluster 4 size: 70
+Cluster 5 size: 99
+Cluster 6 size: 46
+there were 0 tiny clusters found
+
+There are 53 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 4 passages retrieved via centrality in pricing summary
+There is 1039 chars retreived from pricing passages
+
+Centrality summary length: 13982
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:46:34.448746
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 80
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 659 passages
+
+There are 8 money_passages and 1931 characters
+Number of clusters: 6
+Cluster 1 size: 187
+Cluster 2 size: 184
+Cluster 3 size: 75
+Cluster 4 size: 68
+Cluster 5 size: 99
+Cluster 6 size: 46
+there were 0 tiny clusters found
+
+There are 53 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 4 passages retrieved via centrality in pricing summary
+There is 1047 chars retreived from pricing passages
+
+Centrality summary length: 14131
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:48:00.012246
+
+Parameters:
+min_len = 200 | max_len = 300 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 659 passages
+
+There are 8 money_passages and 1931 characters
+Number of clusters: 8
+Cluster 1 size: 208
+Cluster 2 size: 78
+Cluster 3 size: 178
+Cluster 4 size: 64
+Cluster 5 size: 80
+Cluster 6 size: 47
+Cluster 7 size: 1
+Cluster 8 size: 3
+there were 0 tiny clusters found
+
+There are 58 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 5 passages retrieved via centrality in pricing summary
+There is 1261 chars retreived from pricing passages
+
+Centrality summary length: 15568
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:48:22.796970
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 10
+Cluster 1 size: 191
+Cluster 2 size: 79
+Cluster 3 size: 180
+Cluster 4 size: 72
+Cluster 5 size: 75
+Cluster 6 size: 52
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 3
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 55 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 5 passages retrieved via centrality in pricing summary
+There is 1245 chars retreived from pricing passages
+
+Centrality summary length: 14753
+Writing to txt file
+
+
+=== NEW RUN ===
+Timestamp: 2025-12-10 19:51:33.566380
+
+Parameters:
+min_len = 200 | max_len = 400 | tiny_cluster_size = 1
+
+edge_percentile = 90
+centrality_percentile = 80
+Initial split: 2257 passages
+Final split: 657 passages
+
+There are 8 money_passages and 2036 characters
+Number of clusters: 10
+Cluster 1 size: 188
+Cluster 2 size: 79
+Cluster 3 size: 184
+Cluster 4 size: 72
+Cluster 5 size: 82
+Cluster 6 size: 44
+Cluster 7 size: 1
+Cluster 8 size: 1
+Cluster 9 size: 3
+Cluster 10 size: 3
+there were 0 tiny clusters found
+
+There are 16 passages retrieved via centrality and 0 passages retrieved via MMR
+
+There are 5 passages retrieved via centrality in pricing summary
+There is 1245 chars retreived from pricing passages
+
+Centrality summary length: 5236
+Writing to txt file

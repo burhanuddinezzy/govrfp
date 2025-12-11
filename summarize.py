@@ -14,16 +14,16 @@ TITLE_TEXT = { "title": "EUR/Athens - Construction of half Basketball Court for 
 # CONFIG
 min_len = 200 # for split passage
 max_len = 400 # for split passage
-edge_percentile = 80 # to control minimum similarity required to connect nodes in graph
-aspect_percentile = 80
+edge_percentile = 90 # to control minimum similarity required to connect nodes in graph
+aspect_percentile = 90
 tiny_cluster_size = 1
-title_weight=0.5
-aspect_weight=0.5
+title_weight=0.7
+aspect_weight=0.3
 
 # selects passages whose similarity to the cluster centroid is above the percentile value;
 # np.percentile interpolates between values, so this may not correspond exactly to a strict top-X% by count
-centrality_percentile = 70
-
+centrality_percentile = 80
+pricing_percentile = 30
 # MMR isolation threshold: the minimum fraction of other passages that must be semantically dissimilar
 # for a passage to be selected. Higher values make selection stricter, keeping only passages that are
 # more isolated within the cluster.
@@ -42,11 +42,12 @@ def split_passages(text, min_len=min_len, max_len=max_len):
     print(f"Initial split: {len(passages)} passages")
 
     merged = []
+    money_passages = []
     buffer = ""
 
     for p in passages:
         if buffer:
-            p = buffer + " " + p
+            p = buffer + ". " + p
             buffer = ""
 
         if len(p) < min_len:
@@ -57,26 +58,28 @@ def split_passages(text, min_len=min_len, max_len=max_len):
             while start < len(p):
                 chunk = p[start:start + max_len].strip()
                 if len(chunk) >= min_len:
-                    merged.append(chunk)
-                else:
-                    # Small leftover chunk → merge with previous
-                    if merged:
-                        merged[-1] += " " + chunk
-                    else:
+                    if "$" in chunk:
+                        money_passages.append(chunk)
+                    else: 
                         merged.append(chunk)
+                else:
+                    buffer = chunk if not buffer else buffer + ". " + chunk
                 start += max_len
         else:
-            merged.append(p.strip())
+            if "$" in p:
+                money_passages.append(p)
+            else:
+                merged.append(p.strip())
 
     # If anything left in buffer, merge with last passage
     if buffer:
-        if merged:
-            merged[-1] += " " + buffer.strip()
+        if "$" in buffer:
+            money_passages.append(buffer)
         else:
             merged.append(buffer.strip())
 
     print(f"Final split: {len(merged)} passages\n")
-    return merged
+    return merged, money_passages
 
 def build_similarity_graph_from_embeddings(embeddings, edge_percentile=edge_percentile): # The process of graph construction from embeddings
     n = len(embeddings)
@@ -149,17 +152,34 @@ def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, t
         
     print(f"there were {tiny_cluster} tiny clusters found")
     print(f"\nThere are {total_central_passages} passages retrieved via centrality and {total_mmr_passages} passages retrieved via MMR")
-    return centrality_summary#, mmr_summary
+    return centrality_summary
+
+def summarize_pricing(passages, embeddings, pricing_percentile=pricing_percentile):
+    pricing_summary = []
+    total_central_passages = 0
+
+    centroid = np.mean(embeddings, axis=0, keepdims=True)
+    sims = cosine_similarity(embeddings, centroid).reshape(-1)
+    thresh = np.percentile(sims, pricing_percentile)
+    central_idxs = [i for i, s in enumerate(sims) if s >= thresh]
+
+    total_central_passages += len(central_idxs)
+
+    for idx in central_idxs:
+        pricing_summary.append(passages[idx])
+        
+    print(f"\nThere are {total_central_passages} passages retrieved via centrality in pricing summary")
+    return pricing_summary
 
 def select_clusters_based_on_aspect(
-    embeddings,
-    clusters_list,
-    aspect_vectors,   # dict: {aspect_name: centroid_vector}
-    title_vector,     # shape: (dim,)
-    aspect_percentile,
-    title_weight,
-    aspect_weight
-):
+        embeddings,
+        clusters_list,
+        aspect_vectors,   # dict: {aspect_name: centroid_vector}
+        title_vector,     # shape: (dim,)
+        aspect_percentile,
+        title_weight,
+        aspect_weight
+        ):
     cluster_scores = []
 
     # Stack centroid vectors (one per aspect)
@@ -205,11 +225,16 @@ def summarize_rfp(text, model):
 
     text = normalize_text(text)
 
-    passages = split_passages(text)
+    passages, money_passages = split_passages(text)
+    money_text = "\n".join(money_passages)
+    print(f"There are {len(money_passages)} money_passages and {len(money_text)} characters")
     if not passages:
         return "No Passages found"
+    if not money_passages:
+        print("No money passages found")
 
     embeddings = model.encode(passages, convert_to_numpy=True, show_progress_bar=False)
+    pricing_embeddings = model.encode(money_passages, convert_to_numpy=True, show_progress_bar=False)
 
     G = build_similarity_graph_from_embeddings(embeddings)
 
@@ -224,12 +249,17 @@ def summarize_rfp(text, model):
     relevant_clusters = select_clusters_based_on_aspect(embeddings,clusters,aspect_vectors,title_vector,aspect_percentile,title_weight,aspect_weight)
 
     centrality_summary = summarize_clusters_semantic_centrality_mmr(passages, embeddings, relevant_clusters)
+    pricing_summary = summarize_pricing(money_passages, pricing_embeddings)
 
     centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
+    pricing_summary = [money_passages[i] for i in sorted([money_passages.index(p) for p in pricing_summary])]
     flat_centrality = list(chain.from_iterable(centrality_summary)) if any(isinstance(i, list) for i in centrality_summary) else centrality_summary
-    centrality_text = "\n".join(flat_centrality)
+    flat_pricing_centrality = list(chain.from_iterable(pricing_summary)) if any(isinstance(i, list) for i in pricing_summary) else pricing_summary
 
-    return centrality_text#, mmr_text
+    centrality_text = "\n".join(flat_centrality) + "\n".join(flat_pricing_centrality)
+    print(f"There is {len("\n".join(flat_pricing_centrality))} chars retreived from pricing passages")
+
+    return centrality_text
 
 if __name__ == "__main__":
     data = np.load(aspect_vectors_path, allow_pickle=True)
@@ -241,6 +271,8 @@ if __name__ == "__main__":
 
     title_text = list(TITLE_TEXT.values())
     title_vector = model.encode(title_text, normalize_embeddings=True)
+
+    pricing_aspect_vector = np.load("aspect_method/pricing_vector.npy")
 
     sample_input = "sample_text.txt"
 
