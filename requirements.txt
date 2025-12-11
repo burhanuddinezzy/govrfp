@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+numpy
+networkx
+python-louvain
+sentence-transformers
+scikit-learn
+elasticsearch
+requests
+tika

@@ -1,31 +1,5 @@
-"""
-    "requirements": [
-        "The [SYSTEM/PRODUCT] shall support [FUNCTIONALITY], providing outputs in accordance with defined performance standards. All interfaces must comply with [INTERFACE_SPECIFICATION], and any deviations must be documented and approved.",
-        "All [COMPONENTS] shall meet specified tolerances and materials requirements. Testing shall be performed to verify conformance, with results recorded in [DOCUMENTATION/REPORT]. Any non-conforming items must be replaced or corrected.",
-        "The solution shall implement [FEATURES/PROCESSES] as described in the technical specifications. Each feature must undergo validation tests, with detailed logs of test results submitted for review.",
-        "[SOFTWARE MODULE] shall provide [FUNCTIONAL_CAPABILITY], including support for [INTERFACES]. Documentation of configuration, installation, and operational procedures shall be delivered alongside the module.",
-        "The [SYSTEM/PRODUCT] shall operate under specified conditions, including [ENVIRONMENTAL_FACTORS] and [LOAD_REQUIREMENTS]. Performance testing shall verify that all operational criteria are met.",
-        "Deliverables shall comply with [QUALITY_STANDARD], including verification of [METRICS]. Inspection reports shall detail conformance, deviations, and corrective actions taken.",
-        "The solution shall provide [SECURITY/ACCESS_CONTROL] capabilities according to the outlined requirements. Procedures for access management, authentication, and authorization must be documented and tested.",
-        "All [PROCESS/STEPS] shall be executed according to [PROCEDURES_GUIDELINES], ensuring accurate completion and verification. Results must be recorded, validated, and submitted in [REPORTS/DOCUMENTS].",
-        "[DEVICE/EQUIPMENT] shall meet specified operational parameters, including [RANGE, CAPACITY, PERFORMANCE]. Testing and calibration records must be maintained and submitted with the final deliverable.",
-        "The system shall support [INTEGRATION_REQUIREMENTS] with [OTHER_SYSTEMS]. Interfaces, data formats, and protocols must comply with specifications, and integration tests must demonstrate functionality.",
-        "Required documentation shall include [USER_GUIDES], [TECHNICAL_MANUALS], and [OPERATIONAL_PROCEDURES]. Documents must reflect all features, capabilities, and limitations of the delivered solution.",
-        "The product shall meet [PERFORMANCE_METRICS] under defined operational conditions. Measurement procedures must follow standardized testing protocols, with all results logged for verification.",
-        "All outputs shall conform to [ACCEPTANCE_CRITERIA], including accuracy, completeness, and timeliness. Deviations must be documented, and corrective measures implemented.",
-        "The system shall implement [DATA_PROCESSING_REQUIREMENTS] to ensure reliable and accurate handling of [DATA_TYPES]. Error detection, correction, and logging mechanisms must be included.",
-        "The solution shall provide configurable [FEATURES] to support [OPERATIONAL_REQUIREMENTS]. Functionality tests must demonstrate that all configurations operate correctly under anticipated scenarios.",
-        "Deliverables shall include [COMPONENTS/RESOURCES] specified in the requirements. Each component must meet performance and compatibility standards, verified through documented testing.",
-        "All [FUNCTIONS/TASKS] must be executed according to operational guidelines, with verification steps documented. Any deviations must be addressed and reported.",
-        "The system shall maintain [RELIABILITY/UPTIME] standards for [PERIOD]. Monitoring, logging, and reporting procedures shall be included to demonstrate compliance.",
-        "[SOFTWARE/SYSTEM] shall be compatible with [PLATFORMS/ENVIRONMENTS], and validation tests must verify interoperability. Documentation of configuration, setup, and troubleshooting shall accompany the system.",
-        "Required features shall be implemented as described in the specifications, with tests conducted to verify [FUNCTIONALITY, PERFORMANCE, SAFETY]. Detailed results must be submitted, including identified issues and resolution steps."
-        
-    ],"""
 import numpy as np
 from sentence_transformers import SentenceTransformer
-
-MODEL_NAME = "all-MiniLM-L6-v2"
 
 ASPECT_TEXTS = {
     "scope_of_work": [
@@ -83,8 +57,7 @@ ASPECT_TEXTS = {
     ]
 }
 
-TITLE_TEXT = { "title": "EUR/Athens - Construction of half Basketball Court for US Embassy, Athens"}
-
+MODEL_NAME = "all-MiniLM-L6-v2"
 _model = SentenceTransformer(MODEL_NAME)
 
 def save_aspect_vectors():

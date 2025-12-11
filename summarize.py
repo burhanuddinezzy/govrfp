@@ -7,16 +7,14 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import chain
 from datetime import datetime
+n = "01"
+folder_path = f"rfp_test_samples/sample{n}"
+aspect_vectors_path = "aspect_vectors.npz"
 
-aspect_vectors_path = "aspect_method/aspect_vectors.npz"
-TITLE_TEXT = { "title": "EUR/Athens - Construction of half Basketball Court for US Embassy, Athens"}
-
-# CONFIG
 min_len = 200 # for split passage
 max_len = 400 # for split passage
 edge_percentile = 90 # to control minimum similarity required to connect nodes in graph
 aspect_percentile = 90
-tiny_cluster_size = 1
 title_weight=0.7
 aspect_weight=0.3
 
@@ -24,10 +22,6 @@ aspect_weight=0.3
 # np.percentile interpolates between values, so this may not correspond exactly to a strict top-X% by count
 centrality_percentile = 80
 pricing_percentile = 30
-# MMR isolation threshold: the minimum fraction of other passages that must be semantically dissimilar
-# for a passage to be selected. Higher values make selection stricter, keeping only passages that are
-# more isolated within the cluster.
-mmr_isolation_threshold = 0.8
 
 def normalize_text(text):
     text = text.lower()
@@ -118,18 +112,17 @@ def cluster_graph(G): # The process of clustering the nodes (the embeddings) bas
 
     return clusters_list
 
-def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, tiny_cluster_size=tiny_cluster_size, centrality_percentile=centrality_percentile):
+def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, centrality_percentile=centrality_percentile):
     centrality_summary = []
-    mmr_summary = []
     tiny_cluster = 0
     total_central_passages = 0
-    total_mmr_passages = 0
 
     for cluster in clusters:
         if len(cluster) == 0:
             continue
 
         cluster_passages = [passages[i] for i in cluster]
+        print(f"cluster_passage count: {len(cluster_passages)}")
         cluster_embeds = embeddings[cluster]
 
         # --- Semantic centrality ---
@@ -140,18 +133,11 @@ def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, t
 
         total_central_passages += len(central_idxs)
 
-        # --- Tiny clusters → keep all passages ---
-        if len(cluster_passages) <= tiny_cluster_size:
-            tiny_cluster += 1
-            centrality_summary.extend(cluster_passages)
-            mmr_summary.extend(cluster_passages)
-            continue
-
         for idx in central_idxs:
             centrality_summary.append(cluster_passages[idx])
         
     print(f"there were {tiny_cluster} tiny clusters found")
-    print(f"\nThere are {total_central_passages} passages retrieved via centrality and {total_mmr_passages} passages retrieved via MMR")
+    print(f"\nThere are {total_central_passages} passages retrieved via centrality")
     return centrality_summary
 
 def summarize_pricing(passages, embeddings, pricing_percentile=pricing_percentile):
@@ -262,20 +248,22 @@ def summarize_rfp(text, model):
     return centrality_text
 
 if __name__ == "__main__":
+    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
     data = np.load(aspect_vectors_path, allow_pickle=True)
     names = data["names"]
     vectors = data["vectors"]
     aspect_vectors = {name: vectors[i] for i, name in enumerate(names)}
 
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-
-    title_text = list(TITLE_TEXT.values())
+    title_file = f"{folder_path}/title_file.txt"
+    with open(title_file, "r", encoding="utf-8") as r:
+        title = r.read()
+    title_text = list(title.values())
     title_vector = model.encode(title_text, normalize_embeddings=True)
 
     pricing_aspect_vector = np.load("aspect_method/pricing_vector.npy")
 
-    sample_input = "sample_text.txt"
-
+    sample_input = f"{folder_path}/sample_text.txt"
     with open(sample_input, "r", encoding="utf-8") as r:
         text = r.read()
 
@@ -290,25 +278,19 @@ if __name__ == "__main__":
         def flush(self):
             self.f.flush()
     sys.stdout = Logger(log_f)
-    print("\n\n=== NEW RUN ===")
-    print("Timestamp:", datetime.now())
-    print("\nParameters:")
-    print(f"min_len = {min_len} | max_len = {max_len} | tiny_cluster_size = {tiny_cluster_size}")
-    print(f"\nedge_percentile = {edge_percentile}")
-    print(f"centrality_percentile = {centrality_percentile}")
-
+    
     centrality_summary = summarize_rfp(text, model)
 
-    print(f"\nCentrality summary length: {len(centrality_summary)}")
+    print(f"\n\nRUN {folder_path}| Timestamp: {datetime.now()}")
+    print(f"Passage Length: {min_len} to {max_len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Aspect weight={aspect_weight}")
+    print(f"\nSummary length: {len(centrality_summary)} chars")
+    print("Comments:")
 
-    print("Writing to txt file")
-    with open ("centrality_summary.txt", "w") as f:
+    summary_output = f"{folder_path}/summary.txt"
+    with open (summary_output, "w") as f:
         f.write(centrality_summary)
     
     sys.stdout = sys.__stdout__
     log_f.close()
-
-    print("Run completed. All output appended to log.txt")
-
         
 
