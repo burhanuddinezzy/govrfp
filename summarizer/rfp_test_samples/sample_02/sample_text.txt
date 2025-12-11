@@ -1,0 +1,2259 @@
+December 5, 2025
+To: Prospective Quoters
+Subject: Request for Quotations Number 19GR1026Q0004
+Enclosed is a Request for Quotations (RFQ) for the construction of a half size basketball court at a U.S.
+Government-owned residence in Athens, Greece.
+If you would like to submit a quotation, follow the instructions in Section J of the solicitation, complete
+the required portions of the attached document, and submit it to the address shown on the Standard Form
+18 that follows this letter.
+Your quotation must be submitted electronically by email with the subject line “Quotation
+19GR1026Q0001 Enclosed” to Athensoffers@state.gov on or before 10:00 morning (Athens Time) on
+December 29, 2025. No quotation will be accepted after the cut-off date and time. Offerors are advised
+to check their inbox for the automated email acknowledgement confirming receipt of their submission. If
+no acknowledgment is received, it may indicate the submission was not successfully delivered, and
+follow-up action may be required.
+The U.S. Government intends to award a contract/purchase order to the responsible company submitting
+an acceptable quotation at the lowest price. We intend to award a contract/purchase order based on initial
+quotations, without holding discussions, although we may hold discussions with companies in the
+competitive range if there is a need to do so.
+In order for a quotation to be considered, you must also complete and submit the following:
+1. SF-18;
+2. Section A, Price
+3. Attachment 3, Proposal Breakdown by Divisions;
+3. Section L, Representations and Certifications, FAR Provisions 52.204-24 and 52.204-26;
+4. Bar Chart illustrating sequence of work to be performed;
+5. Additional information as required in Section J, Quotation Information;
+6. Your company UEI (Unique Entity Identifier) number as proof of SAM Registration
+(required if your quotation is above $30,000).
+Offerors shall be registered in the SAM (System for Award Management) database at
+https://www.sam.gov prior to submittal of their offer/proposal as prescribed under FAR 4.1102. Failure to
+be registered at time of proposal submission may deem the offeror’s proposal to be considered nonresponsible and no further consideration will be given. Therefore, offerors are highly encouraged to
+register immediately if they are interested in submitting a response to this requirement (required for
+quotations above $30,000 in value).
+Embassy of the United States of America
+Athens, Greece
+The contract will be a firm fixed price contract, with no adjustment for any escalation in costs or prices of
+labor or materials. Each quoter will be responsible for determining the amount of labor and materials that
+will be required to complete the project, and for pricing its quotation accordingly.
+The on-site construction completion time is forty-five (45) calendar days after receiving the Notice to
+Proceed. In the event of an unauthorized or unexcused delay in completing the project, liquidated
+damages in the amount of €100.00 per calendar day will be assessed until substantial completion of the
+project is achieved.
+The Contracting Officer reserves the right to reject any and all quotations and to waive any informality in
+quotations received. In addition, the Embassy reserves the right to establish a competitive range of one or
+more quoters and to conduct further negotiations concerning price and other terms before awarding the
+contract, or to award without discussions.
+Please direct any questions regarding this solicitation in writing to Athprocurement@state.gov.
+Questions must be written in English, and may be sent by 12.00 hours local time, on December 16,
+2025.
+Sincerely,
+Dresden A. Kalin
+Contracting Officer
+Enclosure: As stated
+1
+AUTHORIZED FOR LOCAL REPRODUCTION STANDARD FORM 18 (Rev. 6-95)
+Previous edition not usable Prescribed by GSA-FAR (48 CFR)
+REQUEST FOR QUOTATIONS
+(THIS IS NOT AN ORDER)
+THIS RFQ [ ] IS [X] IS NOT A SMALL BUSINESSSMALL PURCHASE SET-ASIDE (52.219-4)
+PAGE
+1
+OF PAGES
+61
+1. REQUEST NO.
+19GR1026Q0004
+2. DATE ISSUED
+December 5, 2025
+3. REQUISITION/PURCHASE
+REQUEST NO. PR15704364
+4. CERT. FOR NAT. DEF.
+UNDER BDSA REG. 2
+AND/OR DMS REG. 1
+RATING
+5A. ISSUED BY
+U.S. Embassy Athens – GSO/Procurement
+91 Vas. Sofias Avenue
+101 60 ATHENS
+6. DELIVER BY (Date)
+5B. FOR INFORMATION CALL: (Name and telephone no.) (No collect calls 7. DELIVERY
+FOB DESTINATION OTHER (See Schedule) NAME – George Dimitrokallis
+Email: AthProcurement@state.gov
+TELEPHONE NUMBER
+AREA
+CODE
+NUMBER
+8. TO: 9. DESTINATION
+a. NAME b. COMPANY a. NAME OF CONSIGNEE
+AMERICAN EMBASSY ATHENS
+c. STREET ADDRESS b. STREET ADDRESS
+91 VAS. SOPHIAS AV, ATTN: GSO
+d. CITY e. STATE f. ZIP
+CODE
+c. CITY
+ATHENS
+d.
+STATE
+e. ZIP CODE
+10160
+10. PLEASE FURNISH
+QUOTATIONS TO THE ISSUING
+OFFICE IN BLOCK 5A ON OR
+BEFORE CLOSE OF BUSINESS
+(Date) – December 29, 2025, at
+10.00 (Athens Local Time)
+IMPORTANT: This is a request for information, and quotations furnished are not offers. If you are unable to
+quote, please so indicate on this form and return it to the address in Block 5A. This request does not commit the
+Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies
+or services. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or
+certifications attached to this Request for Quotations must be completed by the quoter
+11. SCHEDULE (Include applicable Federal, State and local taxes)
+ITEM
+NO.
+(a)
+SUPPLIES/SERVICES
+(b)
+QUANTITY
+(c)
+UNIT
+(d)
+UNIT PRICE
+(e)
+AMOUNT
+(f)
+Construction of a half size basketball court
+at a U.S. Government-owned residence in
+Athens, Greece, as per attached.
+ORAL OR FACSIMILE QUOTATIONS WILL NOT
+BE ACCEPTED.
+1
+
+ALL Euros
+12 DISCOUNT FOR PROMPT PAYMENT a. 10
+CALEN
+DAR
+DAYS
+%
+b. 20 CALENDAR
+DAYS
+%
+c. 30 CALENDAR
+DAYS
+%
+d. CALENDAR DAYS
+NUMBER %
+NOTE: Additional provisions and representations [X] are [ ] are not attached
+13 NAME AND ADDRESS OF QUOTER 14 SIGNATURE OF PERSON
+AUTHORIZED TO SIGN QUOTATION
+15 DATE OF QUOTATION
+a. NAME OF QUOTER
+b. STREET ADDRESS 16. SIGNER
+c. COUNTY a. NAME (Type or print) b. TELEPHONE
+d. CITY e. STATE f. ZIP CODE c. TITLE (Type or print) AREA CODE
+NUMBER
+2
+TABLE OF CONTENTS
+A. PRICING
+B. STATEMENT OF WORK
+C. PACKAGING AND MARKING
+D. INSPECTION AND ACCEPTANCE
+E. DELIVERIES AND PERFORMANCE
+F. CONTRACT ADMINISTRATION DATA
+G. SPECIAL TERMS AND CONDITIONS
+H. CLAUSES
+I. LIST OF ATTACHMENTS
+Attachment 1: Performance and Guaranty Bond
+Attachment 2: Payment Bond
+Attachment 3: Breakdown of Price by Divisions of Specifications
+Attachment 4: Specifications
+J. INSTRUCTIONS ON HOW TO SUBMIT A QUOTATION
+K. EVALUATION CRITERIA
+L. REPRESENTATIONS, CERTIFICATIONS AND OTHER STATEMENTS
+3
+SECTION A - PRICING
+A. PRICE
+The Contractor shall complete all work, including furnishing all labor, material, equipment, and services
+required under this purchase order for the following firm fixed price and within the time specified. This
+price shall include all labor, materials, all insurances, overhead and profit.
+Item no Description Cost in Euros
+1
+Construction of half size Basketball Court (including all labor, materials,
+overhead and profit) - excluding the optional items
+2 DBA Insurance
+Total Price
+OPTIONAL ITEMS
+The Government reserves the right to unilaterally award any option item/s not awarded with the base line
+items within 90 days from the issuing of the Notice to Proceed (NTP).
+Item no Description Cost in Euros
+1 Chain-link fence
+2 Windscreen
+3 LED Lighting fixtures
+Total Price
+A.1 VALUE ADDED TAX
+The Government will not reimburse the Contractor for VAT under this contract. The Contractor shall not
+include a line for VAT on Invoices as the U.S. Embassy has a tax exemption certificate with the host
+government.
+4
+SECTION B - STATEMENT OF WORK
+The character and scope of the work are set forth in the contract. The Contractor shall furnish and install
+all materials required by this contract.
+In case of differences between small and large-scale drawings, the latter will govern. Where a portion of
+the work is drawn in detail and the remainder of the work is indicated in outline, the parts drawn in detail
+shall apply also to all other portions of the work.
+5
+SECTION C - PACKAGING AND MARKING
+Mark materials delivered to the site as follows:
+(To be provided upon award)
+6
+SECTION D - INSPECTION AND ACCEPTANCE
+The COR, or his/her authorized representatives, will inspect from time to time the services being
+performed and the supplies furnished to determine whether work is being performed in a satisfactory
+manner, and that all supplies are of acceptable quality and standards.
+The Contractor shall be responsible for any countermeasures or corrective action, within the scope of this
+contract, which may be required by the Contracting Officer as a result of such inspection.
+D.1 SUBSTANTIAL COMPLETION
+(a) "Substantial Completion" means the stage in the progress of the work as determined and certified by
+the Contracting Officer in writing to the Contractor, on which the work (or a portion designated by the
+Government) is sufficiently complete and satisfactory. Substantial completion means that the property
+may be occupied or used for the purpose for which it is intended, and only minor items such as touch-up,
+adjustments, and minor replacements or installations remain to be completed or corrected which:
+(1) do not interfere with the intended occupancy or utilization of the work, and
+(2) can be completed or corrected within the time period required for final completion.
+(b) The "date of substantial completion" means the date determined by the Contracting Officer or
+authorized Government representative as of which substantial completion of the work has been achieved.
+Use and Possession upon Substantial Completion - The Government shall have the right to take
+possession of and use the work upon substantial completion. Upon notice by the Contractor that the work
+is substantially complete (a Request for Substantial Completion) and an inspection by the Contracting
+Officer or an authorized Government representative (including any required tests), the Contracting
+Officer shall furnish the Contractor a Certificate of Substantial Completion. The certificate will be
+accompanied by a Schedule of Defects listing items of work remaining to be performed, completed, or
+corrected before final completion and acceptance. Failure of the Contracting Officer to list any item of
+work shall not relieve the Contractor of responsibility for complying with the terms of the contract. The
+Government's possession or use upon substantial completion shall not be deemed an acceptance of any
+work under the contract.
+D.2 FINAL COMPLETION AND ACCEPTANCE
+D.2.1 "Final completion and acceptance" means the stage in the progress of the work as determined by
+the Contracting Officer and confirmed in writing to the Contractor, at which all work required under the
+contract has been completed in a satisfactory manner, subject to the discovery of defects after final
+completion, and except for items specifically excluded in the notice of final acceptance.
+D.2.2 The "date of final completion and acceptance" means the date determined by the Contracting
+Officer when final completion of the work has been achieved, as indicated by written notice to the
+Contractor.
+D.2.3 FINAL INSPECTION AND TESTS. The Contractor shall give the Contracting Officer at least
+five (5) days advance written notice of the date when the work will be fully completed and ready for final
+inspection and tests. Final inspection and tests will be started not later than the date specified in the
+notice unless the Contracting Officer determines that the work is not ready for final inspection and so
+informs the Contractor.
+7
+D.2.4 FINAL ACCEPTANCE. If the Contracting Officer is satisfied that the work under the contract is
+complete (with the exception of continuing obligations), the Contracting Officer shall issue to the
+Contractor a notice of final acceptance and make final payment upon:
+• Satisfactory completion of all required tests,
+• A final inspection that all items by the Contracting Officer listed in the Schedule of Defects have
+been completed or corrected and that the work is finally complete (subject to the discovery of defects
+after final completion), and
+• Submittal by the Contractor of all documents and other items required upon completion of the
+work, including a final request for payment (Request for Final Acceptance).
+8
+SECTION E - DELIVERIES AND PERFORMANCE
+52.211-10 COMMENCEMENT, PROSECUTION, AND COMPLETION OF WORK
+(APR 1984)
+The Contractor shall be required to:
+(a) commence work under this contract within ten (10) calendar days after the date the
+Contractor receives the notice to proceed,
+(b) prosecute the work diligently, and,
+(c) complete the entire work ready for use not later than forty-five (45) calendar days after
+commencing work.
+The time stated for completion shall include final cleanup of the premises.
+52.211-12 LIQUIDATED DAMAGES - CONSTRUCTION (SEPT 2000)
+(a) If the Contractor fails to complete the work within the time specified in the contract, or any
+extension, the Contractor shall pay liquidated damages to the Government in the amount of 100.00EUR
+for each calendar day of delay until the work is completed or accepted.
+(b) If the Government terminates the Contractor’s right to proceed, liquidated damages will continue
+to accrue until the work is completed. These liquidated damages are in addition to excess costs of
+repurchase under the Default clause.
+CONTRACTOR'S SUBMISSION OF CONSTRUCTION SCHEDULES
+(a) The time for submission of the schedules referenced in FAR 52.236-15, "Schedules for
+Construction Contracts", paragraph (a), is hereby modified to reflect the due date for submission as "ten
+(10) calendar days after receipt of an executed contract".
+(b) These schedules shall include the time by which shop drawings, product data, samples
+and other submittals required by the contract will be submitted for approval.
+(c) The Contractor shall revise such schedules (1) to account for the actual progress of the
+work, (2) to reflect approved adjustments in the performance schedule, and (3) as required by the
+Contracting Officer to achieve coordination with work by the Government and any separate contractors
+used by the Government. The Contractor shall submit a schedule, which sequences work so as to
+minimize disruption at the job site.
+(d) All deliverables shall be in the English language and any system of dimensions (English
+or metric) shown shall be consistent with that used in the contract. No extension of time shall be allowed
+due to delay by the Government in approving such deliverables if the Contractor has failed to act
+promptly and responsively in submitting its deliverables. The Contractor shall identify each deliverable
+as required by the contract.
+(e) Acceptance of Schedule: When the Government has accepted any time schedule; it shall
+be binding upon the Contractor. The completion date is fixed and may be extended only by a written
+contract modification signed by the Contracting Officer. Acceptance or approval of any schedule or
+revision thereof by the Government shall not:
+9
+(1) Extend the completion date or obligate the Government to do so,
+(2) Constitute acceptance or approval of any delay, or
+(3) Excuse the Contractor from or relieve the Contractor of its obligation to maintain the
+progress of the work and achieve final completion by the established completion date.
+NOTICE OF DELAY
+If the Contractor receives a notice of any change in the work, or if any other conditions arise which are
+likely to cause or are actually causing delays which the Contractor believes may result in late completion
+of the project, the Contractor shall notify the Contracting Officer. The Contractor’s notice shall state the
+effect, if any, of such change or other conditions upon the approved schedule, and shall state in what
+respects, if any, the relevant schedule, or the completion date should be revised. The Contractor shall
+give such notice promptly, not more than ten (10) days after the first event giving rise to the delay or
+prospective delay. Only the Contracting Officer may revise the approved time schedule.
+NOTICE TO PROCEED
+(a) After receiving and accepting any bonds or evidence of insurance, the Contracting Officer will
+provide the Contractor a Notice to Proceed. The Contractor must then prosecute the work, commencing
+and completing performance not later than the time period established in the contract.
+(b) It is possible that the Contracting Officer may elect to issue the Notice to Proceed before receipt
+and acceptance of any bonds or evidence of insurance. Issuance of a Notice to Proceed by the
+Government before receipt of the required bonds or insurance certificates or policies shall not be a waiver
+of the requirement to furnish these documents.
+WORKING HOURS
+All non-disruptive work shall be performed during 08:00-16:00 hours, Mondays through Fridays.
+Other hours, if requested by the Contractor, may be approved by the Contracting Officer's Representative
+(COR). The Contractor shall give 24 hours in advance to COR who will consider any deviation from the
+hours identified above. Changes in work hours, initiated by the Contractor, will not be a cause for a price
+increase.
+The contractor shall respect the quiet hours as defined by the Greek government.
+No extra compensation or payments will be made to the Contractor for any change requests in working
+hours made to the COR by the Contractor.
+10
+DELIVERABLES - The following items shall be delivered under this contract:
+Description Quantity Deliver Date Deliver To
+Section G. Performance Bond 1 10 days after award CO
+Section G. Payment Bond 1 10 days after award CO
+Section G. General Liability Insurance and DBA 1 10 days after award CO
+Section G. Securities/ Personnel Biographies 1 10 days after award COR
+Section E. Construction Schedule 1 10 days after award COR
+Section F. Payment Request 1
+Last calendar day of
+each month COR
+Section D. Request for Substantial Completion 1
+15 days before
+inspection COR
+Section D. Request for Final Acceptance 1
+5 days before
+inspection COR
+11
+SECTION F – CONTRACT ADMINISTRATION DATA
+652.242-70 CONTRACTING OFFICER'S REPRESENTATIVE (COR) (AUG 1999)
+(a) The Contracting Officer may designate in writing one or more Government employees,
+by name or position title, to take action for the Contracting Officer under this contract. Each designee
+shall be identified as a Contracting Officer’s Representative (COR). Such designation(s) shall specify the
+scope and limitations of the authority so delegated; provided, that the designee shall not change the terms
+or conditions of the contract, unless the COR is a warranted Contracting Officer, and this authority is
+delegated in the designation.
+(b) The COR for this contract is the Facility Supervisor.
+Payment: The Contractor's attention is directed to Section H, 52.232-5, "Payments Under FixedPrice Construction Contracts". The following elaborates on the information contained in that clause.
+Requests for payment, may be made no more frequently than monthly. Payment requests shall cover the
+value of labor and materials completed and in place, including a prorated portion of overhead and profit.
+After receipt of the Contractor's request for payment, and on the basis of an inspection of the work, the
+Contracting Officer shall make a determination as to the amount, which is then due. If the Contracting
+Officer does not approve payment of the full amount applied for, less the retainage allowed by in 52.232-
+5, the Contracting Officer shall advise the Contractor as to the reasons.
+Under the authority of 52.232-27(a), the 14 day period identified in FAR 52.232-27(a)(1)(i)(A) is hereby
+changed to 30 days.
+The electronic invoicing is the preferred means of submitting invoices. The contractor is encouraged to
+create and submit electronic invoices for this contract, in lieu of paper copies, to
+ATHFMCVOUCHER@state.gov. Electronic invoices shall be submitted to the designated billing office
+specified below.
+Designated Billing Office. The designated billing office address is as follows:
+Attention: Financial Management Office
+U.S. Embassy Athens
+Purchase Order number 19GR1026P- (to be provided upon award)
+91, Vas. Sofias Avenue,
+10160 Athens
+The FMO will log in receipt of the invoice and forward to the COR for approval.
+Payment shall be made in local currency by Electronic Funds Transfer (EFT) within 30 calendar
+days after receipt of the proper statement. Payments may be made directly to any bank account
+established by the Contractor to receive payments. If there is a wire fee for the wire transfer, this fee is
+the responsibility of the beneficiary. Inquiries pertaining to payment will only be addressed to telephone
+number is 210-720-4774.
+The Government will not reimburse the Contractor for VAT under this contract. The Contractor
+shall not include a line for VAT on Invoices as the U.S. Embassy has a tax exemption certificate with the
+host government.
+12
+SECTION G - SPECIAL TERMS AND CONDITIONS
+G.1.0 Performance/Payment Protection - The Contractor shall furnish (1) a performance and guaranty
+bond and a payment bond on forms provided by and from sureties acceptable to the Government, each in
+the amount of 20% of the contract price, or (2) comparable alternate performance security approved by
+the Government. The required performance and payment securities shall remain in effect in the full
+amount required until the final acceptance of the project by the Government, at which time the penal sum
+of the performance security only shall be reduced to 10% of the contract price. The performance security
+shall remain in effect for one year after the date of final completion and acceptance, and the Contractor
+shall pay any premium required for the entire period of coverage. The requirement for payment security
+terminates at final acceptance.
+G.1.1 The Contractor shall provide the information required by the paragraph above within ten (10)
+calendar days after award. Failure to timely submit the required security may result in rescinding or
+termination of the contract by the Government. If the contract is terminated, the Contractor will be liable
+for those costs as described in FAR 52.249-10, Default (Fixed-Price Construction), which is included in
+this purchase order.
+G.1.2 The bonds or alternate performance security shall guarantee the Contractor's execution and
+completion of the work within the contract time. This security shall also guarantee the correction of any
+defects after completion, the payment of all wages and other amounts payable by the Contractor under its
+subcontracts or for labor and materials, and the satisfaction or removal of any liens or encumbrances
+placed on the work.
+G.1.3 The required securities shall remain in effect in the full amount required until final acceptance of
+the project by the Government. Upon final acceptance, the penal sum of the performance security shall
+be reduced to 10% of the contract price. The security shall remain in effect for one year after the date of
+final completion and acceptance, and the Contractor shall pay any premium required for the entire period
+of coverage.
+G.2.0 INSURANCE - The Contractor is required by FAR 52.228-5, "Insurance - Work on a
+Government Installation" to provide whatever insurance is legally necessary. The Contractor shall at its
+own expense provide and maintain during the entire performance period the following insurance amounts:
+G.2.1 GENERAL LIABILITY (includes premises/operations, collapse hazard, products, completed
+operations, contractual, independent contractors, broad form property damage, personal injury):
+Bodily Injury AND PROPERTY DAMAGE, On or Off the Site
+Per Occurrence Euros 17,608.00
+Cumulative Euros 44, 020.00
+G.2.2 The foregoing types and amounts of insurance are the minimums required. The Contractor shall
+obtain any other types of insurance required by local law or that are ordinarily or customarily obtained in
+the location of the work. The limit of such insurance shall be as provided by law or sufficient to meet
+normal and customary claims.
+G.2.3 The Contractor agrees that the Government shall not be responsible for personal injuries or for
+damages to any property of the Contractor, its officers, agents, servants, and employees, or any other 
+13
+person, arising from and incident to the Contractor's performance of this contract. The Contractor shall
+hold harmless and indemnify the Government from any and all claims arising therefrom, except in the
+instance of gross negligence on the part of the Government.
+G.2.4 The Contractor shall obtain adequate insurance for damage to, or theft of, materials and
+equipment in insurance coverage for loose transit to the site or in storage on or off the site.
+G.2.5 The general liability policy required of the Contractor shall name "the United States of America,
+acting by and through the Department of State", as an additional insured with respect to operations
+performed under this contract.
+G.3.0 DOCUMENT DESCRIPTIONS
+G.3.1 SUPPLEMENTAL DOCUMENTS: The Contracting Officer shall furnish from time to time
+such detailed drawings and other information as is considered necessary, in the opinion of the Contracting
+Officer, to interpret, clarify, supplement, or correct inconsistencies, errors or omissions in the Contract
+documents, or to describe minor changes in the work not involving an increase in the contract price or
+extension of the contract time. The Contractor shall comply with the requirements of the supplemental
+documents, and unless prompt objection is made by the Contractor within 20 days, their issuance shall not
+provide for any claim for an increase in the Contract price or an extension of contract time.
+G.3.1.1.RECORD DOCUMENTS. The Contractor shall maintain at the project site:
+(1) a current marked set of Contract drawings and specifications indicating all interpretations and
+clarification, contract modifications, change orders, or any other departure from the contract
+requirements approved by the Contracting Officer; and,
+(2) a complete set of record shop drawings, product data, samples and other submittals as
+approved by the Contracting Officer.
+G.3.1.2 . "As-Built" Documents: After final completion of the work, but before final acceptance thereof,
+the Contractor shall provide:
+(1) a complete set of "as-built" drawings, based upon the record set of drawings, marked to show
+the details of construction as actually accomplished; and,
+(2) record shop drawings and other submittals, in the number and form as required by the
+specifications.
+G.4.0 LAWS AND REGULATIONS - The Contractor shall, without additional expense to the
+Government, be responsible for complying with all laws, codes, ordinances, and regulations applicable to
+the performance of the work, including those of the host country, and with the lawful orders of any
+governmental authority having jurisdiction. Host country authorities may not enter the construction site
+without the permission of the Contracting Officer. Unless otherwise directed by the Contracting Officer,
+the Contractor shall comply with the more stringent of the requirements of such laws, regulations, and
+orders and of the contract. In the event of a conflict between the contract and such laws, regulations and
+orders, the Contractor shall promptly advise the Contracting Officer of the conflict and of the Contractor's
+proposed course of action for resolution by the Contracting Officer. 
+14
+G.4.1 The Contractor shall comply with all local labor laws, regulations, customs, and practices
+pertaining to labor, safety, and similar matters, to the extent that such compliance is not inconsistent with
+the requirements of this contract.
+G.4.2 The Contractor shall give written assurance to the Contracting Officer that all subcontractors and
+others performing work on or for the project have obtained all requisite licenses and permits.
+G.4.3 The Contractor shall submit proper documentation and evidence satisfactory to the Contracting
+Officer of compliance with this clause.
+G.5.0 CONSTRUCTION PERSONNEL - The Contractor shall maintain discipline at the site and at all
+times take all reasonable precautions to prevent any unlawful, riotous, or disorderly conduct by or among
+those employed at the site. The Contractor shall ensure the preservation of peace and protection of
+persons and property in the neighborhood of the project against such action. The Contracting Officer may
+require, in writing that the Contractor remove from the work any employee that the Contracting Officer
+deems incompetent, careless, insubordinate or otherwise objectionable, or whose continued employment
+on the project is deemed by the Contracting Officer to be contrary to the Government's interests.
+G.5.1 If the Contractor has knowledge that any actual or potential labor dispute is delaying or threatens
+to delay the timely performance of this contract, the Contractor shall immediately give notice, including
+all relevant information, to the Contracting Officer.
+G.5.2 After award, the Contractor has ten calendar days to submit to the Contracting Officer a list of
+workers and supervisors assigned to this project for the Government to conduct all necessary security
+checks. It is anticipated that security checks will take four to five weeks to perform. For each individual,
+the list shall include:
+ Full Name
+ Place and Date of Birth
+ Current Address
+ Identification number
+(Individual application forms provided by the Security Office of the Embassy)
+Failure to provide any of the above information may be considered grounds for rejection and/or
+resubmittal of the application. Once the Government has completed the security screening and approved
+the applicants a badge will be provided to the individual for access to the site. This badge may be revoked
+at any time due to the falsification of data, or misconduct on site.
+G.5.3 The Contractor shall provide an English speaking supervisor on site at all times. This position is
+considered as key personnel under this purchase order.
+G.6.0 Materials and Equipment - All materials and equipment incorporated into the work shall be new
+and for the purpose intended, unless otherwise specified. All workmanship shall be of good quality and
+performed in a skillful manner that will withstand inspection by the Contracting Officer.
+G.7.0 SPECIAL WARRANTIES
+G.7.1 Any special warranties that may be required under the contract shall be subject to the stipulations
+set forth in 52.246-21, "Warranty of Construction", as long as they are not in conflict.
+15
+G.7.2 The Contractor shall obtain and furnish to the Government all information required to make any
+subcontractor's, manufacturer's, or supplier's guarantee or warranty legally binding and effective. The
+Contractor shall submit both the information and the guarantee or warranty to the Government in
+sufficient time to permit the Government to meet any time limit specified in the guarantee or warranty,
+but not later than completion and acceptance of all work under this contract.
+G.8.0 EQUITABLE ADJUSTMENTS
+Any circumstance for which the contract provides an equitable adjustment that causes a change within the
+meaning of paragraph (a) of the "Changes" clause shall be treated as a change under that clause; provided,
+that the Contractor gives the Contracting Officer prompt written notice (within 20 days) stating:
+(a) the date, circumstances, and applicable contract clause authorizing an equitable adjustment
+and
+(b) that the Contractor regards the event as a changed condition for which an equitable
+adjustment is allowed under the contract
+The Contractor shall provide written notice of a differing site condition within 10 calendar days of
+occurrence following FAR 52.236-2, Differing Site Conditions.
+G.9.0 ZONING APPROVALS AND PERMITS
+Reserved
+Please check Statement of Work, A1 Introduction, Paragraph e, which states that the Contractor shall be
+responsible to issue any required permits from the Municipality of Athens and/or the city planning offices
+in order to perform this work
+16
+SECTION H - CLAUSES
+52.252-2 CLAUSES INCORPORATED BY REFERENCE (FEB 1998)
+This contract incorporates one or more clauses by reference, with the same force and effect as if they
+were given in full text. Upon request, the Contracting Officer will make their full text available. In
+addition, the full text of a clause may be accessed electronically at: Acquisition.gov this address is
+subject to change.
+If the Federal Acquisition Regulation (FAR) is not available at the location indicated above, use the
+Department of State Acquisition website at e-CFR to see the links to the FAR. You may also use an
+Internet “search engine” (for example, Google, Yahoo or Excite) to obtain the latest location of the most
+current FAR.
+THE FOLLOWING FEDERAL ACQUISITION REGULATION CLAUSE(S) IS/ARE
+INCORPORATED BY REFERENCE (48 CFR CH. 1):
+CLAUSE TITLE AND DATE
+52.202-1 DEFINITIONS (JUN 2020)
+52.203-17 CONTRACTOR EMPLOYEE WHISTLEBLOWER RIGHTS (NOV 2023)
+52.204-9 PERSONAL IDENTITY VERIFICATION OF CONTRACTOR PERSONNEL (JAN
+2011)
+52.204-10 REPORTING EXECUTIVE COMPENSATION AND FIRST-TIER SUBCONTRACT
+AWARDS (JUN 2020)
+52.204-13 SYSTEM FOR AWARD MANAGEMENT MAINTENANCE (OCT 2018)
+52.204-18 COMMERCIAL AND GOVERNMENT ENTITY CODE MAINTENANCE (AUG
+2020)
+52.204-19 INCORPORATION BY REFERENCE OF REPRESENTATIONS AND
+CERTIFICATIONS (DEC 2014)
+52.204-27 PROHIBITION ON A BYTEDANCE COVERED APPLICATION (JUN 2023)
+52.209-6 PROTECTING THE GOVERNMENT'S INTEREST WHEN SUBCONTRACTING
+WITH CONTRACTORS DEBARRED, SUSPENDED OR PROPOSED FOR
+DEBARMENT OR VOLUNTARILY EXCLUDED (JAN 2025)
+52.216-7 ALLOWABLE COST AND PAYMENT (AUG 2018)
+52.222-1 NOTICE TO THE GOVERNMENT OF LABOR DISPUTES (FEB 1997)
+52.222-19 CHILD LABOR-COOPERATION WITH AUTHORITIES AND REMEDIES (JAN
+2025)
+52.222-50 COMBATING TRAFFICKING IN PERSONS (NOV 2021)
+52.225-5 TRADE AGREEMENTS (NOV 2023)
+52.225-13 RESTRICTIONS ON CERTAIN FOREIGN PURCHASES (FEB 2021)
+52.225-14 INCONSISTENCY BETWEEN ENGLISH VERSION AND TRANSLATION OF
+CONTRACT (FEB 2000)
+52.226-8 ENCOURAGING CONTRACTOR POLICIES TO BAN TEXT MESSAGING WHILE
+DRIVING (MAY 2024)
+52.228-3 WORKERS’ COMPENSATION INSURANCE (DEFENSE BASE ACT) (JUL 2014)
+52.228-4 WORKERS’ COMPENSATION AND WAR-HAZARD INSURANCE OVERSEAS
+(APR 1984)
+52.228-5 INSURANCE - WORK ON A GOVERNMENT INSTALLATION (JAN 1997)
+52.228-11 PLEDGES OF ASSETS (FEB 2021)
+52.228-13 ALTERNATIVE PAYMENT PROTECTION (JULY 2000)
+17
+52.228-14 IRREVOCABLE LETTER OF CREDIT (NOV 2014)
+52.228-15 PERFORMANCE AND PAYMENT BONDS-CONSTRUCTION (JUN 2020)
+52.229-6 TAXES - FOREIGN FIXED-PRICE CONTRACTS (FEB 2013)
+52.229-7 TAXES- FIXED PRICE CONTRACTS WITH FOREIGN GOVERNMENTS (FEB
+2013)
+52.232-5 PAYMENTS UNDER FIXED-PRICE CONSTRUCTION CONTRACTS (MAY 2014)
+52.232-8 DISCOUNTS FOR PROMPT PAYMENT (FEB 2002)
+52.232-11 EXTRAS (APR 1984)
+52.232-18 AVAILABILITY OF FUNDS (APR 1984)
+52.232-22 LIMITATION OF FUNDS (APR 1984)
+52.232-25 PROMPT PAYMENT (JAN 2017)
+52.232-27 PROMPT PAYMENT FOR CONSTRUCTION CONTRACTS (JAN 2017)
+52.232-33 PAYMENT BY ELECTRONIC FUNDS TRANSFER - SYSTEM FOR AWARD
+MANAGEMENT (OCT 2018)
+52.232-34 PAYMENT BY ELECTRONIC FUNDS TRANSFER – OTHER THAN
+SYSTEM FOR AWARD MANAGEMENT (JULY 2013)
+52.233-1 DISPUTES (MAY 2014) ALTERNATE I (DEC 1991)
+52.233-3 PROTEST AFTER AWARD (AUG 1996)
+52.236-2 DIFFERING SITE CONDITIONS (APR 1984)
+52.236-3 SITE INVESTIGATION AND CONDITIONS AFFECTING THE WORK (APR 1984)
+52.236-5 MATERIAL AND WORKMANSHIP (APR 1984)
+52.236-6 SUPERINTENDENCE BY THE CONTRACTOR (APR 1984)
+52.236-7 PERMITS AND RESPONSIBILITIES (NOV 1991)
+52.236-8 OTHER CONTRACTS (APR 1984)
+52.236-9 PROTECTION OF EXISTING VEGETATION, STRUCTURES, EQUIPMENT,
+UTILITIES, AND IMPROVEMENTS (APR 1984)
+52.236-10 OPERATIONS AND STORAGE AREAS (APR 1984)
+52.236-11 USE AND POSSESSION PRIOR TO COMPLETION (APR 1984)
+52.236-12 CLEANING UP (APR 1984)
+52.236-13 ACCIDENT PREVENTION (NOV 1991)
+52.236-14 AVAILABILITY AND USE OF UTILITY SERVICES (APR 1984)
+52.236-15 SCHEDULES FOR CONSTRUCTION CONTRACTS (APR 1984)
+52.236-21 SPECIFICATIONS AND DRAWINGS FOR CONSTRUCTION (FEB 1997)
+52.236-26 PRECONSTRUCTION CONFERENCE (FEB 1995)
+52.242-14 SUSPENSION OF WORK (APR 1984)
+52.243-4 CHANGES (JUN 2007)
+52.243-5 CHANGES AND CHANGED CONDITIONS (APR 1984)
+52.245-2 GOVERNMENT PROPERTY INSTALLATION OPERATION SERVICES (APR 2012)
+52.245-9 USE AND CHARGES (APR 2012)
+52.246-12 INSPECTION OF CONSTRUCTION (AUG 1996)
+52.246-17 WARRANTY OF SUPPLIES OF A NONCOMPLEX NATURE (JUN 2003)
+52.246-21 WARRANTY OF CONSTRUCTION (MAR 1994)
+52.246-26 REPORTING NONCONFORMING ITEMS (AUG 2024)
+52.249-2 TERMINATION FOR CONVENIENCE OF THE GOVERNMENT (FIXED-PRICE)
+(APR 2012)
+52.249-10 DEFAULT (FIXED-PRICE CONSTRUCTION) (APR 1984)
+52.249-14 EXCUSABLE DELAYS (APR 1984)
+18
+I. FAR CLAUSES INCORPORATED IN FULL TEXT
+52.204-25 PROHIBITION ON CONTRACTING FOR CERTAIN TELECOMMUNICATIONS
+AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT (NOV 2021)
+(a) Definitions. As used in this clause—
+ Backhaul means intermediate links between the core network, or backbone network, and the small
+subnetworks at the edge of the network (e.g., connecting cell phones/towers to the core telephone
+network). Backhaul can be wireless (e.g., microwave) or wired (e.g., fiber optic, coaxial cable, Ethernet).
+ Covered foreign country means The People’s Republic of China.
+ Covered telecommunications equipment or services means–
+ (1) Telecommunications equipment produced by Huawei Technologies Company or ZTE
+Corporation (or any subsidiary or affiliate of such entities);
+ (2) For the purpose of public safety, security of Government facilities, physical security
+surveillance of critical infrastructure, and other national security purposes, video surveillance and
+telecommunications equipment produced by Hytera Communications Corporation, Hangzhou Hikvision
+Digital Technology Company, or Dahua Technology Company (or any subsidiary or affiliate of such
+entities);
+ (3) Telecommunications or video surveillance services provided by such entities or using such
+equipment; or
+ (4) Telecommunications or video surveillance equipment or services produced or provided by an
+entity that the Secretary of Defense, in consultation with the Director of National Intelligence or the
+Director of the Federal Bureau of Investigation, reasonably believes to be an entity owned or controlled
+by, or otherwise connected to, the government of a covered foreign country.
+ Critical technology means–
+ (1) Defense articles or defense services included on the United States Munitions List set forth in
+the International Traffic in Arms Regulations under subchapter M of chapter I of title 22, Code of Federal
+Regulations;
+ (2) Items included on the Commerce Control List set forth in Supplement No. 1 to part 774 of the
+Export Administration Regulations under subchapter C of chapter VII of title 15, Code of Federal
+Regulations, and controlled-
+ (i) Pursuant to multilateral regimes, including for reasons relating to national security, chemical
+and biological weapons proliferation, nuclear nonproliferation, or missile technology; or
+ (ii) For reasons relating to regional stability or surreptitious listening;
+ (3) Specially designed and prepared nuclear equipment, parts and components, materials, software,
+and technology covered by part 810 of title 10, Code of Federal Regulations (relating to assistance to
+foreign atomic energy activities);
+ (4) Nuclear facilities, equipment, and material covered by part 110 of title 10, Code of Federal
+Regulations (relating to export and import of nuclear equipment and material);
+ (5) Select agents and toxins covered by part 331 of title 7, Code of Federal Regulations, part 121 of
+title 9 of such Code, or part 73 of title 42 of such Code; or
+ (6) Emerging and foundational technologies controlled pursuant to section 1758 of the Export
+Control Reform Act of 2018 (50 U.S.C. 4817).
+ Interconnection arrangements means arrangements governing the physical connection of two or more
+networks to allow the use of another's network to hand off traffic where it is ultimately delivered (e.g.,
+connection of a customer of telephone provider A to a customer of telephone company B) or sharing data
+and other information resources.
+ Reasonable inquiry means an inquiry designed to uncover any information in the entity's possession
+about the identity of the producer or provider of covered telecommunications equipment or services used
+by the entity that excludes the need to include an internal or third-party audit.
+19
+ Roaming means cellular communications services (e.g., voice, video, data) received from a visited
+network when unable to connect to the facilities of the home network either because signal coverage is
+too weak or because traffic is too high.
+ Substantial or essential component means any component necessary for the proper function or
+performance of a piece of equipment, system, or service.
+ (b) Prohibition.
+(1) Section 889(a)(1)(A) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019
+(Pub. L. 115-232) prohibits the head of an executive agency on or after August 13, 2019, from procuring
+or obtaining, or extending or renewing a contract to procure or obtain, any equipment, system, or service
+that uses covered telecommunications equipment or services as a substantial or essential component of
+any system, or as critical technology as part of any system. The Contractor is prohibited from providing to
+the Government any equipment, system, or service that uses covered telecommunications equipment or
+services as a substantial or essential component of any system, or as critical technology as part of any
+system, unless an exception at paragraph (c) of this clause applies or the covered telecommunication
+equipment or services are covered by a waiver described in FAR 4.2104.
+ (2) Section 889(a)(1)(B) of the John S. McCain National Defense Authorization Act for Fiscal
+Year 2019 (Pub. L. 115-232) prohibits the head of an executive agency on or after August 13, 2020, from
+entering into a contract, or extending or renewing a contract, with an entity that uses any equipment,
+system, or service that uses covered telecommunications equipment or services as a substantial or
+essential component of any system, or as critical technology as part of any system, unless an exception at
+paragraph (c) of this clause applies or the covered telecommunication equipment or services are covered
+by a waiver described in FAR 4.2104. This prohibition applies to the use of covered telecommunications
+equipment or services, regardless of whether that use is in performance of work under a Federal contract.
+ (c) Exceptions. This clause does not prohibit contractors from providing—
+ (1) A service that connects to the facilities of a third-party, such as backhaul, roaming, or
+interconnection arrangements; or
+ (2) Telecommunications equipment that cannot route or redirect user data traffic or permit
+visibility into any user data or packets that such equipment transmits or otherwise handles.
+ (d) Reporting requirement.
+(1) In the event the Contractor identifies covered telecommunications equipment or services used as a
+substantial or essential component of any system, or as critical technology as part of any system, during
+contract performance, or the Contractor is notified of such by a subcontractor at any tier or by any other
+source, the Contractor shall report the information in paragraph (d)(2) of this clause to the Contracting
+Officer, unless elsewhere in this contract are established procedures for reporting the information; in the
+case of the Department of Defense, the Contractor shall report to the website at https://dibnet.dod.mil. For
+indefinite delivery contracts, the Contractor shall report to the Contracting Officer for the indefinite
+delivery contract and the Contracting Officer(s) for any affected order or, in the case of the Department of
+Defense, identify both the indefinite delivery contract and any affected orders in the report provided
+at https://dibnet.dod.mil.
+ (2) The Contractor shall report the following information pursuant to paragraph (d)(1) of this
+clause
+ (i) Within one business day from the date of such identification or notification: the contract
+number; the order number(s), if applicable; supplier name; supplier unique entity identifier (if known);
+supplier Commercial and Government Entity (CAGE) code (if known); brand; model number (original
+equipment manufacturer number, manufacturer part number, or wholesaler number); item description;
+and any readily available information about mitigation actions undertaken or recommended.
+ (ii) Within 10 business days of submitting the information in paragraph (d)(2)(i) of this clause:
+any further available information about mitigation actions undertaken or recommended. In addition, the
+Contractor shall describe the efforts it undertook to prevent use or submission of covered 
+20
+telecommunications equipment or services, and any additional efforts that will be incorporated to prevent
+future use or submission of covered telecommunications equipment or services.
+ (e) Subcontracts. The Contractor shall insert the substance of this clause, including this paragraph (e)
+and excluding paragraph (b)(2), in all subcontracts and other contractual instruments, including
+subcontracts for the acquisition of commercial products or commercial services.
+(End of clause)
+52.213-4 TERMS AND CONDITIONS—SIMPLIFIED ACQUISITIONS (OTHER
+THAN COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES) (OCT 2025)
+(a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses that are
+incorporated by reference:
+(1) The clauses listed below implement provisions of law or Executive order:
+(i) 52.203-19, Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (Jan
+2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continuing Appropriations
+Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as
+extended in continuing resolutions)).
+(ii) 52.204-23, Prohibition on Contracting for Hardware, Software, and Services Developed or Provided
+by Kaspersky Lab Covered Entities (Dec 2023) (Section 1634 of Pub. L. 115-91).
+(iii) 52.204-25, Prohibition on Contracting for Certain Telecommunications and Video Surveillance
+Services or Equipment. (Nov 2021) (Section 889(a)(1)(A) of Pub. L. 115-232).
+(iv) 52.204-27, Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R
+of Pub. L. 117-328), unless the agency grants an exception - see paragraph (b) of 52.204-27.
+(v) 52.204-30, Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) (Pub. L.
+115–390, title II).
+(vi) 52.222-3, Convict Labor (Jun 2003) (E.O. 11755).
+(vii) 52.222-21, Prohibition of Segregated Facilities (Oct 2025).
+(viii) 52.222-26, Equal Opportunity (Sep 2016) (E.O. 11246).
+(ix) 52.225-13, Restrictions on Certain Foreign Purchases (Feb 2021) (E.O.s, proclamations, and statutes
+administered by the Office of Foreign Assets Control of the Department of the Treasury).
+(x) 52.232-40, Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C.
+3903 and 10 U.S.C. 3801).
+(xi) 52.233-3, Protest After Award (Aug 1996) ( 31 U.S.C. 3553).
+(xii) 52.233-4, Applicable Law for Breach of Contract Claim (Oct 2004) ( Pub. L. 108-77 and 108-78 ( 19
+U.S.C. 3805 note)).
+(2) Listed below are additional clauses that apply:
+(i) 52.232-1, Payments (Apr 1984).
+(ii) 52.232-8, Discounts for Prompt Payment (Feb 2002).
+(iii) 52.232-11, Extras (Apr 1984).
+(iv) 52.232-25, Prompt Payment (Jan 2017).
+(v) 52.232-39, Unenforceability of Unauthorized Obligations (Jun 2013).
+(vi) 52.233-1, Disputes (May 2014).
+(vii) 52.244-6, Subcontracts for Commercial Products and Commercial Services (Jan 2025).
+(viii) 52.253-1, Computer Generated Forms (Jan 1991).
+(b) The Contractor shall comply with the following FAR clauses, incorporated by reference, unless the
+circumstances do not apply:
+(1) The clauses listed below implement provisions of law or Executive order:
+(i) 52.203-17, Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712); this clause does
+not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence
+community—see FAR 3.900(a).
+21
+(ii) 52.204-10, Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020)(Pub. L.
+109-282) ( 31 U.S.C. 6101 note) (Applies to contracts valued at or above the threshold specified in
+FAR 4.1403(a) on the date of award of this contract).
+(iii) 52.222-19, Child Labor—Cooperation with Authorities and Remedies (Jan 2025) ( E.O. 13126)
+(Applies to contracts for supplies exceeding the micro-purchase threshold, as defined in 2.101 on the date
+of award of this contract).
+(iv) 52.222-20, Contracts for Materials, Supplies, Articles, and Equipment., Contracts for
+Materials, Supplies, Articles, and Equipment (Jun 2020) ( 41 U.S.C. chapter 65) (Applies to supply
+contracts over the threshold specified in FAR 22.602 on the date of award of this contract, in the United
+States, Puerto Rico, or the U.S. Virgin Islands).
+(v) 52.222-35, Equal Opportunity for Veterans (Jun 2020) ( 38 U.S.C. 4212) (Applies to contracts valued
+at or above the threshold specified in FAR 22.1303(a) on the date of award of this contract).
+(vi) 52.222-36, Equal Employment for Workers with Disabilities (Jun 2020) ( 29 U.S.C. 793) (Applies to
+contracts over the threshold specified in FAR 22.1408(a) on the date of award of this contract, unless the
+work is to be performed outside the United States by employees recruited outside the United States). (For
+purposes of this clause, "United States" includes the 50 States, the District of Columbia, Puerto Rico, the
+Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, and Wake Island.)
+(vii) 52.222-37, Employment Reports on Veterans (Jun 2020) (38 U.S.C. 4212) (Applies to contracts
+valued at or above the threshold specified in FAR 22.1303(a) on the date of award of this contract).
+(viii) 52.222-41, Service Contract Labor Standards (Aug 2018) ( 41 U.S.C. chapter 67) (Applies to
+service contracts over $2,500 that are subject to the Service Contract Labor Standards statute and will be
+performed in the United States, District of Columbia, Puerto Rico, the Northern Mariana Islands,
+American Samoa, Guam, the U.S. Virgin Islands, Johnston Island, Wake Island, or the outer Continental
+Shelf).
+(ix)
+(A) 52.222-50, Combating Trafficking in Persons (Oct 2025) (22 U.S.C. chapter 78 and E.O. 13627)
+(Applies to all solicitations and contracts).
+(B) Alternate I (Mar 2015) (Applies if the Contracting Officer has filled in the following information with
+regard to applicable directives or notices: Document title(s), source for obtaining document(s), and
+contract performance location outside the United States to which the document applies).
+(x) 52.222-55, Minimum Wages for Contractor Workers Under Executive Order 14026 (Jan
+2022) (Applies when 52.222-6 or 52.222-41 are in the contract and performance in whole or in part is in
+the United States (the 50 States, the District of Columbia, Puerto Rico, the Northern Mariana Islands,
+American Samoa, Guam, the U.S. Virgin Islands, Johnston Island, Wake Island, and the outer Continental
+Shelf as defined in the Outer Continental Shelf Lands Act ( 43 U.S.C. 1331, et seq.))).
+(xi) 52.222-62, Paid Sick Leave Under Executive Order 13706 (Jan 2022) (E.O. 13706) (Applies
+when 52.222-6 or 52.222-41 are in the contract and performance in whole or in part is in the United
+States (the 50 States and the District of Columbia.))
+(xii) 52.223-5, Pollution Prevention and Right-to-Know Information (May 2024) ( 42 U.S.C. 11001-
+11050 and 13101-13109) (Applies to services performed on Federal facilities).
+(xiii) 52.223-11, Ozone-Depleting Substances and High Global Warming Potential
+Hydrofluorocarbons (May 2024) ( 42 U.S.C. 7671, et seq.) (Applies to contracts for products as
+prescribed at FAR 23.109(d)(1)).
+(xiv) 52.223-12, Maintenance, Service, Repair, or Disposal of Refrigeration Equipment and Air
+Conditioners (May 2024) ( 42 U.S.C. 7671, et seq.) (Applies to maintenance, service, repair, or disposal
+of refrigeration equipment and air conditioners).
+(xv) 52.223-20, Aerosols (May 2024) ( 42 U.S.C. 7671, et seq.) (Applies to contracts
+for products that may contain high global warming potential hydrofluorocarbons as a propellant or as a
+solvent; or contracts for maintenance or repair of electronic or mechanical devices).
+(xvi) 52.223-21, Foams (May 2024) ( 42 U.S.C. 7671, et seq.) (Applies to contracts
+for products that may contain high global warming potential hydrofluorocarbons or refrigerant blends 
+22
+containing hydrofluorocarbons as a foam blowing agent; or contracts for construction of buildings or
+facilities.
+(xvii) 52.223-23, Sustainable Products and Services (May 2024) ( E.O. 14057, 7 U.S.C. 8102, 42 U.S.C.
+6962, 42 U.S.C. 8259b, and 42 U.S.C. 7671l) (Applies to contracts when the agency identifies in the
+statement of work, or elsewhere in the contract, the sustainable products and services that apply to
+the acquisition).
+(xviii)
+(A) 52.225-1, Buy American-Supplies (Oct 2022) (41 U.S.C. chapter 67) (Applies to contracts
+for supplies, and to contracts for services involving the furnishing of supplies, for use in the United
+States or its outlying areas, if the value of the supply contract or supply portion of a service contract
+exceeds the micro-purchase threshold, as defined in 2.101 on the date of award of this contract, and
+the acquisition-
+(1) Is set aside for small business concerns; or
+(2) Cannot be set aside for small business concerns (see 19.502-2), and does not exceed $50,000).
+(B) Alternate I (OCT 2022) (Applies if the Contracting Officer has filled in the domestic content
+threshold below, which will apply to the entire contract period of performance. Substitute the following
+sentence for the first sentence of paragraph (1)(ii)(A) of the definition of domestic end product in
+paragraph (a) of 52.225-1: (A) The cost of its components mined, produced, or manufactured in
+the United States exceeds ____ percent of the cost of all its components. [ Contracting officer to insert the
+percentage per instructions at 13.302-5(d)(4). ])
+(xix) 52.226-6, Promoting Excess Food Donation to Nonprofit Organizations., Promoting Excess Food
+Donation to Nonprofit Organizations (Jun 2020) (42 U.S.C. 1792) (Applies to contracts greater than the
+threshold specified in FAR 26.404 on the date of award of this contract, that provide for the provision, the
+service, or the sale of food in the United States).
+(xx) 52.232-33, Payment by Electronic Funds Transfer-System for Award Management (Oct
+2013)(Applies when the payment will be made by electronic funds transfer (EFT) and the payment office
+uses the System for Award Management (SAM) as its source of EFT information).
+(xxi) 52.232-34, Payment by Electronic Funds Transfer-Other than System for Award Management (Jul
+2013) (Applies when the payment will be made by EFT and the payment office does not use the SAM
+database as its source of EFT information).
+(xxii) 52.240-1, Prohibition on Unmanned Aircraft Systems Manufactured or Assembled by American
+Security Drone Act-Covered Foreign Entities (Nov 2024) (Sections 1821-1826, Pub. L. 118-31, 41
+U.S.C. 3901 note prec.).
+(xxiii) 52.247-64, Preference for Privately Owned U.S.-Flag Commercial Vessels (Nov 2021) ( 46 U.S.C.
+55305)(Applies to supplies transported by ocean vessels (except for the types of subcontracts listed
+at 47.504(d)).
+(xxiv) 52.247-69, Reporting Requirement for U.S.-Flag Air Carriers Regarding Training to Prevent
+Human Trafficking (Jan 2025) ( 49 U.S.C. 40118(g)). (Applies to contracts with a U.S.-flag carrier for the
+transportation by air of passengers; does not apply to contracts awarded by the Department of Defense or
+contracts for commercial products).
+(2) Listed below are additional clauses that may apply:
+(i) 52.204-21, Basic Safeguarding of Covered Contractor Information Systems (Nov 2021) (Applies to
+contracts when the contractor or a subcontractor at any tier may have Federal contract information
+residing in or transiting through its information system.)
+(ii) 52.209-6, Protecting the Government's Interest When Subcontracting with Contractors Debarred,
+Suspended, Proposed for Debarment, or Voluntarily Excluded (Jan 2025) (Applies to contracts over the
+threshold specified in FAR 9.405-2(b) on the date of award of this contract).
+(iii) 52.211-17, Delivery of Excess Quantities (Sept 1989) (Applies to fixed-price supplies).
+(iv) 52.247-29, F.o.b. Origin (Feb 2006) (Applies to supplies if delivery is f.o.b. origin).
+(v) 52.247-34, F.o.b. Destination (Jan 1991) (Applies to supplies if delivery is f.o.b. destination).
+23
+(c) FAR 52.252-2, Clauses Incorporated by Reference (Feb 1998). This contract incorporates one or more
+clauses by reference, with the same force and effect as if they were given in full text. Upon request,
+the Contracting Officer will make their full text available. Also, the full text of a clause may be accessed
+electronically at this/these address(es):
+_________________________________________________________________________________
+_________________________________________________________________________________
+[Insert one or more Internet addresses]
+(d) Inspection/Acceptance. The Contractor shall tender for acceptance only those items that conform to
+the requirements of this contract. The Government reserves the right to inspect or test any supplies or
+services that have been tendered for acceptance. The Government may require repair or replacement of
+nonconforming supplies or reperformance of nonconforming services at no increase in contract price. The
+Government must exercise its postacceptance rights-
+(1) Within a reasonable period of time after the defect was discovered or should have been discovered;
+and
+(2) Before any substantial change occurs in the condition of the item, unless the change is due to the
+defect in the item.
+(e) Excusable delays. The Contractor shall be liable for default unless nonperformance is caused by an
+occurrence beyond the reasonable control of the Contractor and without its fault or negligence, such as
+acts of God or the public enemy, acts of the Government in either its sovereign or contractual capacity,
+fires, floods, epidemics, quarantine restrictions, strikes, unusually severe weather, and delays of common
+carriers. The Contractor shall notify the Contracting Officer in writing as soon as it is reasonably possible
+after the commencement of any excusable delay, setting forth the full particulars in connection
+therewith, shall remedy such occurrence with all reasonable dispatch, and shall promptly give written
+notice to the Contracting Officer of the cessation of such occurrence.
+(f) Termination for the Government's convenience. The Government reserves the right to terminate this
+contract, or any part hereof, for its sole convenience. In the event of such termination, the
+Contractor shall immediately stop all work hereunder and shall immediately cause any and all of its
+suppliers and subcontractors to cease work. Subject to the terms of this contract, the Contractor shall be
+paid a percentage of the contract price reflecting the percentage of the work performed prior to the notice
+of termination, plus reasonable charges that the Contractor can demonstrate to the satisfaction of the
+Government, using its standard record keeping system, have resulted from the termination. The
+Contractor shall not be required to comply with the cost accounting standards or contract cost principles
+for this purpose. This paragraph does not give the Government any right to audit the Contractor’s records.
+The Contractor shall not be paid for any work performed or costs incurred that reasonably could have
+been avoided.
+(g) Termination for cause. The Government may terminate this contract, or any part hereof, for cause in
+the event of any default by the Contractor, or if the Contractor fails to comply with any contract terms and
+conditions, or fails to provide the Government, upon request, with adequate assurances of future
+performance. In the event of termination for cause, the Government shall not be liable to the Contractor
+for any amount for supplies or services not accepted, and the Contractor shall be liable to the Government
+for any and all rights and remedies provided by law. If it is determined that the Government improperly
+terminated this contract for default, such termination shall be deemed a termination for convenience.
+(h) Warranty. The Contractor warrants and implies that the items delivered hereunder are merchantable
+and fit for use for the particular purpose described in this contract.
+(End of clause)
+24
+52.225-23 REQUIRED USE OF AMERICAN IRON, STEEL, AND MANUFACTURED GOODSBUY AMERICAN STATUTE-CONSTRUCTION MATERIALS UNDER TRADE
+AGREEMENTS. (NOV 2023)
+(a) Definitions. As used in this clause—
+Component means an article, material, or supply incorporated directly into a construction material.
+Construction material means an article, material, or supply brought to the construction site by the
+Contractor or subcontractor for incorporation into the building or work. The term also includes an item
+brought to the site preassembled from articles, materials, or supplies. However, emergency lifes afety
+systems, such as emergency lighting, fire alarm, and audio evacuation systems, that are discrete systems
+incorporated into a public building or work and that are produced as complete systems, are evaluated as a
+single and distinct construction material regardless of when or how the individual parts or components of
+those systems are delivered to the construction site.
+Designated country means any of the following countries:
+(1) A World Trade Organization Government Procurement Agreement (WTO GPA) country
+(Armenia, Aruba, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czech Republic,
+Denmark, Estonia, Finland, France, Germany, Greece, Hong Kong, Hungary, Iceland, Ireland, Israel,
+Italy, Japan, Korea (Republic of), Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova,
+Montenegro, Netherlands, New Zealand, North Macedonia, Norway, Poland, Portugal, Romania,
+Singapore, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, Taiwan, Ukraine, or United
+Kingdom);
+(2) A Free Trade Agreement (FTA) country (Australia, Bahrain, Chile, Colombia, Costa Rica,
+Dominican Republic, El Salvador, Guatemala, Honduras, Korea (Republic of), Mexico, Morocco,
+Nicaragua, Oman, Panama, Peru, or Singapore);
+(3) A least developed country (Afghanistan, Angola, Bangladesh, Benin, Bhutan, Burkina Faso,
+Burundi, Cambodia, Central African Republic, Chad, Comoros, Democratic Republic of Congo, Djibouti,
+Equatorial Guinea, Eritrea, Ethiopia, Gambia, Guinea, Guinea-Bissau, Haiti, Kiribati, Laos, Lesotho,
+Liberia, Madagascar, Malawi, Mali, Mauritania, Mozambique, Nepal, Niger, Rwanda, Samoa, Sao Tome
+and Principe, Senegal, Sierra Leone, Solomon Islands, Somalia, South Sudan, Tanzania, Timor-Leste,
+Togo, Tuvalu, Uganda, Vanuatu, Yemen, or Zambia); or
+(4) A Caribbean Basin country (Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize,
+Bonaire, British Virgin Islands, Curacao, Dominica, Grenada, Guyana, Haiti, Jamaica, Montserrat, Saba,
+St. Kitts and Nevis, St. Lucia, St. Vincent and the Grenadines, Sint Eustatius, Sint Maarten, or Trinidad
+and Tobago).
+Designated country construction material means a construction material that is a WTO GPA country
+construction material, an FTA country construction material, a least developed country construction
+material, or a Caribbean Basin country construction material.
+Domestic construction material means the following:
+(1) An unmanufactured construction material mined or produced in the United States. (The Buy
+American statute applies.)
+(2) A manufactured construction material that is manufactured in the United States and, if
+the construction material consists wholly or predominantly of iron or steel, the iron or steel was produced
+in the United States. (Section 1605 of the Recovery Act applies.)
+Foreign construction material means a construction material other than a domestic construction
+material.
+Free trade agreement (FTA) country construction material means a construction material that-
+(1) Is wholly the growth, product, or manufacture of an FTA country; or
+(2) In the case of a construction material that consists in whole or in part of materials from
+another country, has been substantially transformed in an FTA country into a new and
+different construction material distinct from the materials from which it was transformed.
+Least developed country construction material means a construction material that-
+25
+(1) Is wholly the growth, product, or manufacture of a least developed country; or
+(2) In the case of a construction material that consists in whole or in part of materials from
+another country, has been substantially transformed in a least developed country into a new and
+different construction material distinct from the materials from which it was transformed.
+Manufactured construction material means any construction material that is not unmanufactured
+construction material.
+Nondesignated country means a country other than the United States or a designated country.
+Recovery Act designated country means any of the following countries:
+(1) A World Trade Organization Government Procurement Agreement (WTO GPA) country
+(Armenia, Aruba, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czech Republic,
+Denmark, Estonia, Finland, France, Germany, Greece, Hong Kong, Hungary, Iceland, Ireland, Israel,
+Italy, Japan, Korea (Republic of), Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova,
+Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovak
+Republic, Slovenia, Spain, Sweden, Switzerland, Taiwan, Ukraine, or United Kingdom);
+(2) A Free Trade Agreement country (FTA) (Australia, Bahrain, Chile, Colombia, Costa Rica,
+Dominican Republic, El Salvador, Guatemala, Honduras, Korea (Republic of), Mexico, Morocco,
+Nicaragua, Oman, Panama, Peru, or Singapore); or
+(3) A least developed country (Afghanistan, Angola, Bangladesh, Benin, Bhutan, Burkina Faso,
+Burundi, Cambodia, Central African Republic, Chad, Comoros, Democratic Republic of Congo, Djibouti,
+Equatorial Guinea, Eritrea, Ethiopia, Gambia, Guinea, Guinea-Bissau, Haiti, Kiribati, Laos, Lesotho,
+Liberia, Madagascar, Malawi, Mali, Mauritania, Mozambique, Nepal, Niger, Rwanda, Samoa, Sao Tome
+and Principe, Senegal, Sierra Leone, Solomon Islands, Somalia, South Sudan, Tanzania, Timor-Leste,
+Togo, Tuvalu, Uganda, Vanuatu, Yemen, or Zambia).
+Recovery Act designated country construction material means a construction material that is a WTO
+GPA country construction material, an FTA country construction material, or a least developed country
+construction material.
+Steel means an alloy that includes at least 50 percent iron, between 0.02 and 2 percent carbon,
+and may include other elements.
+United States means the 50 States, the District of Columbia, and outlying areas.
+Unmanufactured construction material means raw material brought to the construction site for
+incorporation into the building or work that has not been-
+(1) Processed into a specific form and shape; or
+(2) Combined with other raw material to create a material that has different properties than the
+properties of the individual raw materials.
+WTO GPA country construction material means a construction material that-
+(1) Is wholly the growth, product, or manufacture of a WTO GPA country; or
+(2) In the case of a construction material that consists in whole or in part of materials from
+another country, has been substantially transformed in a WTO GPA country into a new and
+different construction material distinct from the materials from which it was transformed.
+(b) Construction materials.
+(1) The restrictions of section 1605 of the American Recovery and Reinvestment Act of 2009
+(Pub. L. 111-5) (Recovery Act) do not apply to Recovery Act designated country manufactured
+construction material. The restrictions of the Buy American statute do not apply to designated
+country unmanufactured construction material. Consistent with U.S. obligations under international
+agreements, this clause implements-
+(i) Section 1605 of the Recovery Act by requiring, unless an exception applies, that
+all manufactured construction material in the project is manufactured in the United States and, if
+the construction material consists wholly or predominantly of iron or steel, the iron or steel was produced
+in the United States (produced in the United States means that all manufacturing processes of the iron
+or steel must take place in the United States, except metallurgical processes involving refinement
+of steel additives); and.
+26
+(ii) The Buy American statute by providing a preference for unmanufactured construction
+material mined or produced in the United States over unmanufactured construction material mined or
+produced in a nondesignated country.
+(2) The Contractor shall use only domestic construction material, Recovery Act designated
+country manufactured construction material, or designated country unmanufactured construction
+material in performing this contract, except as provided in paragraphs (b)(3) and (b)(4) of this clause.
+(3) The requirement in paragraph (b)(2) of this clause does not apply to the construction
+materials or components listed by the Government as follows:
+[Contracting Officer to list applicable excepted materials or indicate "none".]
+(4) The Contracting Officer may add other construction material to the list in paragraph (b)(3) of
+this clause if the Government determines that-
+(i) The cost of domestic construction material would be unreasonable;
+(A) The cost of domestic manufactured construction material is unreasonable when the
+cumulative cost of such material, when compared to the cost of comparable foreign manufactured
+construction material, other than Recovery Act designated country construction material, will increase the
+overall cost of the contract by more than 25 percent;
+(B) The cost of domestic unmanufactured construction material is unreasonable when the
+cost of such material exceeds the cost of comparable foreign unmanufactured construction material, other
+than designated country construction material, by more than 20 percent;
+(ii) The construction material is not mined, produced, or manufactured in the United States in
+sufficient and reasonably available commercial quantities of a satisfactory quality; or
+(iii) The application of the restriction of section 1605 of the Recovery Act to a
+particular manufactured construction material would be inconsistent with the public interest or the
+application of the Buy American statute to a particular unmanufactured construction material would be
+impracticable or inconsistent with the public interest.
+(c) Request for determination of inapplicability of section 1605 of the Recovery Act or the Buy
+American statute.
+(1)
+(i) Any Contractor request to use foreign construction material in accordance with paragraph
+(b)(4) of this clause shall include adequate information for Government evaluation of the request,
+including-
+(A) A description of the foreign and domestic construction materials;
+(B) Unit of measure;
+(C) Quantity;
+(D) Cost;
+(E) Time of delivery or availability;
+(F) Location of the construction project;
+(G) Name and address of the proposed supplier; and
+(H) A detailed justification of the reason for use of foreign construction materials cited in
+accordance with paragraph (b)(4) of this clause.
+(ii) A request based on unreasonable cost shall include a reasonable survey of the market and
+a completed cost comparison table in the format in paragraph (d) of this clause.
+(iii) The cost of construction material shall include all delivery costs to the construction site
+and any applicable duty.
+(iv) Any Contractor request for a determination submitted after contract award shall explain
+why the Contractor could not reasonably foresee the need for such determination and could not have
+requested the determination before contract award. If the Contractor does not submit a satisfactory
+explanation, the Contracting Officer need not make a determination.
+(2) If the Government determines after contract award that an exception to section 1605 of the
+Recovery Act or the Buy American statute applies and the Contracting Officer and the Contractor
+negotiate adequate consideration, the Contracting Officer will modify the contract to allow use of 
+27
+the foreign construction material. However, when the basis for the exception is the unreasonable cost of
+a domestic construction material, adequate consideration is not less than the differential established in
+paragraph (b)(4)(i) of this clause.
+(3) Unless the Government determines that an exception to section 1605 of the Recovery Act or
+the Buy American statute applies, use of foreign construction material other than manufactured
+construction material from a Recovery Act designated country or unmanufactured construction
+material from a designated country is noncompliant with the applicable statute.
+(d) Data. To permit evaluation of requests under paragraph (c) of this clause based on unreasonable
+cost, the Contractor shall include the following information and any applicable supporting data based on
+the survey of suppliers:
+Foreign (Nondesignated Country) and Domestic Construction Materials Cost Comparison
+Construction Material Description Unit of Measure Quantity Cost (Dollars)*
+Item 1:
+Foreign construction material
+Domestic construction material
+Item 2:
+Foreign construction material
+Domestic construction material
+[List name, address, telephone number, and contact for suppliers surveyed. Attach copy of response; if
+oral, attach summary.]
+[Include other applicable supporting information.]
+[* Include all delivery costs to the construction site.]
+(End of clause)
+Alternate I (NOV 2023) . As prescribed in 25.1102 (e), add the following definition of "Bahrainian,
+Mexican, or Omani construction material" to paragraph (a) of the basic clause, and substitute the
+following paragraphs (b)(1) and (b)(2) for paragraphs (b)(1) and (b)(2) of the basic clause:
+Bahraini, Mexican, or Omani construction material means a construction material that-
+(1)(1) Is wholly the growth, product, or manufacture of Bahrain, Mexico, or Oman; or
+28
+(2)(2) In the case of a construction material that consists in whole or in part of materials from
+another country, has been substantially transformed in Bahrain, Mexico, or Oman into a new and
+different construction material distinct from the materials from which it was transformed.
+(b) Construction materials. (1) The restrictions of section 1605 of the American Recovery and
+Reinvestment Act of 2009 (Pub. L. 111-5) (Recovery Act) do not apply to Recovery Act designated
+country manufactured construction material. The restrictions of the Buy American statute do not apply
+to designated country unmanufactured construction material. Consistent with U.S. obligations under
+international agreements, this clause implements-
+(i) Section 1605 of the Recovery Act, by requiring, unless an exception applies, that
+all manufactured construction material in the project is manufactured in the United States and, if
+the construction material consists wholly or predominantly of iron or steel, the iron or steel was produced
+in the United States (produced in the United States means that all manufacturing processes of the iron
+or steel must take place in the United States, except metallurgical processes involving refinement
+of steel additives); and
+(ii) The Buy American statute by providing a preference for unmanufactured construction
+material mined or produced in the United States over unmanufactured construction material mined or
+produced in a nondesignated country.
+(2) The Contractor shall use only domestic construction material, Recovery Act designated
+country manufactured construction material, or designated country unmanufactured construction material,
+other than Bahraini, Mexican, or Omani construction material, in performing this contract, except as
+provided in paragraphs (b)(3) and (b)(4) of this clause.
+II. THE FOLLOWING DEPARTMENT OF STATE ACQUISITION REGULATION (DOSAR)
+CLAUSE(S) IS/ARE SET FORTH IN FULL TEXT:
+CONTRACTOR IDENTIFICATION (JULY 2008)
+Contract performance may require contractor personnel to attend meetings with government personnel
+and the public, work within government offices, and/or utilize government email.
+Contractor personnel must take the following actions to identify themselves as non-federal
+employees:
+1) Use an e-mail signature block that shows name, the office being supported and company
+affiliation (e.g., “John Smith, Office of Human Resources, ACME Corporation Support
+Contractor”);
+2) Clearly identify themselves and their contractor affiliation in meetings.
+3) Identify their contractor affiliation in Departmental e-mail and phone listings whenever contractor
+personnel are included in those listings; and
+4) Contractor personnel may not utilize Department of State logos or indicia on business cards.
+(End of clause)
+29
+652.204-70 DEPARTMENT OF STATE PERSONAL IDENTIFICATION CARD ISSUANCE
+PROCEDURES (FEB 2015)
+(a) The Contractor shall comply with the Department of State (DOS) Personal Identification Card
+Policy and Procedures for all employees performing under this contract who require frequent and
+continuing access to DOS facilities, or information systems. The Contractor shall insert the substance of
+this clause in all subcontracts when the subcontractor's employees will require frequent and continuing
+access to DOS facilities, or information systems.
+(b) The DOS Personal Identification Card Policy and Procedures may be accessed at
+http://www.state.gov/m/ds/rls/rpt/c21664.htm.
+(End of clause)
+652.229-71 PERSONAL PROPERTY DISPOSITION AT POSTS ABROAD (AUG 1999)
+Regulations at 22 CFR Part 136 require that U.S. Government employees and their families do
+not profit personally from sales or other transactions with persons who are not themselves entitled to
+exemption from import restrictions, duties, or taxes. Should the Contractor experience importation or tax
+privileges in a foreign country because of its contractual relationship to the United States Government, the
+Contractor shall observe the requirements of 22 CFR Part 136 and all policies, rules, and procedures
+issued by the chief of mission in that foreign country.
+(End of clause)
+652.236-70 ADDITIONAL SAFETY MEASURES (OCT 2017)
+In addition to the safety/accident prevention requirements of FAR 52.236-13, Accident Prevention
+Alternate I, the contractor shall comply with the following additional safety measures.
+ (a) High Risk Activities. If the project contains any of the following high risk activities, the contractor
+shall follow the section in the latest edition, as of the date of the solicitation, of the U.S. Army Corps of
+Engineers Safety and Health manual, EM 385-1-1, that corresponds to the high risk activity. Before work
+may proceed, the contractor must obtain approval from the COR of the written safety plan required by
+FAR 52.236-13, Accident Prevention Alternate I (see paragraph (f) below), containing specific hazard
+mitigation and control techniques.
+(1) Scaffolding;
+(2) Work at heights above 1.8 meters;
+(3) Trenching or other excavation greater than one (1) meter in depth;
+(4) Earth-moving equipment and other large vehicles;
+(5) Cranes and rigging;
+(6) Welding or cutting and other hot work;
+(7) Partial or total demolition of a structure;
+(8) Temporary wiring, use of portable electric tools, or other recognized electrical hazards.
+Temporary wiring and portable electric tools require the use of a ground fault circuit interrupter (GFCI) in
+the affected circuits; other electrical hazards may also require the use of a GFCI;
+(9) Work in confined spaces (limited exits, potential for oxygen less than 19.5 percent or
+combustible atmosphere, potential for solid or liquid engulfment, or other hazards considered to be
+immediately dangerous to life or health such as water tanks, transformer vaults, sewers, cisterns, etc.).
+(10) Hazardous materials - a material with a physical or health hazard including but not limited
+to, flammable, explosive, corrosive, toxic, reactive or unstable, or any operations, which creates any kind 
+30
+of contamination inside an occupied building such as dust from demolition activities, paints, solvents,
+etc.; or
+(11) Hazardous noise levels as required in EM 385-1 Section 5B or local standards if more
+restrictive.
+ (b) Safety and Health Requirements. The contractor and all subcontractors shall comply with the latest
+edition of the U.S. Army Corps of Engineers Safety and Health manual EM 385-1-1, or OSHA 29 CFR
+parts 1910 or 1926 if no EM 385-1-1 requirements are applicable, and the accepted contractor’s written
+safety program.
+ (c) Mishap Reporting. The contractor is required to report immediately all mishaps to the COR and the
+contracting officer. A “mishap” is any event causing injury, disease or illness, death, material loss or
+property damage, or incident causing environmental contamination. The mishap reporting requirement
+shall include fires, explosions, hazardous materials contamination, and other similar incidents that may
+threaten people, property, and equipment.
+ (d) Records. The contractor shall maintain an accurate record on all mishaps incident to work
+performed under this contract resulting in death, traumatic injury, occupational disease, or damage to or
+theft of property, materials, supplies, or equipment. The contractor shall report this data in the manner
+prescribed by the contracting officer.
+ (e) Subcontracts. The contractor shall insert this clause, including this paragraph (e), with appropriate
+changes in the designation of the parties, in subcontracts.
+ (f) Written program. The plan required by paragraph (f)(1) of the clause entitled “Accident Prevention
+Alternate I” shall be known as the Site Safety and Health Plan (SSHP) and shall address any activities
+listed in paragraph (a) of this clause, or as otherwise required by the contracting officer/COR.
+(1) The SSHP shall be submitted at least 10 working days prior to commencing any activity
+at the site.
+(2) The plan must address developing activity hazard analyses (AHAs) for specific tasks.
+The AHAs shall define the activities being performed and identify the work sequences, the specific
+anticipated hazards, site conditions, equipment, materials, and the control measures to be implemented to
+eliminate or reduce each hazard to an acceptable level of risk. Work shall not begin until the AHA for the
+work activity has been accepted by the COR and discussed with all engaged in the activity, including the
+Contractor, subcontractor(s), and Government on-site representatives.
+(3) The names of the Competent/Qualified Person(s) required for a particular activity (for
+example, excavations, scaffolding, fall protection, other activities as specified by EM 385-1-1) shall be
+identified and included in the AHA. Proof of their competency/qualification shall be submitted to the
+contracting officer or COR for acceptance prior to the start of that work activity. The AHA shall be
+reviewed and modified as necessary to address changing site conditions, operations, or change of
+competent/qualified person(s).
+(End of clause)
+652.242-73 AUTHORIZATION AND PERFORMANCE (AUG 1999)
+ (a) The Contractor warrants the following:
+ (1) That is has obtained authorization to operate and do business in the country or countries in
+which this contract will be performed;
+ (2) That is has obtained all necessary licenses and permits required to perform this contract; and,
+31
+ (3) That it shall comply fully with all laws, decrees, labor standards, and regulations of said
+country or countries during the performance of this contract.
+ (b) If the party actually performing the work will be a subcontractor or joint venture partner, then such
+subcontractor or joint venture partner agrees to the requirements of paragraph (a) of
+this clause.
+(End of clause)
+652.243-70 NOTICES (AUG 1999)
+Any notice or request relating to this contract given by either party to the other shall be in writing. Said
+notice or request shall be mailed or delivered by hand to the other party at the address provided in the
+schedule of the contract. All modifications to the contract must be made in writing by the Contracting
+Officer.
+(End of clause)
+DOSAR 652.239-801 DISCLOSURE OF AI USE CLAUSE (DEVIATION) (SEP 2025)
+(a) Definitions. As used in this clause:
+Artificial Intelligence (AI): The term "artificial intelligence" has the meaning provided in Section 238(g)
+of the John S. McCain National Defense Authorization Act for Fiscal Year 2019.
+i. This definition of AI encompasses, but is not limited to, the AI technical subfields of machine learning
+(including deep learning as well as supervised, unsupervised, and semi-supervised approaches),
+reinforcement learning, transfer learning, and generative AI.
+ii. This definition of AI does not include robotic process automation or other systems whose behavior is
+defined only by human-defined rules or that learn solely by repeating an observed practice exactly as it
+was conducted.
+iii. For this definition, no system should be considered too simple to qualify as covered AI due to a lack
+of technical complexity (e.g., the smaller number of parameters in a model, the type of model, or the
+amount of data used for training purposes).
+iv. This definition includes systems that are fully autonomous, partially autonomous, and not autonomous,
+and it includes systems that operate both with and without human oversight.
+(b) Disclosure of AI Use in Contract Performance. When the Contractor or any of its subcontractors,
+vendors, or agents intends to incorporate AI into the performance of the contract, the Contractor shall
+provide the following disclosures in its offer:
+Disclose the intended use of AI and provide a description of the AI system or capability and its purpose
+within the contract scope; specify whether the system was developed internally, acquired from a third
+party, or is publicly/commercially available; indicate if the AI system will process PII or be used in ways
+that may affect privacy, civil rights, safety, or public interaction; detail the governance, oversight, and
+human-in-the-loop mechanisms to be applied; and describe any applicable testing, evaluation, risk
+management, or bias mitigation measures that have been or will be implemented.
+These disclosures must be updated promptly to the Contracting Officer during the period of performance
+upon any new use of AI or significant material change to the existing AI capability, its functionality, its
+use case, or its data inputs/outputs during the life of the contract.
+The Government reserves the right to review the proposed AI use, request additional safeguards or
+controls, and/or disallow its use if it is deemed inconsistent with agency policy, legal requirements, or
+federal AI governance standards.
+(End of Clause)
+32
+DOSAR 652.239-802 VENDOR LOCK-IN PROVISION (DEVIATION) (SEP 2025)
+(a) Definitions. As used in this provisionVendor Lock-In-The term vendor lock-in refers to a situation in which the Government’s ability to
+operate, maintain, or transition a system, data, software, or related capability is limited due to dependency
+on proprietary technologies, formats, or services controlled by a specific contractor. This includes
+restrictions on access to models, training data, source code, documentation, or technical interfaces that
+would prevent or burden the Government’s ability to transition to alternative solutions or providers.
+(b) Vendor Lock-In Mitigation. The Government requires that offers submitted in response to this
+solicitation that incorporate AI technologies include terms that reduce vendor lock-in risk, such as
+requirements regarding knowledge transfer, clear data and model portability practices, clear licensing
+terms, and pricing transparency.
+This applies to all prime contractors and subcontractors performing AI-related work under this contract
+and must be flowed down accordingly.
+(End of Provision)
+DOSAR 652.239-803 ARTIFICIAL INTELLIGENCE CLAUSE (DEVIATION) (SEPT 2025)
+Artificial Intelligence (Sep 2025)
+(a) Definitions. As used in this clauseArtificial Intelligence (AI): The term "artificial intelligence" has the
+meaning provided in Section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal
+Year 2019.
+i. This definition of AI encompasses, but is not limited to, the AI technical subfields of machine learning
+(including deep learning as well as supervised, unsupervised, and semi-supervised approaches),
+reinforcement learning, transfer learning, and generative AI.
+ii. This definition of AI does not include robotic process automation or other systems whose behavior is
+defined only by human-defined rules or that learn solely by repeating an observed practice exactly as it
+was conducted.
+iii. For this definition, no system should be considered too simple to qualify as covered AI due to a lack
+of technical complexity (e.g., the smaller number of parameters in a model, the type of model, or the
+amount of data used for training purposes).
+iv. This definition includes systems that are fully autonomous, partially autonomous, and not autonomous,
+and it includes systems that operate both with and without human oversight.
+AI Incident: The term “AI incident” refers to a violation or immediate threat of violation of AI policies,
+acceptable use policies for the AI system or service, or standard AI practices. Examples of AI incidents
+include:
+i. An AI system malfunctions due to a bug or development flaw, creating a potential harm to an
+individual’s rights or safety, a potential harm to property, or a potential disruption to the management and
+operation of critical infrastructure;
+ii. An AI service generates harmful, false, inappropriate, or erroneous outputs, impacting or potentially
+impacting individuals or a group of people; and
+iii. A user employs an AI system in ways that violate ethical guidelines or Department acceptable use
+policies, such as using a facial recognition system for unauthorized surveillance.
+33
+Non-Public Information-Non-Public Information refers to any data, materials, or knowledge that is not
+publicly available or accessible, including but not limited to proprietary business information, technical
+data, personally identifiable information (PII), trade secrets, internal communications, and any
+information protected under applicable laws and regulations. This information must be handled in
+accordance with all relevant international, federal, and local privacy and security requirements applicable
+to the global scope of this contract.
+Significant Modification-The term significant modification refers to an update to an AI application or to
+the conditions or context in which it is used, such as through changing its functionality, underlying
+structure, or performance, that meaningfully alters the AI’s impact, rendering prior evaluations, training,
+or documentation misleading to users, overseers, or individuals affected by the system. This includes
+significantly changing the context, scope, or intended purpose in which the AI is used. In case there is any
+doubt or ambiguity as to
+whether an event constitutes a significant modification for purposes of this clause, the contractor will
+present the issue to the contracting officer, whose decision on the matter will be final.
+(b) Use of Government Data and AI Outputs. The Contractor shall ensure that its employees,
+subcontractors, affiliates, and agents do not use any nonpublic information, data, or content provided by
+the Government under this contract— whether inputted by the agency into an AI-enabled system or
+generated as an output of such a system—to train, fine-tune, or improve any publicly or commercially
+available AI system or model, including but not limited to foundation models, large language models
+(LLMs), or general-purpose AI tools without written authorization from the Contracting Officer in
+consultation with the AI Investment Management Group (AIM Group).
+(c) Privacy Compliance in AI Systems Involving Personally Identifiable Information (PII). The
+Contractor shall ensure full compliance with all applicable Federal privacy laws, regulations, executive
+orders, and agency-specific privacy policies when developing, deploying, operating, or maintaining any
+AI system or service under this contract that will create, collect, use, process, store, maintain, disseminate,
+disclose, or dispose of Federal information containing personally
+identifiable information.
+1. Incident Reporting. During the performance of this contract, the Contractor must comply with 12 FAM
+550 Security Incident Program. Additionally, the Contractor shall report all AI incidents to
+CIRT@state.gov. CIRT will review and assess to determine if the reported event is a potential
+cybersecurity and/or AI incident. Based on the cause of the event, nature and scope
+of the potential threat, and other operational impacts, the event may be classified as a cybersecurity and/or
+serious AI incident and escalated for subsequent reporting, analysis, and the coordination of incident
+response actions, which will require the Contractor to provide additional details regarding the reported
+incident. In all AI incidents, contractors must notify the Responsible AI Official via RAIO@state.gov and
+follow Incident Response Processes. In instances when PII is involved in actual or suspected AI incidents,
+contractors are also responsible for adhering to 5 FAM 465. Contractors must report the AI incident to the
+Privacy Office using the Department’s Breach Incident Form (access to this online form will be provided
+after contract award) or contacting PRVIncidents@state.gov
+2. The obligations in this clause apply to all prime contractors, subcontractors, vendors, and third parties
+who handle PII on behalf of the Contractor and must be flowed down to all relevant subcontracts.
+(d) Compliance with Minimum Risk Management Standards The Contractor shall comply with the
+minimum AI risk management practices for high-impact use cases as required by OMB M-25-21. These
+include but are not limited to the following:
+1. Applying the NIST AI Risk Management Framework;
+2. Supporting agency-led impact assessments;
+3. Ensuring transparency of system design, data lineage, and decision logic.
+34
+(e) Evaluation and Monitoring of AI System Performance. The Contractor shall allow the agency to
+perform quarterly or biannual evaluations of AI system performance, risks, and effectiveness.
+1. The Government anticipates that independent testing will use internal datasets to reflect real-world
+operational use cases as closely as possible. These datasets:
+• Will remain confidential and will not be shared with the Contractor; and
+• Will be used solely for the purpose of evaluating system performance.
+2. Within 10 business days of the Government’s notice to conduct independent testing, the Contractor
+shall provide the agency with access to necessary documentation, system resources and operational time.
+If testing is performed by the Contractor, the Government reserves the right to: -
+• Independently reproduce or verify test results; and
+• Review and access all test methodologies and outcomes to ensure transparency and accuracy.
+3. Within 10 business days of a Government request, the Contractor shall provide detailed documentation
+of internal testing procedures and collaborate with the agency to ensure alignment with evaluation
+objectives. The Government anticipates issuing these requests no more than two times per year. The
+Contractor agrees that testing results and methodologies
+may be used internally by the agency for performance assessments and operational improvements, while
+safeguarding proprietary information and intellectual property.
+(f) Performance Monitoring and Remediation Requirements. The Contractor shall regularly:
+1. Monitor the AI system’s performance in operational environments;
+2. Identify and rectify unacceptable system behavior;
+3. Ensure any new AI version meets predefined performance thresholds before deployment;
+4. Rollback to a previous version if performance degradation is detected.
+(g) New AI Feature Integration Notification. The Contractor shall provide written notification to the
+Contracting Officer or their designated representative at least ten business days before implementing any
+of the following proposed changes to High-Impact AI use cases, or when functionality newly meets the
+High-Impact threshold:
+• Material changes to the AI system;
+• Addition of new AI algorithms or features;
+• Significant Modifications to underlying models or data sources.
+The notification shall include:
+• A clear description of the proposed change;
+• Anticipated impacts on system performance, security, or compliance;
+• Risk mitigation strategies; and
+• Documentation demonstrating continued adherence to applicable federal standards, including OMB M25-21 and M-25-22.
+The Government will review the proposed changes to ensure alignment with operational requirements,
+compliance standards, and risk management protocols.
+Approval or disapproval by a designated representative to the Contracting Officer will be communicated
+prior to deployment.
+(h) Maximize Use of American-Made AI. The Vendor shall disclose whether the Artificial Intelligence
+(AI) system provided under this Agreement was developed and is maintained entirely within the United
+States. If any portion of the AI system was developed or is maintained outside the United States, the
+Vendor shall disclose the foreign jurisdiction(s) involved and describe the nature and extent of such 
+35
+development or maintenance activities. This disclosure shall be provided to ensure compliance with
+federal policies governing AI systems and applicable. National security requirements pursuant to OMB
+Memorandum M-25-22, Section 3(c).
+(End of Clause)
+36
+SECTION I - LIST OF ATTACHMENTS
+ATTACHMENT
+NUMBER DESCRIPTION OF ATTACHMENT
+NUMBER OF
+PAGES
+Attachment 1 Performance and Guaranty Bond 2
+Attachment 2 Payment Bond 1
+Attachment 3 Breakdown of Price by Divisions of Specifications 1
+Attachment 4 Statement of Work 10
+37
+ATTACHMENT 1
+PERFORMANCE AND GUARANTY BOND
+(To be attached upon award)
+38
+ATTACHMENT 2
+PAYMENT BOND
+(To be attached upon award)
+39
+ATTACHMENT 3
+UNITED STATES DEPARTMENT OF STATE
+BREAKDOWN OF PRICE BY DIVISIONS OF SPECIFICATIONS
+PROJECT: Half Size Basketball Court
+(1) DIVISION/DESCRIPTION (2)LABOR (3)MATERIALS (4)OVERHEAD (5)PROFIT (6)TOTAL
+
+1. General Requirements
+2. Site Work
+3. Excavation
+4. Concrete
+5. Reinforcement
+6. Final acrylic surface
+_____________________________________________________________________________________
+7. Lines (court markings)
+8. Basketball hoop
+_____________________________________________________________________________________
+9. Chain link fence
+10. Windscreen
+11. LED Light fixtures
+12. Cleaning site
+______________________________________________________________________________________
+13. DBA
+____________________________________________________________________________________
+TOTAL: EURO
+Allowance Items:
+PROPOSAL PRICE TOTAL:
+Alternates (list separately do not total)
+Offeror: 
+40
+ATTACHMENT 4
+STATEMENT OF WORK
+FOR
+BASKETBALL CONSTRUCTION
+U.S. DEPARTMENT OF STATE
+OVERSEAS BUILDINGS OPERATIONS
+Washington, DC
+41
+A. SCOPE OF WORK
+A.1 INTRODUCTION
+a. The U.S. Embassy in Athens, Greece has a requirement to construct a half size basketball court at
+the CMR Residence.
+b. The Contractor shall remove the existing surface including the clay surface and sublayer, and
+exterior lighting fixtures. The Contractor shall provide and install the new half size basketball
+court including new 120 mm thick concrete floor slab, acrylic surface, basketball court lines and
+basket. Will also provide a cost for optionally installing a chain link fence with doors, exterior
+Light Emitting Diode (LED) lighting fixtures and windscreen as per the Statement of Work.
+c. The Contractor’s employees will be escorted by the Embassy staff throughout the time they are at
+the work site. The Contracting Officer’s Representative (COR) will oversee the performance of
+the work throughout its progress.
+d. The Contractor shall provide personnel, material, equipment, and supervision to complete the
+technical requirements in this Statement of Work. The Contractor shall be responsible for hiring
+labor, equipment vendors and materials, and shall follow security and safety directives as
+explained by the Embassy. Total Period of Performance to Completion is 45 calendar days with
+the option to postpone due to weather conditions. Work shall be performed only on weekdays.
+e. The Contractor shall be responsible to issue any required permits from the Municipality of
+Athens and/or the city planning offices in order to perform this work.
+f. The Contractor shall not be admitted to areas of the property outside the areas designated for the
+project except with permission by the Embassy. The Contractor shall address the impact of the
+consequent disruption caused by the proposed work.
+g. The project drawings will be provided during the pre-quotation conference.
+B.2 DESCRIPTION OF WORK
+B.2.1 TEMPORARY WORK AND DEMOLITION WORK
+B.2.1.1 The Contractor shall request and receive approval of any hot work
+(grinding/welding/soldering) from the COR before the work begins. The Contractor will assign a
+fire watch with extinguisher and a bucket of water during any hot work or grinding operations.
+B.2.1.2 All cutting devices including metal and concrete cutting portable or circular saws that
+are table mounted shall be installed with proper safeguards to prevent injuries or safety hazards.
+All hand operated cutting and grinding devices shall be equipped with proper safeguards and
+inspected daily for safe conditions of the device and its wiring.
+B.2.1.3 The Contractor shall protect the existing structure, landscaping, trees, underground
+utilities, and other facilities that may be affected by this work. The Contractor shall repair any
+damages caused by contractor personnel on site at the Contractor’s own expense. All damages
+must be reported to the COR.
+B.2.1.4 The Contractor shall keep the work site clean and orderly on a daily basis during and
+at the end of each scheduled working day.
+42
+B.2.1.5 The Contractor shall dispose of all the construction debris upon approval of the COR.
+No debris or refuse may be left in front of or on the construction site at the end of each workday.
+B.2.1.6 The Contractor shall provide all contract personnel with and they shall wear
+appropriate and required personal protective equipment (PPE) during the construction work.
+B.2.1.7 The Contractor shall perform the following demolition work by removing the clay
+surface and underlayment so the new concrete slab can be placed with the appropriate inclinations
+as shown on the drawings.
+B.2.1.8 The Contractor shall provide adequate dust control upon excavation by watering the
+grounds as needed.
+BASKETBALL COURT
+Main item:
+Concrete floor slab: 16.80 meters wide, 15 meters long and 120mm thick reinforced concrete
+Acrylic surface with half-size court lines and coloring
+Accessories: One 72” height adjustable basketball hoop
+Optional:
+Chain link fence: Approximately 19.6 meters long and 3.65 meters high including metal supports
+and doors
+Exterior lighting fixtures: twelve (12) of 400 watts halogen lighting fixtures
+Windscreen: Approximately 126 meters long and 3.50 meters high
+B.2.2 EARTH WORK
+B.2.2.1 The Contractor shall protect pavements, landscaping, and other facilities from
+damage caused by settlement, lateral movement, undermining, and other hazards created by
+earthwork operations.
+B.2.2.2 Before excavation, the Contractor shall inspect for existing utility. If there are
+unidentified underground utilities found during the excavation work, the Contractor shall
+immediately stop excavation, mark the site, and report the findings to the COR.
+B.2.2.3 Existing Utilities: The Contractor will not interrupt utilities serving facilities
+occupied by Government or others unless permitted in writing by COR and then only after
+arranging to provide temporary utility services according to requirements indicated.
+B.2.2.4 The Contractor shall provide earthwork including excavation, backfilling,
+compaction, and leveling to install the concrete floor slab for the new basketball court as per the
+drawing A1.
+B.2.2.5 The Contractor shall excavate to indicated elevations and dimensions within a
+tolerance of plus or minus 25mm.
+B.2.2.6 The Contractor shall provide compaction at the bottom of the indicated elevation
+level after excavation and before pouring the concrete floor slab for the new basketball court. At a
+minimum of 3-passes per location using a roller. Soft soil spots must be removed/replaced.
+43
+B.2.2.7 Vapor barrier; The Contractor shall provide and install 6mil thick polythene sheet
+over the compacted gravel bed as shown in the drawing A4. The overlap shall be 200mm both
+ends and all the joints shall be taped properly.
+B.2.3 CONCRETE WORK
+B.2.3.1 The Contractor shall provide the concrete floor slab for the new basketball court and
+the basketball hoops foundation as per the drawings.
+B.2.3.2 The new concrete floor slab and footing shall be reinforced with indicated 8mm and
+15mm thick of the High tensile Deformed rebar (HD). And the minimum compressive strength of
+the concrete shall be 25 MPa at 28 days.
+B.2.3.3 The Contractor shall use spacers to provide equal space between gravel bed and steel
+bars.
+B.2.3.4 The Contractor shall put 6mil thick polythene vapor barrier between concrete member
+and sub-base to avoid possibility of moisture damage.
+B.2.3.5 The Contractor shall provide formwork so that the concrete members and structures
+are of size, shape, alignment, elevation, and position indicated. The concrete form shall be
+supported for vertical, lateral, static, and dynamic loads, and construction loads that might be
+applied until structure can support such loads.
+B.2.3.6 The Contractor shall install forms tight enough to prevent loss of concrete mortar and
+fabricate forms for easy removal.
+B.2.3.7 Before placing concrete, the Contractor shall verify that installation of formwork,
+reinforcement, and embedded items are completed and that required inspections have been
+performed, to include the concrete mix ratios.
+B.2.3.8 The Contractor shall deposit concrete continuously in one layer or in horizontal layers
+of such thickness that no new concrete will be placed on concrete that has hardened enough to
+cause seams or planes of weakness.
+B.2.3.9 The Contractor shall cure all formed concrete surfaces. If the forms remain during
+curing period, moist cure after loosening forms. If removing forms before the end of curing
+period, continue curing for the remainder of the curing period.
+B.2.3.10 The Contractor shall provide the new court floor slab as per the drawing A1. The new
+court floor slab shall be 16.80 meters wide, 15 meters long and 120mm thick with reinforced
+concrete.
+B.2.3.11 Floor slope; The slope should not be less than 0.83% and not more than 1% (1:100)
+towards the drain grating. All leveling shall be done with the dumpy level.
+B.2.3.12 Steel bars; The Contractor shall provide and install 8mm diameter steel bar at 200mm
+c/c both ways with minimum 80mm cover from the top of the concrete layer. The Contractor
+shall use maximum length of steel bar at site. Bars shall be lapped at minimum 25 times diameter
+of length and should also be securely tied, so that there is no possibility of displacement, when 
+44
+concrete is placed. At the time of concrete placement, reinforcement should be free of loose, flaky
+rust and other coatings of films that could interfere with bonding to concrete.
+B.2.3.13 Control joints; The Contractor shall create control joints of 3mm thickness and 30mm
+depth and have them placed as per drawing A2. Joints must be sawed as soon as the concrete will
+withstand the energy of sawing without raveling or dislodging aggregate particles. Preferably,
+sawing should be completed within the first 6 to 18 hours and never delayed more than 24 hours.
+B.2.3.14 Curing; After initial hardening of the concrete, curing shall be done by ponding
+continued for seven days. After 7 days, surface shall be kept moist for two (2) days in accordance
+with the top surfacing system manufacturer’s recommendations.
+B.2.3.15 Forms and screeds; Forms and screeds should be set accurately and secured to prevent
+settlement or movement during placing of concrete. Forms should remain in place for minimum
+seven days until the concrete has taken its final set.
+B.2.4 FINISH WORK
+B.2.4.1 The Contractor shall provide and apply the acrylic coat for the new surface of concrete
+floor slab as per the drawing A1.
+B.2.4.2 The final surface shall be elastic, acrylic, non-slip coating with a total thickness of 3-
+3.5mm, certified floor by the International Tennis Federation I.T.F category 3 medium and a
+rubber floor substrate consisting of acrylic resins, quartz aggregates, improvers and rubber
+granules.
+B.2.4.3 Before starting work, the substrate must be thoroughly cleaned of dust and any
+residues. Subsequently, the surface is primed with an adhesive, acrylic resin to ensure proper
+adhesion of the acrylic, sealant, cast substrate. The acrylic primer will be applied in one or more
+layers, until the surface is saturated, avoiding the creation of stagnant material, and its
+consumption will range from 250gr/m2 in two layers depending on the absorption of the
+substrate. Subsequently, the pores are sealed with a cast, industrialized product of standardized
+acrylic-based material with a thickness of 1mm, with special tools (squeegees) in two crossshaped layers with a consumption of 1.3kg/m2. Once the surface is dry (approximately 1 hour),
+the application of an elastic, cast substrate from the industrialized, standardized product
+consisting of large-grained recycled rubber granules, acrylic resins and improvers will begin. The
+application will be carried out in two repeated cross-shaped layers using a squeegee and a
+consumption of 1.2 kg/m2. Then, the application of a flexible, cast substrate from the
+industrialized, standardized product consisting of low consumption recycled rubber granules,
+acrylic resins and improvers will begin. The application will be carried out in two repeated crossshaped layers using a squeegee and a consumption of 0.8 kg/m2. The final surface will then be
+laid (once the floor has dried) with the cast, flexible, ready-made product, acrylic-based, which
+contains quartz sand as a factory production process (without additional addition of quartz sand)
+in three cross-shaped layers, with a consumption of 1.8kg/m2, in the desired shade, at a thickness
+of 1mm.
+B.2.4.4 The marking of the field will be done with acrylic-based paint, high-strength, suitable
+for outdoor surfaces.
+B.2.4.5 The Contractor shall complete the install of the basketball hoop which will be
+embedded on the floor before starting concrete and finishing work.
+45
+B.2.4.6 The Contractor shall completely remove dust, sand or stones from the surface of
+concrete foundation before application of primers. And the Contractor shall brush and clean the
+surface with a diluted detergent and dry it completely.
+B.2.4.7 The Contractor shall apply the recommended number of finish coatings for each
+course and comply with manufactures manual.
+B.2.4.8 The Contractor shall draw basketball court lines with acrylic latex paint using brush,
+roller or spray after the surface has been dried completely. The contractor will give 3 color
+combinations to the COR for determining which is preferable.
+B.2.4.9 Cloudiness, spotting, laps, brush marks, runs, sags, or other surface imperfections will
+not be acceptable. When it comes to line marking, do not allow even ± 1mm tolerance.
+B.2.4.10 After completing finish work, the Contractor shall evaluate the surface roughness by
+using 3m straightedge. Roughness of 6mm or more is not acceptable.
+B.2.4.11 After work of other trades is complete, if there is any damage or deficiencies on the
+surface of the basketball court, the Contractor shall touch up and restore all of them.
+B.2.5 CHAIN-LINK FENCE INSTALLATION (OPTIONAL)
+CHAIN-LINK FENCE
+B.2.5.1 If approved, the Contractor shall install new chain link fence between the pickleball
+courts and the new basketball court as per the drawing A1, A3 and A4. The new fence length,
+height, fence type, and post quantity are as followings:
+ - Fence length: 19.5 meters
+ - Fence height: 3.65 meters
+ - Chain Link height: 3,65 meters
+ - Wind screen net length: 126 meters on the new and old chain link fence that
+surrounds all courts.
+ - Wind screen net height: 3,50 meters
+B.2.5.2 The new chain link fence shall have 38mm wide, 38mm high and 3.5mm thick of
+diamond galvanized segments. The new chain link fence shall match the existing fence.
+B.2.5.3 The Contractor shall install new fence posts at every 2m distance as per the drawing
+A1. The posts shall be a 76.3mm diameter with hot dip galvanized pipe. The pipe shall be set
+plumb, level, and true to line-of-slop; accurately located with respect to adjacent units.
+B.2.5.4 The chain-link fence shall be installed after the concrete is sufficiently cured. And
+there shall be less than 30mm gap between the surface of the existing pickleball court and the
+bottom line of fence to prevent missing pickleball balls.
+B.2.5.5 When assembling the chain-link fence, the assembly bolts, nuts and connecting bands
+should be used to securely assemble the fence and main post.
+B.2.5.6 Including all accessories (bolts, nuts, washer U-bands, anchor bolts, etc.), the
+Contractor shall provide the hot-dip-galvanizing coated metal material to prevent from corrosion.
+46
+B.2.5.7 The Contractor shall set base/support plates on top of footing concrete and drill anchor
+bolt holes accurately spaced, oversized by 6mm above bolt size, for installation tolerance. The
+base/support plates shall be 200mm wide, 200mm high and 6mm thick with hot dip galvanized
+steel plates.
+B.2.5.8 The Contractor shall avoid unnecessary cutting, drilling, and welding of prefinished
+fence units. Where necessary to cut, drill, or weld, repair shop coat(s) of finish (primer and finish
+coat, if any) in manner recommended by paint manufacturer, and in manner which will provide
+corrosion protection equivalent to shop-applied coats in so far as this is possible.
+B.2.5.9 The Contractor shall clean exposed surfaces of fence work, and touch up abraded
+finishes to restore appearance and corrosion resistance.
+METAL GATE
+B.2.5.10 The Contractor shall provide and install the double metal doors and frames for the new
+basketball court as per drawing A3 and at the location as shown on drawing A1.
+B.2.5.11 Gates shall open inward to the basketball court as shown on drawing A1, be selfclosing with self-latching device, and accommodate a locking device. The gates shall have no
+opening greater than 15 mm (5/8 inch) within 450 mm of release mechanism. Maximum vertical
+clearance between grade and bottom of gate shall be 30 mm.
+B.2.5.12 The post of entrance door shall match the existing gates.
+B.2.5.13 The mesh and windscreen of the entrance door shall be the same material and size as
+the mesh and windscreen of the chain link fence.
+B.2.5.14 The Contractor shall provide the entrance door locks and accessories that have
+sufficient strength to withstand the weight of the door.
+B.2.5.15 The Contractor shall touch up abraded finishes to restore appearance and corrosion
+resistance.
+SUBMITTALS
+B.2.5.16 Product data, for each type and grade of metal used in fabricating units, and for bolts
+and accessory items used in assembly and installation. Include manufacturer's product data for
+materials to be used in finishing or painting fence units.
+B.2.6 ACCESSORIES
+Before commencement of installation, the Contractor shall submit the catalogue source, material
+data, cut sheets, sample and Safety Data Sheet (SDS) of the basketball accessories.
+BASKETBALL HOOP AND BACKBOARD
+B.2.6.1 The Contractor shall provide and install one basketball post as per drawing A1.
+The Contractor shall consider pouring the footing at the same time as pouring the basketball court
+foundation.
+B.2.6.2 The new basketball pole shall be settled with mechanical anchor bolts to the
+concrete footing.
+47
+B.2.6.3 The basket and backboard must be adjustable with high quality materials and
+professional specifications that will be submitted to the COR and approved prior to installation.
+B.2.6.4 The basketball hoops are suspended 10’ | 3.05 m from the playing surface and
+have a standard rim diameter of 18” | 46 cm. The vertical backboard surface is made of tempered
+glass to prevent shattering and is sized at 42” x 72” | 110 x 183 cm. Basketball rims are
+manufactured from high tensile carbon steel to provide the ball with the correct amount of bounce
+while also having given for players that can dunk.
+B.2.6.5 The backboard shall have the following dimensions:
+B.2.6.6 The basketball rims, or hoops, need to be orange painted goals attached to the
+backboard. Basketball rims today are designed as breakaway rims comprised of a hinge and
+spring that allow the rim to bend when a player dunks without shattering the backboard. The rim
+itself is made of a 5/8” | 1.6 cm steel diameter steel rod that is formed into a ring with an inner
+diameter of 18” | 45.72 cm. Basketball nets are hung from the bottom of the rim with length of
+18” | 45.7 cm.
+B.2.6.7 The basketball poles must be made of thick steel and of rectangular shape. The
+mounting shall be with flange anchor mounting.
+WINDSCREEN (OPTIONAL)
+B.2.6.8 If approved, the Contractor shall provide and install windscreen on the fence to reduce
+the influence of wind. The windscreen shall be 3.6m high as per the drawing A3.
+B.2.6.9 The windscreen shall have the following characteristics and no dazzling. The standard
+recommends to apply bottle green color.
+Ventilation flow rate 75 %
+Light transmittance 50 %
+48
+B.2.7 ELECTRICAL WORK
+LED LIGHTING FIXTURE (GF/CI) (OPTIONAL)
+B.2.7.1 If approved, the Contractor shall provide and replace the existing twelve (12)
+lighting fixtures on the lighting poles. The new lighting fixtures shall be of a waterproof type,
+Lighting Emitting Diode (LED) lighting, lens cover (snoot), lamp wire guard and have following
+characteristics or equivalent with ITF standards. Each lighting pole has three (3) new LED
+lighting fixtures.
+B.2.7.2 Each light fixture must meet the following requirements:
+- Average of Lumen: 52,000Lm
+- Efficiency: 130 lumen/watt
+- Rated Life: 50,000 hr
+- Power Consumption: less than 400watts
+- Color Rendering Index (CRI): 80Ra
+- Color Temperature: more than 5,000K
+- Finish: Power coating, Interpon D: ML 342k, gray color
+- Warranty: 10years
+B.2.7.3 The lighting system shall be above IP66 grade which is excellent for waterproof,
+dustproof, corrosion prevention to be suitable for outdoor installation.
+The new light fixtures must be LED light source to save energy and maintenance costs. Limit of
+Glare: The Contractor shall position, height, angle of projection and etc. to prevent the player and
+an audience from glare.
+GENERAL REQUIREMENT
+B.2.7.4 All spliced wiring and connections must meet prescribed NEC requirements.
+B.2.8 MISCELLANEOUS WORK
+B.2.8.1 The Contractor shall repair sidewalk and curbstone at the entrances of the new
+basketball court if any have occurred from the project.
+B.3 EXAMINATION OF THE SITE
+The Contractor acknowledges that he has satisfied himself as to the nature of materials and methods of
+the existing construction noted for repair or replacement, and to the obstacles likely to be encountered,
+insofar as this information is reasonably ascertainable from an inspection of the specified structures and
+or premises. The Contractor shall carefully study and compare the Contract Documents with each other
+and with information furnished by the USG. Before commencing activities, the Contractor shall: (1) take
+field measurements and verify field conditions; (2) carefully compare this and other information known to
+the Contractor with the Contract Documents; and (3) promptly report errors, inconsistencies or omissions
+discovered to the USG Contracting Officer Representative.
+49
+B.4 QUALITY CONTROL
+B.4.1 Quality Control is the means by which the Contractor ensures that the construction, to include
+that of sub-Contractors and suppliers, complies with the requirements of the contract. The oversight shall
+be adequate to cover all construction operations, including both on site and off site fabrication, and will
+be keyed to the proposed construction sequence.
+B.4.2 The Quality Control Program shall be based on a three-phase control process including,
+Preparatory Phase, Initial Phase and Follow-up Phase.
+B.4.2.1 Preparatory phase: Contractor shall prepare and explain their construction plan (manpower schedule, working schedule in detail, surface treatment method, safety plan, fire protection
+plan etc.)
+B.4.2.2 Initial phase: Contractor shall make one sample area for each case such as; paint
+color, etc. for approval by the COR.
+B.4.2.3 Follow-up phase: Contractor shall perform their work according to Preparatory phase
+and Initial phase as approved by the COR.
+B.4.3 Submittals: The Contractor shall submit a Quality Control plan for acceptance by the COR. The
+plan shall identify and describe the site organization, personnel, records, and forms to be used. The
+Embassy reserves the right to require the Contractor to make changes in his plan and operations,
+including removal of personnel, as necessary, to obtain the quality specified.
+B.5 SAFETY MANAGEMENT PLAN
+Contractor shall submit a Safety Management in effect on the date of the solicitation.
+B.5.1 Safety (FAR 52.236-13 Accident Prevention)
+The Contractor shall provide and maintain the work environment and procedures which will:
+(a) Safeguard the public and Government personnel, property, materials, supplies, and equipment
+exposed to Contractor operations and activities.
+(b) Avoid interruptions of Government operations and delays in project completion dates.
+(c) Control excess or unexpected costs in the performance of this contract.
+Whenever the Contracting Officer (CO) through the COR, becomes aware of any noncompliance
+concerns with these requirements, or any condition that poses a serious or imminent danger to the health
+or safety of the public or Government personnel, the CO shall notify the Contractor orally, with written
+confirmation, and request immediate initiation of corrective action.
+This notice, when delivered to the Contractor or his/her representative at the work site, shall be deemed
+sufficient notice of the noncompliance and that corrective action is required. After receiving the notice,
+the Contractor shall immediately take corrective action.
+If the Contractor fails or refuses to promptly take corrective action, as reported on by the COR, the CO
+may issue an order stopping all or part of the work until satisfactory corrective action has been taken. The
+Contractor shall not be entitled to any equitable adjustment of the contract price or extension of the
+performance schedule on any stop work order issued under this clause.
+END OF STATEMENT OF WORK
+50
+SECTION J – INSTRUCTIONS ON HOW TO SUBMIT A QUOTATION
+Electronic Submission/Responses:
+This opportunity allows for electronic responses. Please submit your offer prior to the response date and
+time. Please ensure your email with your offer must not be larger than 25 MB in size and may only
+contain files and attachments in .zip and .pdf formats. The Department server may block other formats,
+files, and attachments, including external links to Cloud storage, i.e., DropBox and Google Drive. If the
+file size should exceed 25MB, the submission must be made in separate files and attached to separate
+emails with less than 25MB each.
+The Offeror shall include Defense Base Act (DBA) insurance premium costs covering employees. The
+offeror may obtain DBA insurance directly from any Department of Labor approved providers at the
+DOL website at http://www.dol.gov/owcp/dlhwc/lscarrier.htm
+A. QUALIFICATIONS OF OFFERORS
+Offerors/quoters must be technically qualified and financially responsible to perform the work described
+in this solicitation. At a minimum, each Offeror/Quoter must meet the following requirements:
+(1) Be able to understand written and spoken English.
+(2) Have an established business with a permanent address and telephone listing
+In Greece or plans to establish an office within 30 days of contract award.
+(3) The offeror shall provide proof of SAM registration to include the SAM UEI number
+(4) Be able to demonstrate prior construction experience with suitable references.
+(5) Have the necessary personnel, equipment and financial resources available to perform the
+work.
+(6) Have all licenses and permits required by local law.
+(7) Meet all local insurance requirements.
+(8) Have the ability to obtain or to post adequate performance security, such as bonds,
+irrevocable letters of credit or guarantees issued by a reputable financial institution.
+(9) Have no adverse criminal record; and
+(10) Have no political or business affiliation which could be considered contrary to the
+interests of the United States.
+B. SUBMISSION OF QUOTATIONS
+This solicitation is for the performance of the construction services described in SCOPE OF WORK, and
+the Attachments which are a part of this request for quotation.
+Each quotation must consist of the following:
+VOLUME TITLE NUMBER OF
+COPIES*
+I Standard Form 18 including a completed Attachment 4,
+"BREAKDOWN OF PROPOSAL PRICE BY DIVISIONS OF
+SPECIFICATIONS
+1
+II Performance schedule in the form of a "bar chart" and Business
+Management/Technical Proposal 1
+Submit the complete quotation to the address indicated. If mailed, on Standard Form 18, or if handdelivered, use the address set forth below:
+51
+Not Applicable
+The Offeror/Quoter shall identify and explain/justify any deviations, exceptions, or conditional
+assumptions taken with respect to any of the instructions or requirements of this request for quotation in
+the appropriate volume of the offer.
+Volume II: Performance schedule and Business Management/Technical Proposal.
+(a) Present the performance schedule in the form of a "bar chart" indicating when the various
+portions of the work will be commenced and completed within the required schedule. This bar
+chart shall be in sufficient detail to clearly show each segregable portion of work and its planned
+commencement and completion date.
+(b) The Business Management/Technical Proposal shall be in two parts, including the
+following information:
+Proposed Work Information - Provide the following:
+(1) A list of the names addresses and telephone numbers of the owners, partners, and principal
+officers of the Offeror.
+(2) The name and address of the Offeror's field superintendent for this project.
+(3) A list of the names, addresses, and telephone numbers of subcontractors and principal
+materials suppliers to be used on the project, indicating what portions of the work will be
+performed by them; and,
+Experience and Past Performance - List all contracts and subcontracts your company has held over the
+past three years for the same or similar work. Provide the following information for each contract and
+subcontract:
+(1) Customer's name, address, and telephone numbers of customer's lead contract and technical
+personnel.
+(2) Contract number and type.
+(3) Date of the contract award place(s) of performance, and completion dates; Contract dollar
+value.
+(4) Brief description of the work, including responsibilities; and
+(5) Any litigation currently in process or occurring within last 5 years.
+C. 52.236-27 SITE VISIT (CONSTRUCTION) (FEB 1995)
+(a) The clauses at 52.236-2, Differing Site Conditions, and 52.236-3, Site Investigations and
+Conditions Affecting the Work, will be included in any contract awarded as a result of this
+solicitation. Accordingly, offerors or quoters are urged and expected to inspect the site where the
+work will be performed.
+(b) A site visit has been scheduled for December 12, 2025, at 09:30 hours.
+(c) Participants will meet at the entrance of the Residence. (Address to be provided upon
+request).
+52
+(d) The Government will allow access to two (2) individuals to represent each company at the site
+visit.
+(e) Offerors should send an email to AthProcurement@state.gov to make appropriate
+arrangements no later than 12.00 hours on December 11, 2025.
+D. MAGNITUDE OF CONSTRUCTION PROJECT
+It is anticipated that the range in price of this contract will be between $25,000.00 and $100,000.00 (or
+equivalent in local currency).
+E. LATE QUOTATIONS. Late quotations shall be handled in accordance with FAR 15.208.
+F. 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE
+(FEB 1998)
+This solicitation incorporates one or more solicitation provisions by reference, with the same force and
+effect as if they were given in full text. Upon request, the Contracting Officer will make their full text
+available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this
+address is subject to change.
+If the Federal Acquisition Regulation (FAR) is not available at the location indicated above, use the
+Department of State Acquisition website at e-CFR to see the links to the FAR. You may also use an
+Internet “search engine” (for example, Google, Yahoo or Excite) to obtain the latest location of the most
+current FAR.
+THE FOLLOWING FEDERAL ACQUISITION REGULATION PROVISIONS ARE
+INCORPORATED BY REFERENCE (48 CFR CH. 1):
+PROVISION TITLE AND DATE
+52.204-7 SYSTEM FOR AWARD MANAGEMENT (NOV 2024)
+52.204-16 COMMERCIAL AND GOVERNMENT ENTITY CODE REPORTING (AUG
+2020)
+52.214-34 SUBMISSION OF OFFERS IN THE ENGLISH LANGUAGE
+(APR 1991)
+52.215-1 INSTRUCTIONS TO OFFERORS--COMPETITIVE ACQUISITION (NOV
+2021)
+53
+SECTION K - EVALUATION CRITERIA
+Award will be made to the lowest priced, acceptable, responsible quoter. The Government reserves the
+right to reject quotations that are unreasonably low or high in price.
+The Government will determine acceptability by assessing the offeror's compliance with the terms of the
+RFQ. The Government will determine responsibility by analyzing whether the apparent successful quoter
+complies with the requirements of FAR 9.1, including:
+• ability to comply with the required performance period, taking into consideration all existing
+commercial and governmental business commitments.
+• satisfactory record of integrity and business ethics.
+• necessary organization, experience, and skills or the ability to obtain them.
+• necessary equipment and facilities or the ability to obtain them; and
+• otherwise, qualified, and eligible to receive an award under applicable laws and regulations.
+54
+SECTION L – REPRESENTATIONS, CERTIFICATIONS AND OTHER STATEMENTS
+L.1 52.204-3 TAXPAYER IDENTIFICATION (OCT 1998)
+(a) Definitions.
+"Common parent", as used in this provision, means that corporate entity that owns or controls an
+affiliated group of corporations that files its Federal income tax returns on a consolidated basis, and of
+which the offeror is a member.
+“Taxpayer Identification Number (TIN)", as used in this provision, means the number required by
+the IRS to be used by the offeror in reporting income tax and other returns. The TIN may be either a
+Social Security Number or an Employer Identification Number.
+(b) All offerors must submit the information required in paragraphs (d) through (f) of this provision
+in order to comply with debt collection requirements of 31 U.S.C. 7701(c) and 3325 (d), reporting
+requirements of 26 USC 6041, 6041A, and 6050M and implementing regulations issued by the
+Internal Revenue Service (IRS). If the resulting contract is subject to the reporting requirements
+described in FAR 4.904, the failure or refusal by the offeror to furnish the information may result
+in a 31 percent reduction of payments
+(c) otherwise due under the contract.
+(d) The TIN may be used by the Government to collect and report on any delinquent amounts arising
+out of the offeror’s relationship with the Government (3l USC 7701( c)(3)). If the resulting
+contract is subject to the payment reporting requirements described in FAR 4.904, the TIN
+provided hereunder may be matched with IRS records to verify the accuracy of the offeror’s TIN.
+(e) Taxpayer Identification Number (TIN).
+TIN: ____________________________
+ TIN has been applied for.
+ TIN is not required because:
+ Offeror is a nonresident alien, foreign corporation, or foreign partnership that
+does not have income effectively connected with the conduct of a trade or business in the
+U.S. and does not have an office or place of business or a fiscal paying agent in the U.S.
+ Offeror is an agency or instrumentality of a foreign government.
+ Offeror is an agency or instrumentality of the Federal Government.
+(e) Type of Organization.
+ Sole Proprietorship.
+ Partnership.
+ Corporate Entity (not tax exempt).
+ Corporate Entity (tax exempt).
+ Government Entity (Federal, State, or local).
+ Foreign Government.
+ International organization per 26 CFR 1.6049-4.
+ Other _________________________________.
+(f) Common Parent.
+ Offeror is not owned or controlled by a common parent as defined in paragraph (a) of this
+clause.
+55
+ Name and TIN of common parent:
+Name _____________________________
+TIN ______________________________
+(End of provision)
+L.2 52.204-8 ANNUAL REPRESENTATIONS AND CERTIFICATIONS (OCT 2025)
+(a)
+(1) The North American Industry Classification System (NAICS) code for
+this acquisition is__________________ [insert NAICS code].
+(2) The small business size standard is _____________ [insert size standard].
+(3) The small business size standard for a concern that submits an offer, other than on a construction or
+service acquisition, but proposes to furnish an end item that it did not itself manufacture, process, or
+produce is 500 employees, or 150 employees for information technology value-added resellers under
+NAICS code 541519 if the acquisition—
+(i) Is set aside for small business and has a value above the simplified acquisition threshold;
+(ii) Uses the HUBZone price evaluation preference regardless of dollar value, unless the offeror waives
+the price evaluation preference; or
+(iii) Is an 8(a), HUBZone, service-disabled veteran-owned, economically disadvantaged women-owned,
+or women-owned small business set-aside or sole-source award regardless of dollar value.
+(b)
+(1) If the provision at 52.204-7, System for Award Management, is included in this solicitation, paragraph
+(d) of this provision applies.
+(2) If the provision at 52.204-7, System for Award Management, is not included in this solicitation, and
+the Offeror has an active registration in the System for Award Management (SAM),
+the Offeror may choose to use paragraph (d) of this provision instead of completing the corresponding
+individual representations and certifications in the solicitation. The Offeror shall indicate
+which option applies by checking one of the following boxes:
+(i) □ Paragraph (d) applies.
+(ii) □ Paragraph (d) does not apply and the offeror has completed the individual representations and
+certifications in the solicitation.
+(c)
+(1) The following representations or certifications in SAM are applicable to this solicitation as indicated:
+(i) 52.203-2, Certificate of Independent Price Determination. This provision applies to solicitations when
+a firm-fixed-price contract or fixed-price contract with economic price adjustment is contemplated,
+unless–
+(A) The acquisition is to be made under the simplified acquisition procedures in part 13;
+(B) The solicitation is a request for technical proposals under two-step sealed bidding procedures; or
+(C) The solicitation is for utility services for which rates are set by law or regulation.
+(ii) 52.203-11, Certification and Disclosure Regarding Payments to Influence Certain Federal
+Transactions. This provision applies to solicitations expected to exceed $200,000.
+(iii) 52.203-18, Prohibition on Contracting with Entities that Require Certain Internal Confidentiality
+Agreements or Statements-Representation. This provision applies to all solicitations.
+(iv) 52.204-3, Taxpayer Identification. This provision applies to solicitations that do not include the
+provision at 52.204-7, System for Award Management.
+(v) 52.204-5, Women-Owned Business (Other Than Small Business). This provision applies
+to solicitations that-
+(A) Are not set aside for small business concerns;
+(B) Exceed the simplified acquisition threshold; and
+(C) Are for contracts that will be performed in the United States or its outlying areas.
+56
+(vi) 52.204-26, Covered Telecommunications Equipment or Services-Representation. This provision
+applies to all solicitations.
+(vii) 52.209-2, Prohibition on Contracting with Inverted Domestic Corporations-Representation.
+(viii) 52.209-5, Certification Regarding Responsibility Matters. This provision applies
+to solicitations where the contract value is expected to exceed the simplified acquisition threshold.
+(ix) 52.209-11, Representation by Corporations Regarding Delinquent Tax Liability or a
+Felony Conviction under any Federal Law. This provision applies to all solicitations.
+(x) 52.214-14, Place of Performance-Sealed Bidding. This provision applies to invitations for bids except
+those in which the place of performance is specified by the Government.
+(xi) 52.215-6, Place of Performance. This provision applies to solicitations unless the place of
+performance is specified by the Government.
+(xii) 52.219-1, Small Business Program Representations (Basic, Alternates I, and II). This provision
+applies to solicitations when the contract is for supplies to be delivered or services to be performed in
+the United States or its outlying areas, or when the contracting officer has applied part 19 in accordance
+with 19.000(b)(1)(ii).
+(A) The basic provision applies when the solicitations are issued by other than DoD, NASA, and the
+Coast Guard.
+(B) The provision with its Alternate I applies to solicitations issued by DoD, NASA, or the Coast Guard.
+(C) The provision with its Alternate II applies to solicitations that will result in a multiple-award
+contract with more than one NAICS code assigned.
+(xiii) 52.219-2, Equal Low Bids. This provision applies to solicitations when contracting by sealed
+bidding and the contract is for supplies to be delivered or services to be performed in the United States or
+its outlying areas, or when the contracting officer has applied part 19 in accordance with 19.000(b)(1)(ii).
+(xiv) 52.222-22, Previous Contracts and Compliance Reports. This provision applies to solicitations that
+include the clause at 52.222-26, Equal Opportunity.
+(xv) 52.222-25, Affirmative Action Compliance. This provision applies to solicitations, other than those
+for construction, when the solicitation includes the clause at 52.222-26, Equal Opportunity.
+(xvi) 52.222-38, Compliance with Veterans’ Employment Reporting Requirements. This provision
+applies to solicitations when it is anticipated the contract award will exceed the simplified acquisition
+threshold and the contract is not for acquisition of commercial products or commercial services.
+(xvii) 52.223-1, Biobased Product Certification. This provision applies to solicitations that require the
+delivery or specify the use of biobased products in USDA-designated product categories; or include the
+clause at 52.223-2, Reporting of Biobased Products Under Service and Construction Contracts.
+(xviii) 52.223-4, Recovered Material Certification. This provision applies to solicitations that are for, or
+specify the use of, EPA–designated items.
+(xix) 52.223-22, Public Disclosure of Greenhouse Gas Emissions and Reduction Goals-Representation.
+This provision applies to solicitations that include the provision at 52.204-7.
+(xx) 52.225-2, Buy American Certificate. This provision applies to solicitations containing the clause
+at 52.225-1.
+(xxi) 52.225-4, Buy American-Free Trade Agreements-Israeli Trade Act Certificate. (Basic, Alternates II
+and III.) This provision applies to solicitations containing the clause at 52.225-3.
+(A) If the acquisition value is less than $50,000, the basic provision applies.
+(B) If the acquisition value is $50,000 or more but is less than $100,000, the provision with
+its Alternate II applies.
+(C) If the acquisition value is $100,000 or more but is less than $102,280, the provision with
+its Alternate III applies.
+(xxii) 52.225-6, Trade Agreements Certificate. This provision applies to solicitations containing the
+clause at 52.225-5.
+(xxiii) 52.225-20, Prohibition on Conducting Restricted Business Operations in Sudan-Certification. This
+provision applies to all solicitations.
+57
+(xxiv) 52.225-25, Prohibition on Contracting with Entities Engaging in Certain Activities or Transactions
+Relating to Iran-Representation and Certifications. This provision applies to all solicitations.
+(xxv) 52.226-2, Historically Black College or University and Minority Institution Representation. This
+provision applies to solicitations for research, studies, supplies, or services of the type normally acquired
+from higher educational institutions.
+(2) The following representations or certifications are applicable as indicated by the Contracting Officer:
+[Contracting Officer check as appropriate.]
+__ (i) 52.204-17, Ownership or Control of Offeror.
+__ (ii) 52.204-20, Predecessor of Offeror.
+__ (iii) 52.222-18, Certification Regarding Knowledge of Child Labor for Listed End Products.
+__ (iv) 52.222-48, Exemption from Application of the Service Contract Labor Standards to Contracts for
+Maintenance, Calibration, or Repair of Certain Equipment- Certification.
+__ (v) 52.222-52, Exemption from Application of the Service Contract Labor Standards to Contracts for
+Certain Services-Certification.
+__ (vi) 52.227-6, Royalty Information.
+__ (A) Basic.
+__ (B) Alternate I.
+__ (vii) 52.227-15, Representation of Limited Rights Data and Restricted Computer Software.
+(d) The offeror has completed the annual representations and certifications electronically in SAM website
+accessed through https://www.sam.gov. After reviewing the SAM information, the offeror verifies by
+submission of the offer that the representations and certifications currently posted electronically that
+apply to this solicitation as indicated in paragraph (c) of this provision have been entered or updated
+within the last 12 months, are current, accurate, complete, and applicable to this solicitation (including the
+business size standard applicable to the NAICS code referenced for this solicitation), as of the date of
+this offer and are incorporated in this offer by reference (see FAR 4.1201); except for the changes
+identified below [offeror to insert changes, identifying change by clause number, title, date]. These
+amended representation(s) and/or certification(s) are also incorporated in this offer and are current,
+accurate, and complete as of the date of this offer.
+FAR Clause # Title Date Change
+________________________
+Any changes provided by the offeror are applicable to this solicitation only, and do not result in an update
+to the representations and certifications posted on SAM.
+(End of provision)
+Alternate I (Mar 2023). As prescribed in 4.1202(a) , substitute the following paragraph (a) for paragraph
+(a) of the basic provision:
+(a)(1) The North American Industry Classification System (NAICS) codes and corresponding size
+standards for this acquisition are as follows; the categories or portions these NAICS codes are assigned to
+are specified elsewhere in the solicitation:
+NAICS Code Size standard
+________________________________ ________________________________
+________________________________ ________________________________
+58
+NAICS Code Size standard
+________________________________ ________________________________
+[Contracting Officer to insert NAICS codes and size standards].
+(2) The small business size standard for a concern that submits an offer, other than on a construction or
+service acquisition, but proposes to furnish an end item that it did not itself manufacture, process, or
+produce, (i.e., nonmanufacturer), is 500 employees, or 150 employees for information technology valueadded resellers under NAICS code 541519, if the acquisition—
+(i) Is set aside for small business and has a value above the simplified acquisition threshold;
+(ii) Uses the HUBZone price evaluation preference regardless of dollar value, unless the offeror waives
+the price evaluation preference; or
+(iii) Is an 8(a), HUBZone, service-disabled veteran-owned, economically disadvantaged women-owned,
+or women-owned small business set-aside or sole-source award regardless of dollar value.
+L.3. 52.204–24 REPRESENTATION REGARDING CERTAIN TELECOMMUNICATIONS
+AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT (NOV 2021)
+The Offeror shall not complete the representation at paragraph (d)(1) of this provision if the Offeror has
+represented that it "does not provide covered telecommunications equipment or services as a part of its
+offered products or services to the Government in the performance of any contract, subcontract, or other
+contractual instrument" in paragraph (c)(1) in the provision at 52.204-26, Covered Telecommunications
+Equipment or Services—Representation, or in paragraph (v)(2)(i) of the provision at 52.212-3, Offeror
+Representations and Certifications-Commercial Products or Commercial Services. The Offeror shall not
+complete the representation in paragraph (d)(2) of this provision if the Offeror has represented that it
+"does not use covered telecommunications equipment or services, or any equipment, system, or service
+that uses covered telecommunications equipment or services" in paragraph (c)(2) of the provision
+at 52.204-26, or in paragraph (v)(2)(ii) of the provision at 52.212-3.
+ (a) Definitions. As used in this provision—
+ Backhaul, covered telecommunications equipment or services, critical technology, interconnection
+arrangements, reasonable inquiry, roaming, and substantial or essential component have the meanings
+provided in the clause 52.204-25, Prohibition on Contracting for Certain Telecommunications and Video
+Surveillance Services or Equipment.
+ (b) Prohibition.
+(1) Section 889(a)(1)(A) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019
+(Pub. L. 115-232) prohibits the head of an executive agency on or after August 13, 2019, from procuring
+or obtaining, or extending or renewing a contract to procure or obtain, any equipment, system, or service
+that uses covered telecommunications equipment or services as a substantial or essential component of
+any system, or as critical technology as part of any system. Nothing in the prohibition shall be construed
+to—
+ (i) Prohibit the head of an executive agency from procuring with an entity to provide a service
+that connects to the facilities of a third-party, such as backhaul, roaming, or interconnection
+arrangements; or
+ (ii) Cover telecommunications equipment that cannot route or redirect user data traffic or
+cannot permit visibility into any user data or packets that such equipment transmits or otherwise handles.
+ (2) Section 889(a)(1)(B) of the John S. McCain National Defense Authorization Act for Fiscal
+Year 2019 (Pub. L. 115-232) prohibits the head of an executive agency on or after August 13, 2020, from
+entering into a contract or extending or renewing a contract with an entity that uses any equipment, 
+59
+system, or service that uses covered telecommunications equipment or services as a substantial or
+essential component of any system, or as critical technology as part of any system. This prohibition
+applies to the use of covered telecommunications equipment or services, regardless of whether that use is
+in performance of work under a Federal contract. Nothing in the prohibition shall be construed to—
+ (i) Prohibit the head of an executive agency from procuring with an entity to provide a service
+that connects to the facilities of a third-party, such as backhaul, roaming, or interconnection
+arrangements; or
+ (ii) Cover telecommunications equipment that cannot route or redirect user data traffic or
+cannot permit visibility into any user data or packets that such equipment transmits or otherwise handles.
+ (c) Procedures. The Offeror shall review the list of excluded parties in the System for Award
+Management (SAM) ( https://www.sam.gov) for entities excluded from receiving federal awards for
+"covered telecommunications equipment or services".
+ (d) Representation. The Offeror represents that—
+ (1) It □ will, □ will not provide covered telecommunications equipment or services to the
+Government in the performance of any contract, subcontract or other contractual instrument resulting
+from this solicitation. The Offeror shall provide the additional disclosure information required at
+paragraph (e)(1) of this section if the Offeror responds "will" in paragraph (d)(1) of this section; and
+ (2) After conducting a reasonable inquiry, for purposes of this representation, the Offeror
+represents that—
+ It □ does, □ does not use covered telecommunications equipment or services, or use any equipment,
+system, or service that uses covered telecommunications equipment or services. The Offeror shall provide
+the additional disclosure information required at paragraph (e)(2) of this section if the Offeror responds
+"does" in paragraph (d)(2) of this section.
+ (e) Disclosures.
+(1) Disclosure for the representation in paragraph (d)(1) of this provision. If the Offeror has responded
+"will" in the representation in paragraph (d)(1) of this provision, the Offeror shall provide the following
+information as part of the offer:
+ (i) For covered equipment—
+ (A) The entity that produced the covered telecommunications equipment (include entity
+name, unique entity identifier, CAGE code, and whether the entity was the original equipment
+manufacturer (OEM) or a distributor, if known);
+ (B) A description of all covered telecommunications equipment offered (include brand;
+model number, such as OEM number, manufacturer part number, or wholesaler number; and item
+description, as applicable); and
+ (C) Explanation of the proposed use of covered telecommunications equipment and any
+factors relevant to determining if such use would be permissible under the prohibition in paragraph (b)(1)
+of this provision.
+ (ii) For covered services—
+ (A) If the service is related to item maintenance: A description of all covered
+telecommunications services offered (include on the item being maintained: Brand; model number, such
+as OEM number, manufacturer part number, or wholesaler number; and item description, as applicable);
+or
+ (B) If not associated with maintenance, the Product Service Code (PSC) of the service being
+provided; and explanation of the proposed use of covered telecommunications services and any factors
+relevant to determining if such use would be permissible under the prohibition in paragraph (b)(1) of this
+provision.
+ (2) Disclosure for the representation in paragraph (d)(2) of this provision. If the Offeror has
+responded "does" in the representation in paragraph (d)(2) of this provision, the Offeror shall provide the
+following information as part of the offer:
+ (i) For covered equipment—
+60
+ (A) The entity that produced the covered telecommunications equipment (include entity
+name, unique entity identifier, CAGE code, and whether the entity was the OEM or a distributor, if
+known);
+ (B) A description of all covered telecommunications equipment offered (include brand;
+model number, such as OEM number, manufacturer part number, or wholesaler number; and item
+description, as applicable); and
+ (C) Explanation of the proposed use of covered telecommunications equipment and any
+factors relevant to determining if such use would be permissible under the prohibition in paragraph (b)(2)
+of this provision.
+ (ii) For covered services—
+ (A) If the service is related to item maintenance: A description of all covered
+telecommunications services offered (include on the item being maintained: Brand; model number, such
+as OEM number, manufacturer part number, or wholesaler number; and item description, as applicable);
+or
+ (B) If not associated with maintenance, the PSC of the service being provided; and
+explanation of the proposed use of covered telecommunications services and any factors relevant to
+determining if such use would be permissible under the prohibition in paragraph (b)(2) of this provision.
+(End of provision)
+L.4. 52.204-26 COVERED TELECOMMUNICATIONS EQUIPMENT OR SERVICESREPRESENTATION (OCT 2020)
+(a) Definitions. As used in this provision, “covered telecommunications equipment or services” and
+“reasonable inquiry” have the meaning provided in the clause 52.204-25, Prohibition on Contracting for
+Certain Telecommunications and Video Surveillance Services or Equipment.
+(b) Procedures. The Offeror shall review the list of excluded parties in the System for Award
+Management (SAM) (https://www.sam.gov) for entities excluded from receiving federal awards for
+“covered telecommunications equipment or services”.
+(c) Representations. (1) The Offeror represents that it [ ] does, [ ] does not provide covered
+telecommunications equipment or services as a part of its offered products or services to the Government
+in the performance of any contract, subcontract, or other contractual instrument.
+(2) After conducting a reasonable inquiry for purposes of this representation, the Offeror represents that it
+[ ] does, [ ] does not use covered telecommunications equipment or services, or any equipment, system, or
+service that uses covered telecommunications equipment or services.
+(End of Provision)
+L.5. 52.209-2 PROHIBITION ON CONTRACTING WITH INVERTED DOMESTIC
+CORPORATIONS’ REPRESENTATION (NOV 2015)
+(a) Definitions. “Inverted domestic corporation” and “subsidiary” have the meaning given in the clause
+of this contract entitled Prohibition on Contracting with Inverted Domestic Corporations (52.209-10).
+(b) Government agencies are not permitted to use appropriated (or otherwise made available) funds for
+contracts with either an inverted domestic corporation, or a subsidiary of an inverted domestic
+corporation, unless the exception at 9.108-2(b) applies or the requirement is waived in accordance with
+the procedures at 9.108-4.
+(c) Representation. The Offeror represents that.
+(1) It □ is, □ is not an inverted domestic corporation; and
+(2) It □ is, □ is not a subsidiary of an inverted domestic corporation.
+(End of provision)
+61
+L.6 AUTHORIZED CONTRACTOR ADMINISTRATOR
+If the offeror does not fill-in the blanks below, the official who signed the offer will be deemed to be the
+offeror's representative for Contract Administration, which includes all matters pertaining to payments.
+Name:
+Telephone Number:
+Address:
+L.7. 52.225-20 PROHIBITION ON CONDUCTING RESTRICTED BUSINESS
+OPERATIONS IN SUDAN – CERTIFICATION (AUG 2009)
+(a) Definitions. As used in this provision—
+“Business operations” means engaging in commerce in any form, including by acquiring, developing,
+maintaining, owning, selling, possessing, leasing, or operating equipment, facilities, personnel, products,
+services, personal property, real property, or any other apparatus of business or commerce.
+“Marginalized populations of Sudan” means—
+(1) Adversely affected groups in regions authorized to receive assistance under section 8(c) of the
+Darfur Peace and Accountability Act (Pub. L. 109-344) (50 U.S.C. 1701 note); and
+(2) Marginalized areas in Northern Sudan described in section 4(9) of such Act.
+“Restricted business operations” means business operations in Sudan that include power production
+activities, mineral extraction activities, oil-related activities, or the production of military equipment, as
+those terms are defined in the Sudan Accountability and Divestment Act of 2007 (Pub. L. 110-174).
+Restricted business operations do not include business operations that the person conducting the business
+can demonstrate—
+(1) Are conducted under contract directly and exclusively with the regional government of
+southern Sudan;
+(2) Are conducted pursuant to specific authorization from the Office of Foreign Assets Control in
+the Department of the Treasury, or are expressly exempted under Federal law from the requirement to be
+conducted under such authorization;
+(3) Consist of providing goods or services to marginalized populations of Sudan;
+(4) Consist of providing goods or services to an internationally recognized peacekeeping force or
+humanitarian organization;
+(5) Consist of providing goods or services that are used only to promote health or education; or
+(6) Have been voluntarily suspended.
+(c) Certification. By submission of its offer, the offeror certifies that it does not conduct any restricted
+business operations in Sudan.
+52.225-25 PROHIBITION ON CONTRACTING WITH ENTITIES ENGAGING IN CERTAIN
+ACTIVITIES OR TRANSACTIONS RELATING TO IRAN—REPRESENTATION AND
+CERTIFICATIONS (JUN 2020)

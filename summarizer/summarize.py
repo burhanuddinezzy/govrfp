@@ -7,9 +7,10 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import chain
 from datetime import datetime
+model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
 n = "01"
 folder_path = f"rfp_test_samples/sample{n}"
-aspect_vectors_path = "aspect_vectors.npz"
 
 min_len = 200 # for split passage
 max_len = 400 # for split passage
@@ -112,7 +113,7 @@ def cluster_graph(G): # The process of clustering the nodes (the embeddings) bas
 
     return clusters_list
 
-def summarize_clusters_semantic_centrality_mmr(passages, embeddings, clusters, centrality_percentile=centrality_percentile):
+def summarize_clusters(passages, embeddings, clusters, centrality_percentile=centrality_percentile):
     centrality_summary = []
     tiny_cluster = 0
     total_central_passages = 0
@@ -234,7 +235,7 @@ def summarize_rfp(text, model):
     
     relevant_clusters = select_clusters_based_on_aspect(embeddings,clusters,aspect_vectors,title_vector,aspect_percentile,title_weight,aspect_weight)
 
-    centrality_summary = summarize_clusters_semantic_centrality_mmr(passages, embeddings, relevant_clusters)
+    centrality_summary = summarize_clusters(passages, embeddings, relevant_clusters)
     pricing_summary = summarize_pricing(money_passages, pricing_embeddings)
 
     centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
@@ -248,20 +249,18 @@ def summarize_rfp(text, model):
     return centrality_text
 
 if __name__ == "__main__":
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-
+    aspect_vectors_path = "aspects/aspect_vectors.npz"
     data = np.load(aspect_vectors_path, allow_pickle=True)
     names = data["names"]
     vectors = data["vectors"]
     aspect_vectors = {name: vectors[i] for i, name in enumerate(names)}
+    pricing_aspect_vector = np.load("aspects/pricing_vector.npy")
 
-    title_file = f"{folder_path}/title_file.txt"
+    title_file = f"{folder_path}/title.txt"
     with open(title_file, "r", encoding="utf-8") as r:
         title = r.read()
     title_text = list(title.values())
     title_vector = model.encode(title_text, normalize_embeddings=True)
-
-    pricing_aspect_vector = np.load("aspect_method/pricing_vector.npy")
 
     sample_input = f"{folder_path}/sample_text.txt"
     with open(sample_input, "r", encoding="utf-8") as r:
@@ -279,16 +278,16 @@ if __name__ == "__main__":
             self.f.flush()
     sys.stdout = Logger(log_f)
     
-    centrality_summary = summarize_rfp(text, model)
+    summary = summarize_rfp(text, model)
 
     print(f"\n\nRUN {folder_path}| Timestamp: {datetime.now()}")
     print(f"Passage Length: {min_len} to {max_len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Aspect weight={aspect_weight}")
-    print(f"\nSummary length: {len(centrality_summary)} chars")
+    print(f"\nSummary length: {len(summary)} chars")
     print("Comments:")
 
     summary_output = f"{folder_path}/summary.txt"
     with open (summary_output, "w") as f:
-        f.write(centrality_summary)
+        f.write(summary)
     
     sys.stdout = sys.__stdout__
     log_f.close()
