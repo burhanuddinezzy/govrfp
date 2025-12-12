@@ -10,7 +10,7 @@ from datetime import datetime
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 n = "01"
-folder_path = f"rfp_test_samples/sample{n}"
+folder_path = f"summarizer/rfp_test_samples/sample_{n}"
 
 min_len = 200 # for split passage
 max_len = 400 # for split passage
@@ -34,7 +34,7 @@ def normalize_text(text):
 
 def split_passages(text, min_len=min_len, max_len=max_len):
     passages = re.split(r"\n\s*\n+", text)
-    print(f"Initial split: {len(passages)} passages")
+    print(f"    Initial split: {len(passages)} passages")
 
     merged = []
     money_passages = []
@@ -107,9 +107,7 @@ def cluster_graph(G): # The process of clustering the nodes (the embeddings) bas
     clusters_list = list(clusters.values())
 
     # --- Print cluster sizes ---
-    print("Number of clusters:", len(clusters_list))
-    for i, c in enumerate(clusters_list, start=1):
-        print(f"Cluster {i} size: {len(c)}")
+    print(f"# of clusters:{len(clusters_list)} | Cluster size: {[len(c) for c in clusters_list]}")
 
     return clusters_list
 
@@ -123,7 +121,7 @@ def summarize_clusters(passages, embeddings, clusters, centrality_percentile=cen
             continue
 
         cluster_passages = [passages[i] for i in cluster]
-        print(f"cluster_passage count: {len(cluster_passages)}")
+        print(f"    cluster_passage count: {len(cluster_passages)}")
         cluster_embeds = embeddings[cluster]
 
         # --- Semantic centrality ---
@@ -137,8 +135,8 @@ def summarize_clusters(passages, embeddings, clusters, centrality_percentile=cen
         for idx in central_idxs:
             centrality_summary.append(cluster_passages[idx])
         
-    print(f"there were {tiny_cluster} tiny clusters found")
-    print(f"\nThere are {total_central_passages} passages retrieved via centrality")
+    print(f"    There were {tiny_cluster} tiny clusters found")
+    print(f"\n  There are {total_central_passages} passages retrieved via centrality")
     return centrality_summary
 
 def summarize_pricing(passages, embeddings, pricing_percentile=pricing_percentile):
@@ -155,8 +153,7 @@ def summarize_pricing(passages, embeddings, pricing_percentile=pricing_percentil
     for idx in central_idxs:
         pricing_summary.append(passages[idx])
         
-    print(f"\nThere are {total_central_passages} passages retrieved via centrality in pricing summary")
-    return pricing_summary
+    return total_central_passages, pricing_summary
 
 def select_clusters_based_on_aspect(
         embeddings,
@@ -202,23 +199,22 @@ def select_clusters_based_on_aspect(
     selected_clusters = [cluster for cluster, score in cluster_scores if score >= threshold]
 
     if not selected_clusters:
-        return "No relevant clusters found"
+        return "    No relevant clusters found"
 
     return selected_clusters
 
 def summarize_rfp(text, model):
     if not text:
-        return "No Text Input"
+        return "    No Text Input"
 
     text = normalize_text(text)
 
     passages, money_passages = split_passages(text)
     money_text = "\n".join(money_passages)
-    print(f"There are {len(money_passages)} money_passages and {len(money_text)} characters")
     if not passages:
-        return "No Passages found"
+        return "    No Passages found"
     if not money_passages:
-        print("No money passages found")
+        print("    No money passages found")
 
     embeddings = model.encode(passages, convert_to_numpy=True, show_progress_bar=False)
     pricing_embeddings = model.encode(money_passages, convert_to_numpy=True, show_progress_bar=False)
@@ -228,15 +224,15 @@ def summarize_rfp(text, model):
     if G.number_of_edges() > 0: # Meaning no nodes (passages) were semantically similar, so no connections between nodes (edges) were formed
         clusters = cluster_graph(G)
     else:
-        return "Number of edges = 0"
+        return "    Number of edges = 0"
 
     if not clusters:
-        return "No clusters found"
+        return "    No clusters found"
     
     relevant_clusters = select_clusters_based_on_aspect(embeddings,clusters,aspect_vectors,title_vector,aspect_percentile,title_weight,aspect_weight)
 
     centrality_summary = summarize_clusters(passages, embeddings, relevant_clusters)
-    pricing_summary = summarize_pricing(money_passages, pricing_embeddings)
+    total_central_passages, pricing_summary = summarize_pricing(money_passages, pricing_embeddings)
 
     centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
     pricing_summary = [money_passages[i] for i in sorted([money_passages.index(p) for p in pricing_summary])]
@@ -244,29 +240,28 @@ def summarize_rfp(text, model):
     flat_pricing_centrality = list(chain.from_iterable(pricing_summary)) if any(isinstance(i, list) for i in pricing_summary) else pricing_summary
 
     centrality_text = "\n".join(flat_centrality) + "\n".join(flat_pricing_centrality)
-    print(f"There is {len("\n".join(flat_pricing_centrality))} chars retreived from pricing passages")
+    print(f"{len(money_passages)} money_passages({len(money_text)} chars) | Retreived {total_central_passages} passages({len("\n".join(flat_pricing_centrality))} chars)")
 
     return centrality_text
 
 if __name__ == "__main__":
-    aspect_vectors_path = "aspects/aspect_vectors.npz"
+    aspect_vectors_path = "summarizer/aspects/aspect_vectors.npz"
     data = np.load(aspect_vectors_path, allow_pickle=True)
     names = data["names"]
     vectors = data["vectors"]
     aspect_vectors = {name: vectors[i] for i, name in enumerate(names)}
-    pricing_aspect_vector = np.load("aspects/pricing_vector.npy")
+    pricing_aspect_vector = np.load("summarizer/aspects/pricing_vector.npy")
 
     title_file = f"{folder_path}/title.txt"
     with open(title_file, "r", encoding="utf-8") as r:
         title = r.read()
-    title_text = list(title.values())
-    title_vector = model.encode(title_text, normalize_embeddings=True)
+    title_vector = model.encode(title, normalize_embeddings=True)
 
     sample_input = f"{folder_path}/sample_text.txt"
     with open(sample_input, "r", encoding="utf-8") as r:
         text = r.read()
 
-    log_file = "log.txt"
+    log_file = "summarizer/log.txt"
     log_f = open(log_file, "a", encoding="utf-8")
     class Logger:
         def __init__(self, f):
