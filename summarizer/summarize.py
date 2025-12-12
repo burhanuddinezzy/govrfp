@@ -34,8 +34,6 @@ def normalize_text(text):
 
 def split_passages(text, min_len=min_len, max_len=max_len):
     passages = re.split(r"\n\s*\n+", text)
-    print(f"    Initial split: {len(passages)} passages")
-
     merged = []
     money_passages = []
     buffer = ""
@@ -73,7 +71,6 @@ def split_passages(text, min_len=min_len, max_len=max_len):
         else:
             merged.append(buffer.strip())
 
-    print(f"Final split: {len(merged)} passages\n")
     return merged, money_passages
 
 def build_similarity_graph_from_embeddings(embeddings, edge_percentile=edge_percentile): # The process of graph construction from embeddings
@@ -107,13 +104,12 @@ def cluster_graph(G): # The process of clustering the nodes (the embeddings) bas
     clusters_list = list(clusters.values())
 
     # --- Print cluster sizes ---
-    print(f"# of clusters:{len(clusters_list)} | Cluster size: {[len(c) for c in clusters_list]}")
+    print(f"\n# of clusters:{len(clusters_list)} | Cluster size: {[len(c) for c in clusters_list]}")
 
     return clusters_list
 
 def summarize_clusters(passages, embeddings, clusters, centrality_percentile=centrality_percentile):
     centrality_summary = []
-    tiny_cluster = 0
     total_central_passages = 0
 
     for cluster in clusters:
@@ -121,7 +117,6 @@ def summarize_clusters(passages, embeddings, clusters, centrality_percentile=cen
             continue
 
         cluster_passages = [passages[i] for i in cluster]
-        print(f"    cluster_passage count: {len(cluster_passages)}")
         cluster_embeds = embeddings[cluster]
 
         # --- Semantic centrality ---
@@ -134,10 +129,8 @@ def summarize_clusters(passages, embeddings, clusters, centrality_percentile=cen
 
         for idx in central_idxs:
             centrality_summary.append(cluster_passages[idx])
-        
-    print(f"    There were {tiny_cluster} tiny clusters found")
-    print(f"\n  There are {total_central_passages} passages retrieved via centrality")
-    return centrality_summary
+    
+    return centrality_summary, total_central_passages
 
 def summarize_pricing(passages, embeddings, pricing_percentile=pricing_percentile):
     pricing_summary = []
@@ -231,7 +224,10 @@ def summarize_rfp(text, model):
     
     relevant_clusters = select_clusters_based_on_aspect(embeddings,clusters,aspect_vectors,title_vector,aspect_percentile,title_weight,aspect_weight)
 
-    centrality_summary = summarize_clusters(passages, embeddings, relevant_clusters)
+    centrality_summary, total_central_passages = summarize_clusters(passages, embeddings, relevant_clusters)
+    summary_length = sum(len(c) for c in centrality_summary)
+    print(f"\nText size = {len(text)} chars >>> {len(passages)} passages >>> retreived {total_central_passages} passages ({summary_length} chars)")
+
     total_central_passages, pricing_summary = summarize_pricing(money_passages, pricing_embeddings)
 
     centrality_summary = [passages[i] for i in sorted([passages.index(p) for p in centrality_summary])]
@@ -253,11 +249,12 @@ if __name__ == "__main__":
     pricing_aspect_vector = np.load("summarizer/aspects/pricing_vector.npy")
 
     title_file = f"{folder_path}/title.txt"
+    summary_output = f"{folder_path}/summary.txt"
+    sample_input = f"{folder_path}/sample_text.txt"
+
     with open(title_file, "r", encoding="utf-8") as r:
         title = r.read()
     title_vector = model.encode(title, normalize_embeddings=True)
-
-    sample_input = f"{folder_path}/sample_text.txt"
     with open(sample_input, "r", encoding="utf-8") as r:
         text = r.read()
 
@@ -272,15 +269,15 @@ if __name__ == "__main__":
         def flush(self):
             self.f.flush()
     sys.stdout = Logger(log_f)
+
+    print(f"RUN {folder_path}| Timestamp: {datetime.now()}")
+    print(f"Passage Length: {min_len} to {max_len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Aspect weight={aspect_weight}")
     
     summary = summarize_rfp(text, model)
-
-    print(f"\n\nRUN {folder_path}| Timestamp: {datetime.now()}")
-    print(f"Passage Length: {min_len} to {max_len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Aspect weight={aspect_weight}")
+    
     print(f"\nSummary length: {len(summary)} chars")
-    print("Comments:")
+    print("Comments:\n\n\n")
 
-    summary_output = f"{folder_path}/summary.txt"
     with open (summary_output, "w") as f:
         f.write(summary)
     
