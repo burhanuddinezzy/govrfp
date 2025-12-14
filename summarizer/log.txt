@@ -1,11 +1,174 @@
-
-
-RUN summarizer/rfp_test_samples/sample_01| Timestamp: 2025-12-11 19:22:30.544992
+RUN summarizer/rfp_test_samples/sample_01| Timestamp: 2025-12-11 19:33:14.240527
 Passage Length: 200 to 400 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
-# of clusters:10 | Cluster size: [190, 79, 181, 71, 82, 46, 1, 1, 3, 3]
-    cluster_passage count: 79
-Text size = 159853 chars >>> 657 passages >>> retreived 16 passages
+
+# of clusters:10 | Cluster size: [188, 79, 182, 72, 82, 46, 1, 1, 3, 3]
+
+Text size = 159853 chars >>> 657 passages >>> retreived 16 passages (3976 chars)
 8 money_passages(2036 chars) | Retreived 5 passages(1245 chars)
 
 Summary length: 5236 chars
 Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-11 22:23:06.373863
+Passage Length: 200 to 400 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
+
+# of clusters:6 | Cluster size: [969, 1376, 820, 341, 830, 21]
+
+Text size = 1056518 chars >>> 4357 passages >>> retreived 194 passages (44056 chars)
+65 money_passages(14954 chars) | Retreived 45 passages(10122 chars)
+
+Summary length: 54371 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-11 22:39:12.341049
+Passage Length: 200 to 400 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
+
+# of clusters:6 | Cluster size: [976, 1378, 822, 338, 822, 21]
+
+Text size = 1056518 chars >>> 4357 passages >>> retreived 196 passages (44461 chars)
+65 money_passages(14954 chars) | Retreived 45 passages(10122 chars)
+
+Summary length: 54778 chars
+
+# of clusters:66 | Cluster size: [2, 18, 50, 1, 1, 51, 1, 1, 1, 1, 9, 1, 1, 1, 1, 1, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Text size = 54934 chars >>> 195 passages >>> retreived 30 passages (6779 chars)
+44 money_passages(10393 chars) | Retreived 31 passages(7022 chars)
+
+Summary length: 13830 chars
+
+# of clusters:15 | Cluster size: [9, 4, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Text size = 13888 chars >>> 29 passages >>> retreived 2 passages (448 chars)
+31 money_passages(7246 chars) | Retreived 22 passages(4889 chars)
+
+Summary length: 5338 chars
+
+Summary length: 19 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 00:02:40.134785
+Passage Length: 100 to 200 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
+
+# of clusters:7 | Cluster size: [1862, 2373, 1543, 1506, 1, 9, 59]
+
+Text size = 1056518 chars >>> 7353 passages >>> retreived 3091 passages (3091 chars)
+86 money_passages(10714 chars) | Retreived 1135 passages(1144 chars)
+
+Summary length: 4256 chars
+
+# of clusters:12 | Cluster size: [1, 1, 8, 1, 1, 1, 3, 1, 1, 1, 1, 1]
+
+Text size = 4278 chars >>> 21 passages >>> retreived 1049 passages (1049 chars)
+10 money_passages(1264 chars) | Retreived 1055 passages(1063 chars)
+
+Summary length: 2119 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 00:09:28.036212
+Passage Length: 200 to 400 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
+
+# of clusters:6 | Cluster size: [968, 1379, 816, 343, 830, 21]
+
+Text size = 1056518 chars >>> 4357 passages >>> retreived 3085 passages (3085 chars)
+65 money_passages(14954 chars) | Retreived 1092 passages(1096 chars)
+
+Summary length: 4194 chars
+
+# of clusters:9 | Cluster size: [2, 1, 1, 1, 4, 1, 1, 1, 1]
+
+Text size = 4204 chars >>> 13 passages >>> retreived 880 passages (880 chars)
+5 money_passages(1309 chars) | Retreived 1305 passages(1309 chars)
+
+Summary length: 2192 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 00:13:42.643508
+Passage Length: 200 to 400 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
+
+# of clusters:6 | Cluster size: [966, 1378, 829, 341, 822, 21]
+
+Text size = 1056518 chars >>> 4357 passages >>> retreived 3085 passages (3085 chars)
+65 money_passages(14954 chars) | Retreived 1092 passages(1096 chars)
+
+Summary length: 4194 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 10:02:01.357325
+Passage Length: 200 to 400 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.7 | Aspect weight=0.3
+
+# of clusters:8 | Cluster size: [1039, 1071, 203, 415, 659, 1, 1, 4]
+
+Text size = 1026393 chars >>> 3393 passages >>> retreived 3298 passages (3298 chars)
+29 money_passages(8713 chars) | Retreived 1198 passages(1201 chars)
+
+Summary length: 4509 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 10:24:01.493980
+Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.5 | Aspect weight=0.5
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 10:25:36.835434
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.5 | Aspect weight=0.5
+
+Summary length: 17 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_02| Timestamp: 2025-12-12 10:27:50.246370
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.5 | Aspect weight=0.5
+
+# of clusters:9 | Cluster size: [790, 1037, 179, 645, 699, 1, 1, 37, 4]
+
+Text size = 1026393 chars >>> 3393 passages >>> retreived 158 passages (47359 chars)
+29 money_passages(8713 chars) | Retreived 20 passages(6012 chars)
+
+Summary length: 53528 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-12 15:32:17.874899
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.5 | Aspect weight=0.5
+
+# of clusters:7 | Cluster size: [140, 163, 195, 174, 1, 147, 1]
+
+Text size = 251228 chars >>> 821 passages >>> retreived 33 passages (9891 chars)
+17 money_passages(5104 chars) | Retreived 12 passages(3602 chars)
+
+Summary length: 13525 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-12 15:34:43.659048
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=30 | TItle weight=0.5 | Aspect weight=0.5
+Wrote cleaned version
+
+# of clusters:7 | Cluster size: [157, 338, 165, 37, 1, 122, 1]
+
+Text size = 251228 chars >>> 821 passages >>> retreived 33 passages (9891 chars)
+17 money_passages(5104 chars) | Retreived 12 passages(3602 chars)
+
+Summary length: 13525 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-12 15:41:59.521842
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.5 | Aspect weight=0.5
+Wrote cleaned version
