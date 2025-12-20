@@ -14,6 +14,9 @@
 # Since I now am pulling description i would add description as an aspect if more than 200 chars. read next
 # I would need to append texts from all the pdfs of the RFP, into one, so I have a single summary built from all the docs
 # - output rfp metadata into csv and noticeID + summary into a docs, naming the docs by noticeID
+
+# I need to open close ES so its not open when summarizer is running > Actually leave as is, just close chrome
+
 from elastic_search.extraction_sources.sam_gov import fetch_rfps_from_sam_gov
 from elastic_search.index_pdf_and_docs import index_rfps
 from summarizer.summarizer import summarize
@@ -22,7 +25,7 @@ from elasticsearch import Elasticsearch
 from elasticsearch.helpers import scan
 import csv
 import os
-import datetime
+from datetime import datetime
 import sys
 #OPEN LOG-----------------------
 log_file = "log.txt"
@@ -50,11 +53,16 @@ centrality_percentile = 80
 pricing_percentile = 0
 #-------------------------------
 if __name__ == "__main__":
+    # temporarily restore console output for input prompt
+    sys.stdout = sys.__stdout__ 
     step = input("step 1 or step 2 (enter 1 or 2)")
+    sys.stdout = Logger(log_f)
 
     if step == "1":
+        sys.stdout = sys.__stdout__ 
         naic_code = input("Provide naic_code or press enter")
         how_back = input("From today to when do you want to pull RFPs in days (just the number, so 7 for last 7 days)")
+        sys.stdout = Logger(log_f)
 
         fetch_rfps_from_sam_gov(naic_code, how_back) # Pull new RFPs from SAM.gov > retrieves sam_gov_output.json
 
@@ -63,7 +71,7 @@ if __name__ == "__main__":
     if step == "2":
         index_rfps()
 
-        ES_HOST = "http://localhost:9200"
+        ES_HOST = "http://localhost:9201"
         INDEX_NAME = "sam_opportunities_v1"
 
         es = Elasticsearch(ES_HOST)
@@ -72,6 +80,8 @@ if __name__ == "__main__":
         os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
         CSV_FILE = os.path.join(OUTPUT_FOLDER, "rfp_data.csv")
+
+        rfp_df = {}
 
         metadata_fields = [
             "noticeId",                 # Unique identifier
@@ -135,12 +145,37 @@ if __name__ == "__main__":
                 # Final combined text
                 combined_text = " | ".join(text_parts)
 
-                summary = summarize(combined_text, title, description)  
-
                 # Save to file named by noticeId
                 notice_id = source.get("noticeId", "unknown")
-                print(f"\nSummary length for {notice_id}: {len(summary)} chars")  
+                print(f"\nSummary length for {notice_id}: {len(combined_text)} chars")  
 
-                summary_file = os.path.join(OUTPUT_FOLDER, f"{notice_id}.txt")
-                with open(summary_file, "w", encoding="utf-8") as f:
-                    f.write(summary)
+                rfp_df[notice_id] = {
+                    "title": title,
+                    "description": description
+                }
+
+                all_text_file = os.path.join(OUTPUT_FOLDER, f"{notice_id}.txt")
+                with open(all_text_file, "w", encoding="utf-8") as f:
+                    f.write(combined_text)
+
+        for file in os.listdir(OUTPUT_FOLDER):
+            if not file.endswith(".txt"):
+                continue
+
+            notice_id = os.path.splitext(file)[0]
+
+            with open(os.path.join(OUTPUT_FOLDER, file), "r", encoding="utf-8") as r:
+                text = r.read()
+
+            meta = rfp_df.get(notice_id)
+            if not meta:
+                continue
+
+            summary = summarize(
+                text,
+                meta["title"],
+                meta["description"]
+            )
+
+            with open(os.path.join(OUTPUT_FOLDER, file), "w", encoding="utf-8") as w:
+                w.write(summary)

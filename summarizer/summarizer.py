@@ -282,6 +282,7 @@ def summarize(full_text, title, description):
     print(f"Passage Length: {len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Description weight={description_weight} | Aspect weight={aspect_weight}")
     
     summary = summarize_rfp(full_text, model, title_vector, description_vector, title_weight, description_weight, aspect_weight)    
+    summary = f"Description:{description}\n\n----------------------------------------------\n\n{summary}"
     print(f"\nSummary length: {len(summary)} chars")    
     print("Comments:\n\n\n")
 

@@ -5,6 +5,6 @@ networkx
 python-louvain
 sentence-transformers
 scikit-learn
-elasticsearch
+elasticsearch==8.12.0
 requests
 tika

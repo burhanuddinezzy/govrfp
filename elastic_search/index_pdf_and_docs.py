@@ -67,7 +67,7 @@ def index_rfps():
         for k, v in item.items():
             doc[k] = v
 
-        notice_id = doc.get["noticeId"]
+        notice_id = doc.get("noticeId")
         resource_links = doc.get("resourceLinks")
 
         if not resource_links:

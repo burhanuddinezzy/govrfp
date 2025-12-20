@@ -1,1 +1,257 @@
-step 1 or step 2 (enter 1 or 2)step 1 or step 2 (enter 1 or 2)step 1 or step 2 (enter 1 or 2)Provide naic_code or press enterstep 1 or step 2 (enter 1 or 2)
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+Timestamp: 2025-12-14 20:43:21.719112
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Aspect weight=0.3
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+Timestamp: 2025-12-14 20:48:00.791347
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Aspect weight=0.3
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+Timestamp: 2025-12-14 20:49:42.759496
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Aspect weight=0.3
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+Timestamp: 2025-12-14 20:51:17.817676
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Aspect weight=0.3
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+Timestamp: 2025-12-14 20:58:02.459740
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Aspect weight=0.3
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='sam.gov', port=443): Read timed out. (read timeout=30)
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Indexed batch of 3
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
+No resource links found for 0 RFPs
+Indexd final batch of 2
+Done Indexing.
+Removed documents older than 1 months.
+Timestamp: 2025-12-14 21:02:18.616620
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Aspect weight=0.3
