@@ -1,23 +1,5 @@
-# Purpose: When I run this: A CSV with RFP metadata + zip file of summary docs
-# [Ive already ran the SAM API to fetch RFPs + Indexed them into ES]I run the ES search engine, and search for X keyword/ NAIC code/ Classification code (I dont need to run this because what ive indexed is incomplete as API doesnt pull description + links from links section (it only pulls links from ResourceLinks section))
-# It returns a list of RFPs (json response)
-# I manually fetch descriptions and any missing links, add them to the json response
-# I run the summarizer, I will need to use Tika to pull text from pdf/urls, etc and feed into summarizer. read next
-# Since I now am pulling description i would add description as an aspect if more than 200 chars. read next
-# I would need to append texts from all the pdfs of the RFP, into one, so I have a single summary built from all the docs
-# Output rfp metadata into csv and noticeID + summary into a docs, naming the docs by noticeID
-
-# New Method
-# I update the SAM API call to filter via SAM directly so the json resposne is pre-filtered for ICP.
-# I manually fetch descriptions and any missing links, add them to the json response
-# I run the summarizer, I will need to use Tika to pull text from pdf/urls, etc and feed into summarizer. read next
-# Since I now am pulling description i would add description as an aspect if more than 200 chars. read next
-# I would need to append texts from all the pdfs of the RFP, into one, so I have a single summary built from all the docs
-# - output rfp metadata into csv and noticeID + summary into a docs, naming the docs by noticeID
-
-# I need to open close ES so its not open when summarizer is running > Actually leave as is, just close chrome
-
 from elastic_search.extraction_sources.sam_gov import fetch_rfps_from_sam_gov
+from elastic_search.start_elastic_search import start_elastic_search, close_elastic_search
 from elastic_search.index_pdf_and_docs import index_rfps
 from summarizer.summarizer import summarize
 import numpy as np
@@ -27,9 +9,14 @@ import csv
 import os
 from datetime import datetime
 import sys
-#OPEN LOG-----------------------
+import subprocess
+import time
+
+# --- Logger setup ---
 log_file = "log.txt"
 log_f = open(log_file, "a", encoding="utf-8")
+INDEX_NAME = "sam_opportunities_v1"
+
 class Logger:
     def __init__(self, f):
         self.f = f
@@ -38,144 +25,137 @@ class Logger:
         self.f.flush()
     def flush(self):
         self.f.flush()
+
 sys.stdout = Logger(log_f)
 
-#CONFIG-------------------------
-length = 300 # for split passage
-edge_percentile = 90 # to control minimum similarity required to connect nodes in graph
+# --- Config ---
+length = 300
+edge_percentile = 90
 aspect_percentile = 90
-title_weight=0.3
+title_weight = 0.3
 description_weight = 4
-aspect_weight=0.3
-# selects passages whose similarity to the cluster centroid is above the percentile value;
-# np.percentile interpolates between values, so this may not correspond exactly to a strict top-X% by count
+aspect_weight = 0.3
 centrality_percentile = 80
 pricing_percentile = 0
-#-------------------------------
+
 if __name__ == "__main__":
-    # temporarily restore console output for input prompt
-    sys.stdout = sys.__stdout__ 
-    step = input("step 1 or step 2 (enter 1 or 2)")
+    sys.stdout = sys.__stdout__
+    step = input("step 1 or step 2 or step 3(enter 1 or 2 or 3): ")
     sys.stdout = Logger(log_f)
 
     if step == "1":
-        sys.stdout = sys.__stdout__ 
-        naic_code = input("Provide naic_code or press enter")
-        how_back = input("From today to when do you want to pull RFPs in days (just the number, so 7 for last 7 days)")
+        sys.stdout = sys.__stdout__
+        naic_code = input("Provide naic_code or press enter: ")
+        how_back = input("From today to when do you want to pull RFPs in days (number only): ")
         sys.stdout = Logger(log_f)
 
-        fetch_rfps_from_sam_gov(naic_code, how_back) # Pull new RFPs from SAM.gov > retrieves sam_gov_output.json
-
-        # I must manually update the json with descriptions and additional links (manually)
+        fetch_rfps_from_sam_gov(naic_code, how_back)
+        print("Step 1 complete: SAM.gov RFPs fetched. Manually update JSON with descriptions/links.")
 
     if step == "2":
-        index_rfps()
+        try:
+            es, started_container = start_elastic_search()
+            index_rfps(es)
+            close_elastic_search(es, started_container)
+        except Exception as e:
+            print(f"Error during step 2: {e}")
+            close_elastic_search(es, started_container)
 
-        ES_HOST = "http://localhost:9201"
-        INDEX_NAME = "sam_opportunities_v1"
+    if step == "3":
+        try:
+            es, started_container = start_elastic_search()
+            OUTPUT_FOLDER = "RFP_Summaries"
+            os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-        es = Elasticsearch(ES_HOST)
+            CSV_FILE = os.path.join(OUTPUT_FOLDER, "rfp_data.csv")
+            rfp_df = {}
 
-        OUTPUT_FOLDER = "RFP_Summaries"
-        os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+            metadata_fields = [
+                "noticeId", "title", "solicitationNumber", "typeOfSetAsideDescription",
+                "naicsCode", "classificationCode", "fullParentPathName", "address",
+                "responseDeadLine", "uiLink", "contact_fullName", "contact_email", "contact_phone"
+            ]
 
-        CSV_FILE = os.path.join(OUTPUT_FOLDER, "rfp_data.csv")
+            print(f"Timestamp: {datetime.now()}")
+            print(f"Passage Length: {length} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | "
+                f"Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | Title weight={title_weight} | Aspect weight={aspect_weight}")
 
-        rfp_df = {}
+            # --- Prepare CSV ---
+            with open(CSV_FILE, "w", newline="", encoding="utf-8") as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=metadata_fields)
+                writer.writeheader()
 
-        metadata_fields = [
-            "noticeId",                 # Unique identifier
-            "title",                    # What the RFP is for
-            "solicitationNumber",       # Official solicitation number
-            "typeOfSetAsideDescription",# Set-aside info (if applicable)
-            "naicsCode",                # NAICS for industry relevance
-            "classificationCode",       # Classification code
-            "fullParentPathName",       # Agency / office hierarchy
-            "address",                  # Office / location info
-            "responseDeadLine",         # Submission deadline
-            "uiLink",                   # Link to the RFP
-            "contact_fullName",         # Main contact(s)
-            "contact_email",
-            "contact_phone"
-        ]
+                # --- Iterate over ES documents ---
+                for doc in scan(es, index=INDEX_NAME, query={"query": {"match_all": {}}}):
+                    source = doc["_source"]
 
-        print(f"Timestamp: {datetime.now()}")
-        print(f"Passage Length: {len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Aspect weight={aspect_weight}")
+                    # Base metadata
+                    csv_row = {k: source.get(k, "") for k in metadata_fields}
 
-        # Prepare CSV
-        with open(CSV_FILE, "w", newline="", encoding="utf-8") as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=metadata_fields)
-            writer.writeheader()
+                    # Multiple POCs
+                    point_of_contacts = source.get("pointOfContact") or []
+                    csv_row["contact_fullName"] = "\n".join([str(c.get("fullName") or "") for c in point_of_contacts])
+                    csv_row["contact_email"] = "\n".join([str(c.get("email") or "") for c in point_of_contacts])
+                    csv_row["contact_phone"] = "\n".join([str(c.get("phone") or "") for c in point_of_contacts])
 
-            # Use scan to iterate over all documents
-            for doc in scan(es, index=INDEX_NAME, query={"query": {"match_all": {}}}):
-                source = doc["_source"]
+                    # Combine addresses
+                    office_address = source.get("officeAddress") or {}
+                    office_address_str = ", ".join(f"{k}: {str(v)}" for k, v in office_address.items() if v is not None)
 
-                # Collect base metadata for CSV
-                csv_row = {k: source.get(k, "") for k in metadata_fields}
+                    place_of_performance = source.get("placeOfPerformance") or {}
+                    pop_str = ", ".join(f"{k}: {str(v)}" for k, v in place_of_performance.items() if v is not None)
 
-                # Handle multiple POCs in the same row
-                point_of_contacts = source.get("pointOfContact", [])
-                csv_row["contact_fullName"] = "\n".join([c.get("fullName", "") for c in point_of_contacts])
-                csv_row["contact_email"] = "\n".join([c.get("email", "") for c in point_of_contacts])
-                csv_row["contact_phone"] = "\n".join([c.get("phone", "") for c in point_of_contacts])
+                    csv_row["address"] = f"Office:{office_address_str}\nPlace of performance:{pop_str}"
 
-                # Combine officeAddress into single cell
-                office_address = source.get("officeAddress", {})
-                office_address_str = ", ".join(f"{k}: {v}" for k, v in office_address.items() if v)
-                place_of_performance = source.get("placeOfPerformance", {})
-                pop_str = ", ".join(f"{k}: {v}" for k, v in place_of_performance.items() if v)
-                csv_row["address"] = f"Office:{office_address_str}\nPlace of performance:{pop_str}"
+                    # Write CSV row
+                    writer.writerow(csv_row)
 
-                # Write the row
-                writer.writerow(csv_row)
+                    # Collect metadata for summarization
+                    title = source.get("title", "")
+                    description = source.get("description", "")
+                    notice_id = source.get("noticeId", "unknown")
 
-                title = source.get("title", "")
-                description = source.get("description", "")
+                    # Combine all PDFs into a single text
+                    pdfs = source.get("pdfs", [])
+                    combined_text = " | ".join([pdf.get("pdf_text", "") for pdf in pdfs if pdf.get("pdf_text")])
 
-                # Combine all PDFs
-                pdfs = source.get("pdfs", [])
+                    print(f"\nFull text length for {notice_id}: {len(combined_text)} chars")
 
-                text_parts = []
-                for pdf in pdfs:
-                    pdf_text = pdf.get("pdf_text", "")
-                    if pdf_text:
-                        text_parts.append(pdf_text)
+                    rfp_df[notice_id] = {
+                        "title": title,
+                        "description": description
+                    }
 
-                # Final combined text
-                combined_text = " | ".join(text_parts)
+                    all_text_file = os.path.join(OUTPUT_FOLDER, f"{notice_id}.txt")
+                    with open(all_text_file, "w", encoding="utf-8") as f:
+                        f.write(combined_text)
 
-                # Save to file named by noticeId
-                notice_id = source.get("noticeId", "unknown")
-                print(f"\nSummary length for {notice_id}: {len(combined_text)} chars")  
+            close_elastic_search(es, started_container)
 
-                rfp_df[notice_id] = {
-                    "title": title,
-                    "description": description
-                }
+            # --- Summarize text files ---
+            for file in os.listdir(OUTPUT_FOLDER):
+                if not file.endswith(".txt"):
+                    continue
 
-                all_text_file = os.path.join(OUTPUT_FOLDER, f"{notice_id}.txt")
-                with open(all_text_file, "w", encoding="utf-8") as f:
-                    f.write(combined_text)
+                notice_id = os.path.splitext(file)[0]
+                file_path = os.path.join(OUTPUT_FOLDER, file)
 
-        for file in os.listdir(OUTPUT_FOLDER):
-            if not file.endswith(".txt"):
-                continue
+                with open(file_path, "r", encoding="utf-8") as r:
+                    text = r.read()
 
-            notice_id = os.path.splitext(file)[0]
+                meta = rfp_df.get(notice_id)
+                if not meta:
+                    continue
 
-            with open(os.path.join(OUTPUT_FOLDER, file), "r", encoding="utf-8") as r:
-                text = r.read()
+                summary = summarize(
+                    text,
+                    meta["title"],
+                    meta["description"]
+                )
 
-            meta = rfp_df.get(notice_id)
-            if not meta:
-                continue
-
-            summary = summarize(
-                text,
-                meta["title"],
-                meta["description"]
-            )
-
-            with open(os.path.join(OUTPUT_FOLDER, file), "w", encoding="utf-8") as w:
-                w.write(summary)
+                with open(file_path, "w", encoding="utf-8") as w:
+                    w.write(summary)
+        
+        except Exception as e:
+            print(f"Error during step 3: {e}")
+            close_elastic_search(es, started_container)

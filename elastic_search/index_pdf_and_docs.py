@@ -53,7 +53,7 @@ def fetch_and_extract(url, ui_link):
         print(f"Error: {e}")
         return ""
 
-def index_rfps(): 
+def index_rfps(es): 
     with open(INPUT, "r") as f:
         data = json.load(f)
 

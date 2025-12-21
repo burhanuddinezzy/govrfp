@@ -266,6 +266,7 @@ if __name__ == "__main__":
     log_f.close()
         
 def summarize(full_text, title, description):
+    summary_output = f"{folder_path}/summary.txt"
     title_vector = model.encode(title, normalize_embeddings=True)
     if description is not None:
         description_vector = model.encode(description, normalize_embeddings=True)

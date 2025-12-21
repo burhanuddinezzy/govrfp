@@ -8,3 +8,5 @@ scikit-learn
 elasticsearch==8.12.0
 requests
 tika
+selenium
+webdriver-manager
