@@ -1,3 +1,10 @@
+Fetched 17 opportunities from SAM.gov
+
+Connecting to existing Chrome session...
+Connected successfully!
+Step 1 complete: SAM.gov RFPs fetched. Manually update JSON with descriptions/links.
+Creating new Elasticsearch container...
+Error during step 2: Command '['docker', 'run', '-d', '--name', 'es_temp', '-p', '9201:9200', '--memory=1g', '--memory-swap=1g', '-e', 'ES_JAVA_OPTS=-Xms512m -Xmx512m', '-e', 'discovery.type=single-node', '-e', 'xpack.security.enabled=false', 'docker.elastic.co/elasticsearch/elasticsearch:8.12.0']' returned non-zero exit status 1.
 Starting existing container...
 Elasticsearch is ready.
 TIka found stuff
@@ -83,6 +90,10 @@ TIka found stuff
 TIka found stuff
 TIka found stuff
 TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
 Indexed batch of 3
 TIka found stuff
 TIka found stuff
@@ -124,31 +135,18 @@ TIka found stuff
 TIka found stuff
 TIka found stuff
 TIka found stuff
-No resource links found for 1 RFPs
+No resource links found for 0 RFPs
 Indexd final batch of 2
 Done Indexing.
 Removed documents older than 1 months.
-Timestamp: 2025-12-20 17:53:18.527298
+Creating new Elasticsearch container...
+Elasticsearch is ready. 
+Timestamp: 2025-12-20 20:46:36.904652 
 Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | Title weight=0.3 | Aspect weight=0.3
-
-Summary length for f15e14826b0f4992ab4b1fbffc80c65e: 162214 chars
-
-Summary length for e16ae1cf174a4c41927c41eb460f5276: 293912 chars
-Error during step 2: sequence item 0: expected str instance, NoneType found
+Error during step 3: NotFoundError(404, 'index_not_found_exception', 'no such index [sam_opportunities_v1]', sam_opportunities_v1, index_or_alias)
 Creating new Elasticsearch container...
 Elasticsearch is ready.
-Timestamp: 2025-12-20 18:02:59.278973
-Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | Title weight=0.3 | Aspect weight=0.3
-Error during step 2: name 'INDEX_NAME' is not defined
-Creating new Elasticsearch container...
-Elasticsearch is ready.
-Timestamp: 2025-12-20 18:03:56.603129
-Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | Title weight=0.3 | Aspect weight=0.3
-Error during step 2: NotFoundError(404, 'index_not_found_exception', 'no such index [sam_opportunities_v1]', sam_opportunities_v1, index_or_alias)
-Elasticsearch is ready.
-Error during step 2: cannot access local variable 'started_container' where it is not associated with a value
-Elasticsearch is ready.
-Error during step 2: cannot access local variable 'started_container' where it is not associated with a value
+Starting existing container...
 Elasticsearch is ready.
 TIka found stuff
 TIka found stuff
@@ -233,6 +231,10 @@ TIka found stuff
 TIka found stuff
 TIka found stuff
 TIka found stuff
+TIka found stuff
+TIka found stuff
+Error: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/ce/cap/docs/piee/PIEE_Solicitation_Module_Vendor_Access_Instructions.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+TIka found stuff
 Indexed batch of 3
 TIka found stuff
 TIka found stuff
@@ -274,7 +276,322 @@ TIka found stuff
 TIka found stuff
 TIka found stuff
 TIka found stuff
-No resource links found for 1 RFPs
+No resource links found for 0 RFPs
 Indexd final batch of 2
 Done Indexing.
 Removed documents older than 1 months.
+Starting existing container...
+Elasticsearch is ready.
+Timestamp: 2025-12-20 22:41:16.366850
+Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | Title weight=0.3 | Aspect weight=0.3
+Error during step 3: ApiError(503, 'search_phase_execution_exception', None)
+Starting existing container...
+Elasticsearch is ready.
+Timestamp: 2025-12-21 00:09:06.753549
+Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | Title weight=0.3 | Aspect weight=0.3
+
+Full text length for f15e14826b0f4992ab4b1fbffc80c65e: 162214 chars
+
+Full text length for e16ae1cf174a4c41927c41eb460f5276: 293912 chars
+
+Full text length for ca6f2c570d1a4d5782392e4bf1a9a88b: 2710139 chars
+
+Full text length for 97e48c282e41465785aba8af78169166: 562485 chars
+
+Full text length for 682dd7125fe34a7eacba538c613cbfa2: 401090 chars
+
+Full text length for 550e08ac359949e4b27cd9fd57378bbd: 243467 chars
+
+Full text length for 52629fedc9744f069873570c63f856d3: 339399 chars
+
+Full text length for 0c97757e129b46b69d73d5de00a28cb4: 498824 chars
+
+Full text length for 6df803c053964bc78087d5d2a8d043e8: 21941 chars
+
+Full text length for 223db7b85f874907a9760aebafbf2e24: 164715 chars
+
+Full text length for 026c845bcf1a4a068c81ea1c024f8c2b: 161262 chars
+
+Full text length for ee9318cf5c7c4c8089d6d650ae909aba: 724678 chars
+
+Full text length for 9e072ae49c0344f6bca673c092871a93: 297911 chars
+
+Full text length for f581a0be2c814110bcdb3dc2714abb80: 116610 chars
+
+Full text length for b243c3dabb5147d9a5e4415c33421ab3: 624552 chars
+
+Full text length for 16dcb352da9d4a4fb85d087db7b91829: 165136 chars
+
+Full text length for 0f0a0648cb2a42768216319f44912124: 360997 chars
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:09:09.160142
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:9 | Cluster size: [54, 11, 142, 116, 67, 59, 1, 37, 1]
+
+Text size = 150369 chars >>> 488 passages >>> retreived 11 passages (3297 chars)
+14 money_passages(4207 chars) | Retreived 14 passages(4207 chars)
+
+Summary length: 7638 chars
+Comments:
+
+
+
+Starting existing container...
+Elasticsearch is ready.
+Timestamp: 2025-12-21 00:24:54.899480
+Passage Length: 300 | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | Title weight=0.3 | Aspect weight=0.3
+
+Full text length for f15e14826b0f4992ab4b1fbffc80c65e: 162214 chars
+
+Full text length for e16ae1cf174a4c41927c41eb460f5276: 293912 chars
+
+Full text length for ca6f2c570d1a4d5782392e4bf1a9a88b: 2710139 chars
+
+Full text length for 97e48c282e41465785aba8af78169166: 562485 chars
+
+Full text length for 682dd7125fe34a7eacba538c613cbfa2: 401090 chars
+
+Full text length for 550e08ac359949e4b27cd9fd57378bbd: 243467 chars
+
+Full text length for 52629fedc9744f069873570c63f856d3: 339399 chars
+
+Full text length for 0c97757e129b46b69d73d5de00a28cb4: 498824 chars
+
+Full text length for 6df803c053964bc78087d5d2a8d043e8: 21941 chars
+
+Full text length for 223db7b85f874907a9760aebafbf2e24: 164715 chars
+
+Full text length for 026c845bcf1a4a068c81ea1c024f8c2b: 161262 chars
+
+Full text length for ee9318cf5c7c4c8089d6d650ae909aba: 724678 chars
+
+Full text length for 9e072ae49c0344f6bca673c092871a93: 297911 chars
+
+Full text length for f581a0be2c814110bcdb3dc2714abb80: 116610 chars
+
+Full text length for b243c3dabb5147d9a5e4415c33421ab3: 624552 chars
+
+Full text length for 16dcb352da9d4a4fb85d087db7b91829: 165136 chars
+
+Full text length for 0f0a0648cb2a42768216319f44912124: 360997 chars
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:24:56.898401
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:10 | Cluster size: [55, 11, 121, 108, 74, 59, 1, 37, 21, 1]
+
+Text size = 150369 chars >>> 488 passages >>> retreived 11 passages (3297 chars)
+14 money_passages(4207 chars) | Retreived 14 passages(4207 chars)
+
+Summary length: 7638 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:25:07.818784
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:8 | Cluster size: [359, 66, 123, 137, 1, 52, 1, 1]
+
+Text size = 226152 chars >>> 740 passages >>> retreived 72 passages (21580 chars)
+14 money_passages(4211 chars) | Retreived 14 passages(4211 chars)
+
+Summary length: 26874 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:25:21.472855
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:6 | Cluster size: [1706, 2870, 1817, 2118, 43, 8]
+
+Text size = 2588011 chars >>> 8562 passages >>> retreived 364 passages (109086 chars)
+65 money_passages(19545 chars) | Retreived 65 passages(19545 chars)
+
+Summary length: 129104 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:28:51.679090
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:10 | Cluster size: [465, 309, 276, 304, 421, 1, 3, 3, 1, 1]
+
+Text size = 542411 chars >>> 1784 passages >>> retreived 1 passages (300 chars)
+25 money_passages(7514 chars) | Retreived 25 passages(7514 chars)
+
+Summary length: 7918 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:29:16.238913
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:9 | Cluster size: [357, 356, 1, 1, 9, 5, 279, 273, 11]
+
+Text size = 395293 chars >>> 1292 passages >>> retreived 72 passages (21473 chars)
+26 money_passages(7817 chars) | Retreived 26 passages(7817 chars)
+
+Summary length: 33004 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:29:36.748519
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:12 | Cluster size: [57, 220, 102, 58, 228, 1, 95, 1, 1, 2, 12, 1]
+
+Text size = 237921 chars >>> 778 passages >>> retreived 31 passages (9295 chars)
+16 money_passages(4812 chars) | Retreived 16 passages(4812 chars)
+
+Summary length: 15216 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:29:50.642764
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:7 | Cluster size: [10, 182, 191, 236, 391, 35, 1]
+
+Text size = 318308 chars >>> 1046 passages >>> retreived 7 passages (2093 chars)
+16 money_passages(4808 chars) | Retreived 16 passages(4808 chars)
+
+Summary length: 7209 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:30:06.046980
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:7 | Cluster size: [602, 266, 1, 1, 264, 381, 41]
+
+Text size = 467297 chars >>> 1556 passages >>> retreived 121 passages (36259 chars)
+2 money_passages(600 chars) | Retreived 2 passages(600 chars)
+
+Summary length: 37089 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:30:35.605438
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:7 | Cluster size: [1, 5, 3, 1, 1, 1, 4]
+
+Text size = 4951 chars >>> 16 passages >>> retreived 1 passages (300 chars)
+1 money_passages(298 chars) | Retreived 1 passages(298 chars)
+
+Summary length: 1780 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:30:35.854814
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:9 | Cluster size: [134, 115, 97, 21, 64, 39, 18, 35, 2]
+
+Text size = 158136 chars >>> 525 passages >>> retreived 23 passages (6891 chars)
+3 money_passages(901 chars) | Retreived 3 passages(901 chars)
+
+Summary length: 7948 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:30:44.992096
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:16 | Cluster size: [14, 1, 69, 99, 52, 1, 89, 41, 1, 23, 24, 1, 41, 2, 1, 1]
+
+Text size = 156070 chars >>> 460 passages >>> retreived 38 passages (11385 chars)
+61 money_passages(18346 chars) | Retreived 61 passages(18346 chars)
+
+Summary length: 30123 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:30:53.312335
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:13 | Cluster size: [376, 33, 425, 6, 557, 168, 548, 123, 1, 1, 2, 1, 1]
+
+Text size = 698531 chars >>> 2242 passages >>> retreived 110 passages (32975 chars)
+87 money_passages(26164 chars) | Retreived 87 passages(26164 chars)
+
+Summary length: 60084 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:31:36.882645
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:9 | Cluster size: [249, 161, 233, 233, 64, 1, 1, 13, 1]
+
+Text size = 294552 chars >>> 956 passages >>> retreived 50 passages (14988 chars)
+26 money_passages(7769 chars) | Retreived 26 passages(7769 chars)
+
+Summary length: 25956 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:31:50.423770
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:10 | Cluster size: [59, 1, 23, 60, 118, 97, 16, 1, 1, 1]
+
+Text size = 113714 chars >>> 377 passages >>> retreived 12 passages (3598 chars)
+3 money_passages(901 chars) | Retreived 3 passages(901 chars)
+
+Summary length: 6049 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:31:56.067958
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:5 | Cluster size: [376, 193, 733, 614, 69]
+
+Text size = 599657 chars >>> 1985 passages >>> retreived 147 passages (44051 chars)
+14 money_passages(4207 chars) | Retreived 14 passages(4207 chars)
+
+Summary length: 48781 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:32:27.921775
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:17 | Cluster size: [24, 4, 106, 1, 14, 1, 12, 1, 39, 78, 1, 18, 17, 1, 1, 15, 1]
+
+Text size = 147349 chars >>> 334 passages >>> retreived 24 passages (7189 chars)
+158 money_passages(47515 chars) | Retreived 158 passages(47515 chars)
+
+Summary length: 54802 chars
+Comments:
+
+
+
+RUN summarizer/rfp_test_samples/sample_03| Timestamp: 2025-12-21 00:32:36.797493
+Passage Length: <built-in function len> | Edge%=90 | Centrality%=80 | Aspect%=90 | Pricing%=0 | TItle weight=0.3 | Description weight=4 | Aspect weight=0.3
+
+# of clusters:12 | Cluster size: [118, 365, 185, 1, 234, 201, 7, 1, 1, 1, 1, 1]
+
+Text size = 345392 chars >>> 1116 passages >>> retreived 78 passages (23368 chars)
+36 money_passages(10823 chars) | Retreived 36 passages(10823 chars)
+
+Summary length: 35122 chars
+Comments:
+
+
+

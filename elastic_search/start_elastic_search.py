@@ -78,4 +78,3 @@ def close_elastic_search(es, started_container, container_name="es_temp"):
     # Only stop/remove the container if this script started it
     if started_container:
         subprocess.run(["docker", "stop", container_name])
-        subprocess.run(["docker", "rm", container_name])

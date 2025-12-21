@@ -79,6 +79,21 @@ if __name__ == "__main__":
             print(f"Timestamp: {datetime.now()}")
             print(f"Passage Length: {length} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | "
                 f"Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | Title weight={title_weight} | Aspect weight={aspect_weight}")
+            
+            # Wait for index to be ready
+            timeout = 60
+            start_time = time.time()
+            while True:
+                try:
+                    if es.indices.exists(index=INDEX_NAME):
+                        health = es.cluster.health(index=INDEX_NAME, wait_for_status='yellow', timeout='30s')
+                        break
+                except Exception:
+                    pass
+                if time.time() - start_time > timeout:
+                    raise TimeoutError(f"Index {INDEX_NAME} not ready after {timeout}s")
+                time.sleep(2)
+
 
             # --- Prepare CSV ---
             with open(CSV_FILE, "w", newline="", encoding="utf-8") as csvfile:
@@ -155,7 +170,7 @@ if __name__ == "__main__":
 
                 with open(file_path, "w", encoding="utf-8") as w:
                     w.write(summary)
-        
+
         except Exception as e:
             print(f"Error during step 3: {e}")
             close_elastic_search(es, started_container)

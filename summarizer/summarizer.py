@@ -31,18 +31,21 @@ vectors = data["vectors"]
 aspect_vectors = {name: vectors[i] for i, name in enumerate(names)}
 pricing_aspect_vector = np.load("summarizer/aspects/pricing_vector.npy")
 
-
 def normalize_text(text):
-    # Remove invalid UTF-8 bytes
+    # UTF-8 cleanup
     text = text.encode("utf-8", "ignore").decode("utf-8", "ignore")
-    # Remove control chars and non-printable bytes (keep punctuation, $, %, etc.)
+    # Replace non-printable ASCII with space
     text = re.sub(r"[^\x09\x0A\x0D\x20-\x7E]", " ", text)
+    # Flatten whitespace
+    text = re.sub(r"[\n\r\t]+", " ", text)
     # Lowercase
     text = text.lower()
-    # Replace all newlines/tabs with spaces (flatten document)
-    text = re.sub(r"[\n\r\t]+", " ", text)
-    # Collapse multiple spaces
-    text = re.sub(r"\s+", " ", text)        
+    # Step 1: Remove long runs of repeated non-alphanumeric symbols
+    text = re.sub(r"([^\w\s])\1{2,}", " ", text)
+    # Step 2: Remove symbol-only clusters longer than 2 chars
+    text = re.sub(r"\b[^\w\s]{2,}\b", " ", text)
+    # Step 3: Collapse multiple spaces
+    text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 MONEY_REGEX = re.compile(
@@ -261,12 +264,11 @@ if __name__ == "__main__":
 
     with open (summary_output, "w") as f:
         f.write(summary)
-    
+
     sys.stdout = sys.__stdout__
     log_f.close()
-        
+
 def summarize(full_text, title, description):
-    summary_output = f"{folder_path}/summary.txt"
     title_vector = model.encode(title, normalize_embeddings=True)
     if description is not None:
         description_vector = model.encode(description, normalize_embeddings=True)
@@ -281,14 +283,11 @@ def summarize(full_text, title, description):
 
     print(f"RUN {folder_path}| Timestamp: {datetime.now()}")
     print(f"Passage Length: {len} | Edge%={edge_percentile} | Centrality%={centrality_percentile} | Aspect%={aspect_percentile} | Pricing%={pricing_percentile} | TItle weight={title_weight} | Description weight={description_weight} | Aspect weight={aspect_weight}")
-    
+
     summary = summarize_rfp(full_text, model, title_vector, description_vector, title_weight, description_weight, aspect_weight)    
     summary = f"Description:{description}\n\n----------------------------------------------\n\n{summary}"
     print(f"\nSummary length: {len(summary)} chars")    
     print("Comments:\n\n\n")
 
-    with open (summary_output, "w") as f:
-        f.write(summary)
-    
-    sys.stdout = sys.__stdout__
-    log_f.close()
+    return summary
+
