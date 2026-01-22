@@ -548,3 +548,30 @@ Common Issues & Solutions:
   - "Tika server failed":
     * Verify Java is installed: java -version (need JRE 8+)
     * Check for firewall blocking Tika server startup
+    * Look for Tika logs in system temp directory
+
+  - "Empty summaries":
+    * Check if descriptions are populated in sam_gov_output.json
+    * Verify PDFs were extracted successfully (check log.txt)
+    * Look for extraction errors like "Failed to extract text"
+    * Try lowering aspect_percentile to be less aggressive
+
+  - "Low quality summaries":
+    * Ensure opportunity descriptions are detailed and specific (not generic boilerplate)
+    * Verify PDFs contain readable text (not scanned images without OCR)
+    * Check log.txt for document lengths (very short = extraction likely failed)
+    * Consider manually augmenting descriptions in sam_gov_output.json
+
+Support Resources:
+    * Check log.txt for detailed error messages and stack traces
+    * Review sample data in elastic_search/extraction_sources/sam_gov_output.json
+    * Test summarizer on samples in summarizer/rfp_test_samples/
+    * Verify Elasticsearch index exists: cd elastic_search && python3 es_count.py
+
+Debugging Workflow:
+    * Check log.txt for errors or warnings
+    * Verify Docker is running (docker ps should show elasticsearch container)
+    * Test Tika: python3 -c "from tika import parser; print(parser)"
+    * Check ES connection: cd elastic_search && python3 es_count.py
+    * Inspect sam_gov_output.json for data quality issues
+    * Test summarizer on a single small document from rfp_test_samples/
